@@ -15,12 +15,24 @@ workspace.mkdir()
 shutil.copy(source / version / "solution.py", workspace)
 shutil.copy(source / "tests" / "test_solution.py", workspace)
 
-result = subprocess.run(
-    ["python", "-m", "pytest", "-q"],
-    cwd=workspace,
-    capture_output=True,
-    text=True,
-)
+try:
+    result = subprocess.run(
+        [
+            "docker", "run", "--rm",
+            "-v", f"{workspace.resolve()}:/app",
+            "-w", "/app",
+            "bugfix-sandbox",
+            "timeout", "25", "python", "-m", "pytest", "-q",
+        ],
+        capture_output=True,
+        text=True,
+        timeout=30,
+    )
+    passed = result.returncode == 0
+    output = f"exit code: {result.returncode}\n" + result.stdout + result.stderr
+except subprocess.TimeoutExpired:
+    passed = False
+    output = "TIMEOUT: tests took longer than 30 seconds"
 
-print("PASS" if result.returncode == 0 else "FAIL")
-print(result.stdout)
+print("PASS" if passed else "FAIL")
+print(output)
