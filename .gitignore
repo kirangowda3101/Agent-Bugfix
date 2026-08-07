@@ -15,3 +15,5 @@ __pycache__/
 runs/
 logs/
 *.log
+
+workspace/
