@@ -10,9 +10,8 @@ source = Path("dataset") / problem
 workspace = Path("workspace")
 
 shutil.rmtree(workspace, ignore_errors=True)
-workspace.mkdir()
 
-shutil.copy(source / version / "solution.py", workspace)
+shutil.copytree(source / version, workspace)
 shutil.copy(source / "tests" / "test_solution.py", workspace)
 
 try:
