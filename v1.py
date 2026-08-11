@@ -1,3 +1,4 @@
+import json
 import os
 import shutil
 import subprocess
@@ -5,7 +6,6 @@ import sys
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
-import json
 
 problem = sys.argv[1]
 
@@ -77,11 +77,6 @@ tools = [
             "required": ["filename", "content"],
         },
     },
-    {
-        "name": "run_tests",
-        "description": "Run the test suite in the working directory and return the results. Use this to verify whether your fix actually works before finishing.",
-        "input_schema": {"type": "object", "properties": {}},
-    },
 ]
 
 messages = [
@@ -149,9 +144,6 @@ while step < MAX_STEPS:
                 else:
                     path.write_text(content)
                     result = f"Wrote {len(content)} characters to {filename}"
-
-            elif block.name == "run_tests":
-                _, result = run_pytest()
 
             else:
                 result = f"Error: unknown tool {block.name}"
