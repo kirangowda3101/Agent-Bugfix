@@ -17,3 +17,5 @@ logs/
 *.log
 
 workspace/
+
+results/

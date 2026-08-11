@@ -1,14 +1,38 @@
+import json
 import os
+import shutil
+import subprocess
 import sys
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
-import shutil
-import subprocess
 
 problem = sys.argv[1]
 
-buggy_code = (Path("dataset") / problem / "buggy" / "solution.py").read_text()
+workspace = Path("workspace")
+source = Path("dataset") / problem
+
+buggy_code = (source / "buggy" / "solution.py").read_text()
+
+
+def run_pytest():
+    try:
+        proc = subprocess.run(
+            [
+                "docker", "run", "--rm",
+                "-v", f"{workspace.resolve()}:/app",
+                "-w", "/app",
+                "bugfix-sandbox",
+                "timeout", "25", "python", "-m", "pytest", "-q",
+            ],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        return proc.returncode, f"exit code: {proc.returncode}\n" + proc.stdout + proc.stderr
+    except subprocess.TimeoutExpired:
+        return 124, "TIMEOUT: tests took longer than 30 seconds"
+
 
 load_dotenv()
 client = Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
@@ -22,29 +46,31 @@ response = client.messages.create(
     ],
 )
 
-print(response.content[0].text)
-
 fixed_code = response.content[0].text
+print(fixed_code)
 
-workspace = Path("workspace")
 shutil.rmtree(workspace, ignore_errors=True)
-
-shutil.copytree(Path("dataset") / problem / "buggy", workspace)
+shutil.copytree(source / "buggy", workspace)
 workspace.joinpath("solution.py").write_text(fixed_code)
-shutil.copy(Path("dataset") / problem / "tests" / "test_solution.py", workspace)
+shutil.copy(source / "tests" / "test_solution.py", workspace)
 
-result = subprocess.run(
-    [
-        "docker", "run", "--rm",
-        "-v", f"{workspace.resolve()}:/app",
-        "-w", "/app",
-        "bugfix-sandbox",
-        "timeout", "25", "python", "-m", "pytest", "-q",
-    ],
-    capture_output=True,
-    text=True,
-    timeout=30,
-)
+returncode, final_output = run_pytest()
 
-print("PASS" if result.returncode == 0 else "FAIL")
-print(result.stdout + result.stderr)
+result = {
+    "version": "v0",
+    "problem": problem,
+    "verdict": "PASS" if returncode == 0 else "FAIL",
+    "steps": 1,
+    "input_tokens": response.usage.input_tokens,
+    "output_tokens": response.usage.output_tokens,
+}
+
+Path("results").mkdir(exist_ok=True)
+(Path("results") / f"v0_{problem}.json").write_text(json.dumps(result, indent=2))
+
+print()
+print("=" * 50)
+for key, value in result.items():
+    print(f"{key}: {value}")
+print()
+print(final_output)

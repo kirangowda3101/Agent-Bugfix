@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
+import json
 
 problem = sys.argv[1]
 
@@ -167,12 +168,21 @@ while step < MAX_STEPS:
 
 returncode, final_output = run_pytest()
 
+result = {
+    "version": "v1",
+    "problem": problem,
+    "verdict": "PASS" if returncode == 0 else "FAIL",
+    "steps": step,
+    "input_tokens": input_tokens,
+    "output_tokens": output_tokens,
+}
+
+Path("results").mkdir(exist_ok=True)
+(Path("results") / f"v1_{problem}.json").write_text(json.dumps(result, indent=2))
+
 print()
 print("=" * 50)
-print("problem:", problem)
-print("verdict:", "PASS" if returncode == 0 else "FAIL")
-print("steps used:", step, "of", MAX_STEPS)
-print("input tokens:", input_tokens)
-print("output tokens:", output_tokens)
+for key, value in result.items():
+    print(f"{key}: {value}")
 print()
 print(final_output)
