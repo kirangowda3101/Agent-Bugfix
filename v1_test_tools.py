@@ -1,4 +1,5 @@
 import os
+import subprocess
 from pathlib import Path
 from dotenv import load_dotenv
 from anthropic import Anthropic
@@ -44,6 +45,11 @@ tools = [
             "required": ["filename", "content"],
         },
     },
+    {
+        "name": "run_tests",
+        "description": "Run the test suite in the working directory and return the results. Use this to verify whether your fix actually works before finishing.",
+        "input_schema": {"type": "object", "properties": {}},
+    },
 ]
 
 messages = [
@@ -53,7 +59,13 @@ messages = [
     }
 ]
 
-while True:
+MAX_STEPS = 10
+step = 0
+
+while step < MAX_STEPS:
+    step += 1
+    print(f"--- step {step} ---")
+
     response = client.messages.create(
         model="claude-haiku-4-5-20251001",
         max_tokens=1000,
@@ -101,6 +113,24 @@ while True:
                     path.write_text(content)
                     result = f"Wrote {len(content)} characters to {filename}"
 
+            elif block.name == "run_tests":
+                try:
+                    proc = subprocess.run(
+                        [
+                            "docker", "run", "--rm",
+                            "-v", f"{Path('workspace').resolve()}:/app",
+                            "-w", "/app",
+                            "bugfix-sandbox",
+                            "timeout", "25", "python", "-m", "pytest", "-q",
+                        ],
+                        capture_output=True,
+                        text=True,
+                        timeout=30,
+                    )
+                    result = f"exit code: {proc.returncode}\n" + proc.stdout + proc.stderr
+                except subprocess.TimeoutExpired:
+                    result = "TIMEOUT: tests took longer than 30 seconds"
+
             else:
                 result = f"Error: unknown tool {block.name}"
 
@@ -115,4 +145,5 @@ while True:
     messages.append({"role": "user", "content": tool_results})
 
 print()
+print("steps used:", step, "of", MAX_STEPS)
 print("messages length:", len(messages))
