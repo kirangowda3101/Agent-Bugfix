@@ -26,6 +26,24 @@ tools = [
             "required": ["filename"],
         },
     },
+    {
+        "name": "write_file",
+        "description": "Write content to a file in the working directory. Overwrites the file completely.",
+        "input_schema": {
+            "type": "object",
+            "properties": {
+                "filename": {
+                    "type": "string",
+                    "description": "The name of the file to write, e.g. helpers.py",
+                },
+                "content": {
+                    "type": "string",
+                    "description": "The complete new contents of the file",
+                },
+            },
+            "required": ["filename", "content"],
+        },
+    },
 ]
 
 messages = [
@@ -72,6 +90,16 @@ while True:
                     result = path.read_text()
                 else:
                     result = f"Error: {filename} not found"
+
+            elif block.name == "write_file":
+                filename = block.input["filename"]
+                content = block.input["content"]
+                path = Path("workspace") / filename
+                if path.resolve().parent != Path("workspace").resolve():
+                    result = "Error: cannot write outside workspace"
+                else:
+                    path.write_text(content)
+                    result = f"Wrote {len(content)} characters to {filename}"
 
             else:
                 result = f"Error: unknown tool {block.name}"
