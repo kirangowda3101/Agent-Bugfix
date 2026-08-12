@@ -46,9 +46,14 @@ def read_file(filename: str) -> str:
 @mcp.tool()
 def write_file(filename: str, content: str) -> str:
     """Write content to a file in the repository. Overwrites the file completely."""
+    path = filename.lstrip("./")
+    if path.startswith("testbed/"):
+        path = path[len("testbed/"):]
     encoded = base64.b64encode(content.encode()).decode()
-    run_in_container(f"echo {encoded} | base64 -d > /testbed/{filename}")
-    return f"Wrote {len(content)} characters to {filename}"
+    result = run_in_container(f"echo {encoded} | base64 -d > /testbed/{path}")
+    if result.strip():
+        return f"Error writing {path}: {result}"
+    return f"Wrote {len(content)} characters to {path}"
 
 
 @mcp.tool()
