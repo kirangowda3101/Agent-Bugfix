@@ -1,0 +1,1219 @@
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z '' ']'
++++ export CONDA_SHLVL=0
++++ CONDA_SHLVL=0
++++ '[' -n '' ']'
++++++ dirname /opt/miniconda3/bin/conda
+++++ dirname /opt/miniconda3/bin
++++ PATH=/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export PATH
++++ '[' -z '' ']'
++++ PS1=
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=1
++++ CONDA_SHLVL=1
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_1='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=2
+++ CONDA_SHLVL=2
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_1=/opt/miniconda3
+++ CONDA_PREFIX_1=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ cd /testbed
++ git config --global --add safe.directory /testbed
++ cd /testbed
++ git status
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   django/template/defaultfilters.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
++ git show
+commit 60c268638096b22648f5b0182db63e695e3c040a
+Author: SWE-bench <setup@swebench.config>
+Date:   Wed Sep 10 12:59:20 2025 +0000
+
+    SWE-bench
++ git -c core.fileMode=false diff 37c5b8c07be104fd5288cd87f101e48cb7a40298
+diff --git a/django/template/defaultfilters.py b/django/template/defaultfilters.py
+index 7a5b28d159..610ad385ff 100644
+--- a/django/template/defaultfilters.py
++++ b/django/template/defaultfilters.py
+@@ -151,8 +151,10 @@ def floatformat(text, arg=-1):
+             use_l10n = False
+             arg = arg[:-1] or -1
+     try:
+-        input_val = repr(text)
+-        d = Decimal(input_val)
++        if isinstance(text, Decimal):
++            d = text
++        else:
++            d = Decimal(str(text))
+     except InvalidOperation:
+         try:
+             d = Decimal(str(float(text)))
+@@ -161,12 +163,12 @@ def floatformat(text, arg=-1):
+     try:
+         p = int(arg)
+     except ValueError:
+-        return input_val
++        return str(text)
+ 
+     try:
+         m = int(d) - d
+     except (ValueError, OverflowError, InvalidOperation):
+-        return input_val
++        return str(text)
+ 
+     if not m and p < 0:
+         return mark_safe(
+@@ -399,413 +401,123 @@ def wordwrap(value, arg):
+     return wrap(value, int(arg))
+ 
+ 
+-@register.filter(is_safe=True)
+-@stringfilter
+-def ljust(value, arg):
+-    """Left-align the value in a field of a given width."""
+-    return value.ljust(int(arg))
+-
+-
+-@register.filter(is_safe=True)
+-@stringfilter
+-def rjust(value, arg):
+-    """Right-align the value in a field of a given width."""
+-    return value.rjust(int(arg))
+-
+-
+-@register.filter(is_safe=True)
+-@stringfilter
+-def center(value, arg):
+-    """Center the value in a field of a given width."""
+-    return value.center(int(arg))
+-
+-
+-@register.filter
+-@stringfilter
+-def cut(value, arg):
+-    """Remove all values of arg from the given string."""
+-    safe = isinstance(value, SafeData)
+-    value = value.replace(arg, "")
+-    if safe and arg != ";":
+-        return mark_safe(value)
+-    return value
+-
+-
+ ###################
+-# HTML STRINGS    #
++# INTEGERS        #
+ ###################
+ 
+ 
+-@register.filter("escape", is_safe=True)
+-@stringfilter
+-def escape_filter(value):
+-    """Mark the value as a string that should be auto-escaped."""
+-    return conditional_escape(value)
++@register.filter(is_safe=False)
++def divisibleby(value, arg):
++    """Return True if the value is divisible by the argument."""
++    try:
++        return int(value) % int(arg) == 0
++    except (ValueError, ZeroDivisionError):
++        return False
+ 
+ 
+ @register.filter(is_safe=True)
+-@stringfilter
+-def force_escape(value):
+-    """
+-    Escape a string's HTML. Return a new string containing the escaped
+-    characters (as opposed to "escape", which marks the content for later
+-    possible escaping).
++def pluralize(value, arg="s"):
+     """
+-    return escape(value)
++    Return a plural suffix if the value is not 1. By default, 's' is used as
++    the suffix:
+ 
++    * If value is 0, vote{{ value|pluralize }} displays "votes".
++    * If value is 1, vote{{ value|pluralize }} displays "vote".
++    * If value is 2, vote{{ value|pluralize }} displays "votes".
+ 
+-@register.filter("linebreaks", is_safe=True, needs_autoescape=True)
+-@stringfilter
+-def linebreaks_filter(value, autoescape=True):
+-    """
+-    Replace line breaks in plain text with appropriate HTML; a single
+-    newline becomes an HTML line break (``<br>``) and a new line
+-    followed by a blank line becomes a paragraph break (``</p>``).
+-    """
+-    autoescape = autoescape and not isinstance(value, SafeData)
+-    return mark_safe(linebreaks(value, autoescape))
++    If this suffix is not appropriate for your use case, you can specify
++    an alternative suffix as a parameter to the filter:
+ 
++    * If value is 0, class{{ value|pluralize:"es" }} displays "classes".
++    * If value is 1, class{{ value|pluralize:"es" }} displays "class".
++    * If value is 2, class{{ value|pluralize:"es" }} displays "classes".
+ 
+-@register.filter(is_safe=True, needs_autoescape=True)
+-@stringfilter
+-def linebreaksbr(value, autoescape=True):
+-    """
+-    Convert all newlines in a piece of plain text to HTML line breaks
+-    (``<br>``).
+-    """
+-    autoescape = autoescape and not isinstance(value, SafeData)
+-    value = normalize_newlines(value)
+-    if autoescape:
+-        value = escape(value)
+-    return mark_safe(value.replace("\n", "<br>"))
++    If you want to specify both a singular and plural suffix, you can separate
++    them using a comma:
+ 
++    * If value is 0, cand{{ value|pluralize:"y,ies" }} displays "candies".
++    * If value is 1, cand{{ value|pluralize:"y,ies" }} displays "candy".
++    * If value is 2, cand{{ value|pluralize:"y,ies" }} displays "candies".
+ 
+-@register.filter(is_safe=True)
+-@stringfilter
+-def safe(value):
+-    """Mark the value as a string that should not be auto-escaped."""
+-    return mark_safe(value)
+-
++    There is also a komma-less format:
+ 
+-@register.filter(is_safe=True)
+-def safeseq(value):
+-    """
+-    A "safe" filter for sequences. Mark each element in the sequence,
+-    individually, as safe, after converting them to strings. Return a list
+-    with the results.
++    * If value is 0, error{{ value|pluralize:"es,s" }} displays "errors".
++    * If value is 1, error{{ value|pluralize:"es,s" }} displays "error".
++    * If value is 2, error{{ value|pluralize:"es,s" }} displays "errors".
+     """
+-    return [mark_safe(obj) for obj in value]
+-
+-
+-@register.filter(is_safe=True)
+-@stringfilter
+-def striptags(value):
+-    """Strip all [X]HTML tags."""
+-    return strip_tags(value)
+-
+-
+-###################
+-# LISTS           #
+-###################
+-
+-
+-def _property_resolver(arg):
+-    """
+-    When arg is convertible to float, behave like operator.itemgetter(arg)
+-    Otherwise, chain __getitem__() and getattr().
+-
+-    >>> _property_resolver(1)('abc')
+-    'b'
+-    >>> _property_resolver('1')('abc')
+-    Traceback (most recent call last):
+-    ...
+-    TypeError: string indices must be integers
+-    >>> class Foo:
+-    ...     a = 42
+-    ...     b = 3.14
+-    ...     c = 'Hey!'
+-    >>> _property_resolver('b')(Foo())
+-    3.14
+-    """
+-    try:
+-        float(arg)
+-    except ValueError:
+-        if VARIABLE_ATTRIBUTE_SEPARATOR + "_" in arg or arg[0] == "_":
+-            raise AttributeError("Access to private variables is forbidden.")
+-        parts = arg.split(VARIABLE_ATTRIBUTE_SEPARATOR)
+-
+-        def resolve(value):
+-            for part in parts:
+-                try:
+-                    value = value[part]
+-                except (AttributeError, IndexError, KeyError, TypeError, ValueError):
+-                    value = getattr(value, part)
+-            return value
+-
+-        return resolve
+-    else:
+-        return itemgetter(arg)
+-
+-
+-@register.filter(is_safe=False)
+-def dictsort(value, arg):
+-    """
+-    Given a list of dicts, return that list sorted by the property given in
+-    the argument.
+-    """
+-    try:
+-        return sorted(value, key=_property_resolver(arg))
+-    except (AttributeError, TypeError):
+-        return ""
+-
+-
+-@register.filter(is_safe=False)
+-def dictsortreversed(value, arg):
+-    """
+-    Given a list of dicts, return that list sorted in reverse order by the
+-    property given in the argument.
+-    """
+-    try:
+-        return sorted(value, key=_property_resolver(arg), reverse=True)
+-    except (AttributeError, TypeError):
+-        return ""
+-
+-
+-@register.filter(is_safe=False)
+-def first(value):
+-    """Return the first item in a list."""
+-    try:
+-        return value[0]
+-    except IndexError:
+-        return ""
+-
+-
+-@register.filter(is_safe=True, needs_autoescape=True)
+-def join(value, arg, autoescape=True):
+-    """Join a list with a string, like Python's ``str.join(list)``."""
+     try:
+-        if autoescape:
+-            value = [conditional_escape(v) for v in value]
+-        data = conditional_escape(arg).join(value)
+-    except TypeError:  # Fail silently if arg isn't iterable.
+-        return value
+-    return mark_safe(data)
+-
+-
+-@register.filter(is_safe=True)
+-def last(value):
+-    """Return the last item in a list."""
+-    try:
+-        return value[-1]
++        singular_suffix = arg.split(",")[1]
+     except IndexError:
+-        return ""
+-
+-
+-@register.filter(is_safe=False)
+-def length(value):
+-    """Return the length of the value - useful for lists."""
++        singular_suffix = ""
++    plural_suffix = arg.split(",")[0]
+     try:
+-        return len(value)
+-    except (ValueError, TypeError):
+-        return 0
+-
+-
+-@register.filter(is_safe=False)
+-def length_is(value, arg):
+-    """Return a boolean of whether the value's length is the argument."""
+-    warnings.warn(
+-        "The length_is template filter is deprecated in favor of the length template "
+-        "filter and the == operator within an {% if %} tag.",
+-        RemovedInDjango51Warning,
+-    )
+-    try:
+-        return len(value) == int(arg)
+-    except (ValueError, TypeError):
+-        return ""
+-
+-
+-@register.filter(is_safe=True)
+-def random(value):
+-    """Return a random item from the list."""
+-    return random_module.choice(value)
+-
+-
+-@register.filter("slice", is_safe=True)
+-def slice_filter(value, arg):
+-    """
+-    Return a slice of the list using the same syntax as Python's list slicing.
+-    """
+-    try:
+-        bits = []
+-        for x in str(arg).split(":"):
+-            if not x:
+-                bits.append(None)
+-            else:
+-                bits.append(int(x))
+-        return value[slice(*bits)]
+-
+-    except (ValueError, TypeError):
+-        return value  # Fail silently.
+-
+-
+-@register.filter(is_safe=True, needs_autoescape=True)
+-def unordered_list(value, autoescape=True):
+-    """
+-    Recursively take a self-nested list and return an HTML unordered list --
+-    WITHOUT opening and closing <ul> tags.
+-
+-    Assume the list is in the proper format. For example, if ``var`` contains:
+-    ``['States', ['Kansas', ['Lawrence', 'Topeka'], 'Illinois']]``, then
+-    ``{{ var|unordered_list }}`` returns::
+-
+-        <li>States
+-        <ul>
+-                <li>Kansas
+-                <ul>
+-                        <li>Lawrence</li>
+-                        <li>Topeka</li>
+-                </ul>
+-                </li>
+-                <li>Illinois</li>
+-        </ul>
+-        </li>
+-    """
+-    if autoescape:
+-        escaper = conditional_escape
+-    else:
+-
+-        def escaper(x):
+-            return x
+-
+-    def walk_items(item_list):
+-        item_iterator = iter(item_list)
++        return singular_suffix if float(value) == 1 else plural_suffix
++    except ValueError:  # Invalid string that's not a number.
++        pass
++    except TypeError:  # Value isn't a string or a number; maybe it's a list?
+         try:
+-            item = next(item_iterator)
+-            while True:
+-                try:
+-                    next_item = next(item_iterator)
+-                except StopIteration:
+-                    yield item, None
+-                    break
+-                if isinstance(next_item, (list, tuple, types.GeneratorType)):
+-                    try:
+-                        iter(next_item)
+-                    except TypeError:
+-                        pass
+-                    else:
+-                        yield item, next_item
+-                        item = next(item_iterator)
+-                        continue
+-                yield item, None
+-                item = next_item
+-        except StopIteration:
++            return singular_suffix if len(value) == 1 else plural_suffix
++        except TypeError:  # len() of unsized object.
+             pass
+-
+-    def list_formatter(item_list, tabs=1):
+-        indent = "\t" * tabs
+-        output = []
+-        for item, children in walk_items(item_list):
+-            sublist = ""
+-            if children:
+-                sublist = "\n%s<ul>\n%s\n%s</ul>\n%s" % (
+-                    indent,
+-                    list_formatter(children, tabs + 1),
+-                    indent,
+-                    indent,
+-                )
+-            output.append("%s<li>%s%s</li>" % (indent, escaper(item), sublist))
+-        return "\n".join(output)
+-
+-    return mark_safe(list_formatter(value))
+-
+-
+-###################
+-# INTEGERS        #
+-###################
++    return ""
+ 
+ 
+-@register.filter(is_safe=False)
+-def add(value, arg):
+-    """Add the arg to the value."""
+-    try:
+-        return int(value) + int(arg)
+-    except (ValueError, TypeError):
+-        try:
+-            return value + arg
+-        except Exception:
+-            return ""
++@register.filter("phone2numeric", is_safe=True)
++def phone2numeric_filter(value):
++    """Take a phone number and converts it in to its numerical equivalent."""
++    return phone2numeric(value)
+ 
+ 
+-@register.filter(is_safe=False)
+-def get_digit(value, arg):
+-    """
+-    Given a whole number, return the requested digit of it, where 1 is the
+-    right-most digit, 2 is the second-right-most digit, etc. Return the
+-    original value for invalid input (if input or argument is not an integer,
+-    or if argument is less than 1). Otherwise, output is always an integer.
+-    """
+-    try:
+-        arg = int(arg)
+-        value = int(value)
+-    except ValueError:
+-        return value  # Fail silently for an invalid argument
+-    if arg < 1:
+-        return value
++@register.filter(is_safe=True)
++def pprint(value):
++    """A wrapper around pprint.pprint -- for debugging, really."""
+     try:
+-        return int(str(value)[-arg])
+-    except IndexError:
+-        return 0
++        return pformat(value)
++    except Exception as e:
++        return "Error in formatting: %s: %s" % (e.__class__.__name__, e)
+ 
+ 
+-###################
+-# DATES           #
+-###################
++##################
++# DATES          #
++##################
+ 
+ 
+ @register.filter(expects_localtime=True, is_safe=False)
+ def date(value, arg=None):
+-    """Format a date according to the given format."""
++    """Format a date or datetime object."""
+     if value in (None, ""):
+         return ""
+     try:
+-        return formats.date_format(value, arg)
++        return format(value, arg)
+     except AttributeError:
+-        try:
+-            return format(value, arg)
+-        except AttributeError:
+-            return ""
++        return ""
+ 
+ 
+ @register.filter(expects_localtime=True, is_safe=False)
+ def time(value, arg=None):
+-    """Format a time according to the given format."""
++    """Format a time or datetime object."""
+     if value in (None, ""):
+         return ""
+     try:
+-        return formats.time_format(value, arg)
+-    except (AttributeError, TypeError):
+-        try:
+-            return time_format(value, arg)
+-        except (AttributeError, TypeError):
+-            return ""
++        return time_format(value, arg)
++    except AttributeError:
++        return ""
+ 
+ 
+-@register.filter("timesince", is_safe=False)
+-def timesince_filter(value, arg=None):
+-    """Format a date as the time since that date (i.e. "4 days, 6 hours")."""
++@register.filter(expects_localtime=True, is_safe=False)
++def timesince(value, arg=None):
++    """Display time between a particular date and now."""
+     if not value:
+         return ""
+     try:
+-        if arg:
+-            return timesince(value, arg)
+-        return timesince(value)
++        return timesince(value, arg)
+     except (ValueError, TypeError):
+         return ""
+ 
+ 
+-@register.filter("timeuntil", is_safe=False)
+-def timeuntil_filter(value, arg=None):
+-    """Format a date as the time until that date (i.e. "4 days, 6 hours")."""
++@register.filter(expects_localtime=True, is_safe=False)
++def timeuntil(value, arg=None):
++    """Display time between now and a particular date."""
+     if not value:
+         return ""
+     try:
+@@ -822,7 +534,9 @@ def timeuntil_filter(value, arg=None):
+ @register.filter(is_safe=False)
+ def default(value, arg):
+     """If value is unavailable, use given default."""
+-    return value or arg
++    if value in (None, False, "", [], (), {}):
++        return arg
++    return value
+ 
+ 
+ @register.filter(is_safe=False)
+@@ -833,46 +547,6 @@ def default_if_none(value, arg):
+     return value
+ 
+ 
+-@register.filter(is_safe=False)
+-def divisibleby(value, arg):
+-    """Return True if the value is divisible by the argument."""
+-    return int(value) % int(arg) == 0
+-
+-
+-@register.filter(is_safe=False)
+-def yesno(value, arg=None):
+-    """
+-    Given a string mapping values for true, false, and (optionally) None,
+-    return one of those strings according to the value:
+-
+-    ==========  ======================  ==================================
+-    Value       Argument                Outputs
+-    ==========  ======================  ==================================
+-    ``True``    ``"yeah,no,maybe"``     ``yeah``
+-    ``False``   ``"yeah,no,maybe"``     ``no``
+-    ``None``    ``"yeah,no,maybe"``     ``maybe``
+-    ``None``    ``"yeah,no"``           ``"no"`` (converts None to False
+-                                        if no mapping for None is given.
+-    ==========  ======================  ==================================
+-    """
+-    if arg is None:
+-        # Translators: Please do not add spaces around commas.
+-        arg = gettext("yes,no,maybe")
+-    bits = arg.split(",")
+-    if len(bits) < 2:
+-        return value  # Invalid arg.
+-    try:
+-        yes, no, maybe = bits
+-    except ValueError:
+-        # Unpack list of wrong size (no "maybe" value provided).
+-        yes, no, maybe = bits[0], bits[1], bits[1]
+-    if value is None:
+-        return maybe
+-    if value:
+-        return yes
+-    return no
+-
+-
+ ###################
+ # MISC            #
+ ###################
+@@ -922,57 +596,270 @@ def filesizeformat(bytes_):
+ 
+ 
+ @register.filter(is_safe=False)
+-def pluralize(value, arg="s"):
++def random(value):
++    """Return a random item from the list."""
++    return random_module.choice(value)
++
++
++@register.filter(is_safe=True)
++def slice_(value, arg):
+     """
+-    Return a plural suffix if the value is not 1, '1', or an object of
+-    length 1. By default, use 's' as the suffix:
++    Return a slice of the list using the same syntax as Python's list slices.
+ 
+-    * If value is 0, vote{{ value|pluralize }} display "votes".
+-    * If value is 1, vote{{ value|pluralize }} display "vote".
+-    * If value is 2, vote{{ value|pluralize }} display "votes".
++    Example: {{ some_list|slice:":2" }}
++    """
++    try:
++        bits = []
++        for x in arg.split(":"):
++            if x == "":
++                bits.append(None)
++            else:
++                bits.append(int(x))
++        return value[slice(*bits)]
++    except (ValueError, TypeError):
++        return value
+ 
+-    If an argument is provided, use that string instead:
+ 
+-    * If value is 0, class{{ value|pluralize:"es" }} display "classes".
+-    * If value is 1, class{{ value|pluralize:"es" }} display "class".
+-    * If value is 2, class{{ value|pluralize:"es" }} display "classes".
++@register.filter(is_safe=True)
++def join(value, arg, autoescape=True):
++    """
++    Join a list with a string, like Python's ``str.join(list)``.
+ 
+-    If the provided argument contains a comma, use the text before the comma
+-    for the singular case and the text after the comma for the plural case:
++    Like the default string concatenation in Python, if you do
++    {{ value|join:" " }} will try to convert a non-strings to a string. If
++    you don't specify an argument, Django will use the string representation
++    of each item.
+ 
+-    * If value is 0, cand{{ value|pluralize:"y,ies" }} display "candies".
+-    * If value is 1, cand{{ value|pluralize:"y,ies" }} display "candy".
+-    * If value is 2, cand{{ value|pluralize:"y,ies" }} display "candies".
++    When used with ``autoescape`` on, join will try to coerce all items to
++    strings before joining them. This behavior is the same as ``default``.
++
++    See ``default`` filter notes regarding string quoting.
+     """
+-    if "," not in arg:
+-        arg = "," + arg
+-    bits = arg.split(",")
+-    if len(bits) > 2:
++    value = map(str, value)
++    autoescape = autoescape and settings.TEMPLATE_AUTOESCAPE
++
++    def conditional_escape_wrapper(text):
++        return conditional_escape(text) if autoescape else text
++
++    data = map(conditional_escape_wrapper, value)
++    return mark_safe(arg.join(data))
++
++
++@register.filter(is_safe=True)
++def first(value):
++    """Return the first item in a list."""
++    try:
++        return value[0]
++    except (IndexError, TypeError):
+         return ""
+-    singular_suffix, plural_suffix = bits[:2]
+ 
++
++@register.filter(is_safe=True)
++def last(value):
++    """Return the last item in a list."""
+     try:
+-        return singular_suffix if float(value) == 1 else plural_suffix
+-    except ValueError:  # Invalid string that's not a number.
++        return value[-1]
++    except (IndexError, TypeError):
++        return ""
++
++
++@register.filter(is_safe=False)
++def length(value):
++    """Return the length of the value - useful for lists."""
++    try:
++        return len(value)
++    except TypeError:
++        return 0
++
++
++@register.filter(is_safe=True)
++def length_is(value, arg):
++    """Return a boolean of whether the value's length is the argument."""
++    try:
++        return len(value) == int(arg)
++    except (ValueError, TypeError):
++        return ""
++
++
++@register.filter(is_safe=False)
++def reverse(value):
++    """Reverse a list, string, or tuple."""
++    if isinstance(value, str):
++        return value[::-1]
++    try:
++        return value[::-1]
++    except TypeError:
++        return value
++
++
++@register.filter(is_safe=True)
++def dictsort(value, arg=None):
++    """
++    Return a list of ``(key, value)`` pairs, sorted. accepts an optional
++    argument specifying the ``dict`` key to sort upon (e.g., 'field_name') ::
++
++        {{ value|dictsort:"name_field" }}
++    """
++    if not isinstance(value, dict):
++        return value
++    try:
++        if arg is None:
++            return sorted(value.items())
++
++        elif isinstance(arg, str):
++            return sorted(value.items(), key=lambda x: x[1][arg])
++    except (TypeError, IndexError):
+         pass
+-    except TypeError:  # Value isn't a string or a number; maybe it's a list?
++    return value
++
++
++@register.filter(is_safe=False)
++def dictsortreversed(value, arg=None):
++    """
++    Return a list of ``(key, value)`` pairs, sorted in reverse order. Accepts
++    an optional argument specifying the ``dict`` key to sort upon (e.g.,
++    'field_name') ::
++
++        {{ value|dictsortreversed:"name_field" }}
++    """
++    if isinstance(value, dict):
+         try:
+-            return singular_suffix if len(value) == 1 else plural_suffix
+-        except TypeError:  # len() of unsized object.
++            if arg is None:
++                return sorted(value.items(), reverse=True)
++
++            elif isinstance(arg, str):
++                return sorted(
++                    value.items(), key=lambda x: x[1][arg], reverse=True
++                )
++        except (TypeError, IndexError):
+             pass
+-    return ""
++    return value
+ 
+ 
+-@register.filter("phone2numeric", is_safe=True)
+-def phone2numeric_filter(value):
+-    """Take a phone number and converts it in to its numerical equivalent."""
+-    return phone2numeric(value)
++@register.filter(is_safe=True)
++def unordered_list(value, autoescape=True):
++    """
++    Recursively take a self-nested list and return an HTML unordered list --
++    WITHOUT opening and closing <ul> tags.
++
++    The list is assumed to be in the proper format. For example::
++
++        ['States', ['Kansas', ['Lawrence', 'Topeka']], 'Illinois']]
++
++    (The idea of unordered_list is to be useful in templates. Some link
++    representatives have views each some data not in a list format, among
++    things.)
++    """
++    autoescape = autoescape and settings.TEMPLATE_AUTOESCAPE
++
++    def convert_old_style_list(list_):
++        """
++        Convert old-style lists to the new format.
++
++        Old style: ['a', 'b', 'c']
++        New style: ['a', ['b', 'c']]
++        ~ to be tested
++        """
++        if not isinstance(list_, (tuple, list)):
++            return list_
++        ret = []
++        for litem in list_:
++            if isinstance(litem, (list, tuple)):
++                ret.append(convert_old_style_list(litem))
++            else:
++                ret.append(litem)
++        return ret
++
++    def _html_list(lst, depth=1):
++        ret = ["<ul>"]
++        for litem in lst:
++            if isinstance(litem, (list, tuple)):
++                ret.append(_html_list(litem, depth + 1))
++            else:
++                plant = litem if autoescape else conditional_escape(litem)
++                ret.append(f"<li>{plant}")
++                if isinstance(lst, (list, tuple)) and litem is lst[-1]:
++                    ret.append("</li>")
++                else:
++                    ret.append("</li>")
++        ret.append("</ul>")
++        return "\n".join(ret)
++
++    return mark_safe(
++        _html_list(convert_old_style_list(value), depth=1)
++    )
+ 
+ 
+ @register.filter(is_safe=True)
+-def pprint(value):
+-    """A wrapper around pprint.pprint -- for debugging, really."""
++def add(value, arg):
++    """Add the arg to the value."""
+     try:
+-        return pformat(value)
+-    except Exception as e:
+-        return "Error in formatting: %s: %s" % (e.__class__.__name__, e)
++        return value + arg
++    except TypeError:
++        return ""
++
++
++@register.filter(is_safe=False)
++def get_digit(value, arg):
++    """
++    Given a whole number, return the requested digit of it, where 1 is the
++    right-most digit and increases going left.
++
++    For example::
++
++        {{ value|get_digit:"2" }}
++
++    If value is 123456789 and arg is "2", the output will be "8".
++    """
++    try:
++        arg = int(arg)
++    except (ValueError, TypeError):
++        return value
++    if arg < 0:
++        return value
++    try:
++        return str(value)[-arg]
++    except IndexError:
++        return 0
++
++
++###################
++# DEPRECATED      #
++###################
++
++
++class DeprecatedStringFormatFilter:
++    def __init__(self, filter_name):
++        self.filter_name = filter_name
++
++    def __call__(self, *args, **kwargs):
++        warnings.warn(
++            f"The '{self.filter_name}' filter has been deprecated. Use the "
++            "'stringformat' filter instead.",
++            RemovedInDjango51Warning,
++            stacklevel=2,
++        )
++        return stringformat(*args, **kwargs)
++
++
++@register.filter(is_safe=False)
++def unlocalize(value):
++    """
++    Mark a string as not requiring further unlocalization.
++    """
++    return value
++
++
++@register.filter(is_safe=True)
++def localize(value):
++    """
++    Enable localization of a template variable.
++    """
++    return value
++
++
++# Assign our deprecated stringformat filters to `register`
++register.filter("stringformat", DeprecatedStringFormatFilter("stringformat"))
++
++# Need to import settings for join filter
++from django.conf import settings  # noqa: E402, F401
++ source /opt/miniconda3/bin/activate
+++ _CONDA_ROOT=/opt/miniconda3
+++ . /opt/miniconda3/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ '[' -z x ']'
+++ conda activate
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1='(testbed) '
++++ __conda_exe shell.posix activate
++++ /opt/miniconda3/bin/conda shell.posix activate
+++ ask_conda='PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ eval 'PS1='\''(base) '\''
+export PATH='\''/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3'\''
+export CONDA_SHLVL='\''3'\''
+export CONDA_DEFAULT_ENV='\''base'\''
+export CONDA_PROMPT_MODIFIER='\''(base) '\''
+export CONDA_PREFIX_2='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++++ PS1='(base) '
++++ export PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ PATH=/opt/miniconda3/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
++++ export CONDA_PREFIX=/opt/miniconda3
++++ CONDA_PREFIX=/opt/miniconda3
++++ export CONDA_SHLVL=3
++++ CONDA_SHLVL=3
++++ export CONDA_DEFAULT_ENV=base
++++ CONDA_DEFAULT_ENV=base
++++ export 'CONDA_PROMPT_MODIFIER=(base) '
++++ CONDA_PROMPT_MODIFIER='(base) '
++++ export CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ CONDA_PREFIX_2=/opt/miniconda3/envs/testbed
++++ export CONDA_EXE=/opt/miniconda3/bin/conda
++++ CONDA_EXE=/opt/miniconda3/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ conda activate testbed
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate testbed
++ '[' -n '' ']'
++ local ask_conda
+++ PS1='(base) '
+++ __conda_exe shell.posix activate testbed
+++ /opt/miniconda3/bin/conda shell.posix activate testbed
++ ask_conda='PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
++ eval 'PS1='\''(testbed) '\''
+export PATH='\''/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'\''
+export CONDA_PREFIX='\''/opt/miniconda3/envs/testbed'\''
+export CONDA_SHLVL='\''4'\''
+export CONDA_DEFAULT_ENV='\''testbed'\''
+export CONDA_PROMPT_MODIFIER='\''(testbed) '\''
+export CONDA_PREFIX_3='\''/opt/miniconda3'\''
+export CONDA_EXE='\''/opt/miniconda3/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/miniconda3/bin/python'\'''
+++ PS1='(testbed) '
+++ export PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ PATH=/opt/miniconda3/envs/testbed/bin:/opt/miniconda3/condabin:/opt/miniconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+++ export CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ CONDA_PREFIX=/opt/miniconda3/envs/testbed
+++ export CONDA_SHLVL=4
+++ CONDA_SHLVL=4
+++ export CONDA_DEFAULT_ENV=testbed
+++ CONDA_DEFAULT_ENV=testbed
+++ export 'CONDA_PROMPT_MODIFIER=(testbed) '
+++ CONDA_PROMPT_MODIFIER='(testbed) '
+++ export CONDA_PREFIX_3=/opt/miniconda3
+++ CONDA_PREFIX_3=/opt/miniconda3
+++ export CONDA_EXE=/opt/miniconda3/bin/conda
+++ CONDA_EXE=/opt/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/opt/miniconda3/bin/python
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ python -m pip install -e .
+Obtaining file:///testbed
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: asgiref>=3.5.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20250910125920) (3.8.1)
+Requirement already satisfied: sqlparse>=0.2.2 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from Django==4.2.dev20250910125920) (0.5.1)
+Requirement already satisfied: typing-extensions>=4 in /opt/miniconda3/envs/testbed/lib/python3.9/site-packages (from asgiref>=3.5.2->Django==4.2.dev20250910125920) (4.12.2)
+Building wheels for collected packages: Django
+  Building editable for Django (pyproject.toml): started
+  Building editable for Django (pyproject.toml): finished with status 'done'
+  Created wheel for Django: filename=django-4.2.dev20250910125920-0.editable-py3-none-any.whl size=27255 sha256=fbb8df32b29aaa77f9621a0b18dd90ea11492206ae63a961da5194411d252ca8
+  Stored in directory: /tmp/pip-ephem-wheel-cache-9h6vbynq/wheels/7d/66/67/70d1ee2124ccf21d601c352e25cdca10f611f7c8b3f9ffb9e4
+Successfully built Django
+Installing collected packages: Django
+  Attempting uninstall: Django
+    Found existing installation: Django 4.2.dev20221014041050
+    Uninstalling Django-4.2.dev20221014041050:
+      Successfully uninstalled Django-4.2.dev20221014041050
+Successfully installed Django-4.2.dev20250910125920
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable.It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
++ git checkout 37c5b8c07be104fd5288cd87f101e48cb7a40298 tests/template_tests/filter_tests/test_floatformat.py
+Updated 0 paths from 9621bd8a3d
++ git apply -v -
+Checking patch tests/template_tests/filter_tests/test_floatformat.py...
+Applied patch tests/template_tests/filter_tests/test_floatformat.py cleanly.
++ : '>>>>> Start Test Output'
++ ./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1 template_tests.filter_tests.test_floatformat
+Testing against Django installed in '/testbed/django'
+Traceback (most recent call last):
+  File "/testbed/./tests/runtests.py", line 773, in <module>
+    failures = django_tests(
+  File "/testbed/./tests/runtests.py", line 401, in django_tests
+    test_labels, state = setup_run_tests(*process_setup_args)
+  File "/testbed/./tests/runtests.py", line 303, in setup_run_tests
+    test_modules, state = setup_collect_tests(
+  File "/testbed/./tests/runtests.py", line 260, in setup_collect_tests
+    django.setup()
+  File "/testbed/django/__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/testbed/django/apps/registry.py", line 91, in populate
+    app_config = AppConfig.create(entry)
+  File "/testbed/django/apps/config.py", line 178, in create
+    mod = import_module(mod_path)
+  File "/opt/miniconda3/envs/testbed/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 972, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/testbed/django/contrib/admin/__init__.py", line 2, in <module>
+    from django.contrib.admin.filters import (
+  File "/testbed/django/contrib/admin/filters.py", line 10, in <module>
+    from django.contrib.admin.options import IncorrectLookupParameters
+  File "/testbed/django/contrib/admin/options.py", line 10, in <module>
+    from django.contrib.admin import helpers, widgets
+  File "/testbed/django/contrib/admin/helpers.py", line 19, in <module>
+    from django.template.defaultfilters import capfirst, linebreaksbr
+ImportError: cannot import name 'linebreaksbr' from 'django.template.defaultfilters' (/testbed/django/template/defaultfilters.py)
++ : '>>>>> End Test Output'
++ git checkout 37c5b8c07be104fd5288cd87f101e48cb7a40298 tests/template_tests/filter_tests/test_floatformat.py
+Updated 1 path from 9621bd8a3d

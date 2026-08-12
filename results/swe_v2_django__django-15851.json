@@ -1,0 +1,7 @@
+{
+  "instance_id": "django__django-15851",
+  "steps": 20,
+  "input_tokens": 150045,
+  "output_tokens": 7461,
+  "patch_length": 2207
+}

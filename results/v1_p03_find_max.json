@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "problem": "p03_find_max",
+  "verdict": "PASS",
+  "steps": 4,
+  "input_tokens": 4240,
+  "output_tokens": 596
+}

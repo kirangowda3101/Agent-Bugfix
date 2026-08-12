@@ -1,0 +1,3095 @@
+2026-08-11 15:09:17,695 - INFO - Creating container for django__django-11239...
+2026-08-11 15:09:17,745 - INFO - Container for django__django-11239 created: 5085d17b66145a670f790890486dc1860e9ebd96a8f3408130331f1f4dfdc732
+2026-08-11 15:09:17,844 - INFO - Container for django__django-11239 started: 5085d17b66145a670f790890486dc1860e9ebd96a8f3408130331f1f4dfdc732
+2026-08-11 15:09:17,845 - INFO - Intermediate patch for django__django-11239 written to logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/patch.diff, now applying to container...
+2026-08-11 15:09:17,945 - INFO - Failed to apply patch to container: git apply --verbose
+2026-08-11 15:09:17,996 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-08-11 15:09:18,065 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-08-11 15:09:18,065 - INFO - >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+2026-08-11 15:09:18,087 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:18,088 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,088 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,088 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,088 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,088 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,096 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,097 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,099 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,110 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,112 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,119 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,121 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,122 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,131 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,135 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,141 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,142 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,143 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,144 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,145 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,145 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-11239: >>>>> Patch Apply Failed:
+patching file django/db/backends/postgresql/client.py
+patch unexpectedly ends in middle of line
+patch: **** malformed patch at line 15:  
+
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-11239/run_instance.log) for more information.
+
+2026-08-11 15:09:18,145 - INFO - Attempting to stop container sweb.eval.django__django-11239.swe_v0_full...
+2026-08-11 15:09:33,300 - INFO - Attempting to remove container sweb.eval.django__django-11239.swe_v0_full...
+2026-08-11 15:09:33,310 - INFO - Container sweb.eval.django__django-11239.swe_v0_full removed.

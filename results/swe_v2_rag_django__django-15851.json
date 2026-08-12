@@ -1,0 +1,10 @@
+{
+  "version": "swe_v2_rag",
+  "instance_id": "django__django-15851",
+  "steps": 17,
+  "input_tokens": 174811,
+  "output_tokens": 6481,
+  "patch_length": 1785,
+  "index_build_seconds": 42.6,
+  "chunk_count": 14855
+}

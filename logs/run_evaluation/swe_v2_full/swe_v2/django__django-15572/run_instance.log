@@ -1,0 +1,105 @@
+2026-08-11 15:10:45,610 - INFO - Creating container for django__django-15572...
+2026-08-11 15:10:45,658 - INFO - Container for django__django-15572 created: b82f6fc913c5c75cc140e4ded261c90e07ba971ccb90c3edfc179a88786320fd
+2026-08-11 15:10:45,723 - INFO - Container for django__django-15572 started: b82f6fc913c5c75cc140e4ded261c90e07ba971ccb90c3edfc179a88786320fd
+2026-08-11 15:10:45,723 - INFO - Intermediate patch for django__django-15572 written to logs/run_evaluation/swe_v2_full/swe_v2/django__django-15572/patch.diff, now applying to container...
+2026-08-11 15:10:45,857 - INFO - >>>>> Applied Patch:
+/tmp/patch.diff:50: trailing whitespace.
+        
+Checking patch django/template/autoreload.py...
+Checking patch tests/template_tests/test_autoreloader.py...
+Applied patch django/template/autoreload.py cleanly.
+Applied patch tests/template_tests/test_autoreloader.py cleanly.
+warning: 1 line adds whitespace errors.
+
+2026-08-11 15:10:46,458 - INFO - Git diff before:
+diff --git a/django/template/autoreload.py b/django/template/autoreload.py
+index 84c8554165..f3fd704031 100644
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -17,7 +17,7 @@ def get_template_directories():
+         if not isinstance(backend, DjangoTemplates):
+             continue
+ 
+-        items.update(cwd / to_path(dir) for dir in backend.engine.dirs)
++        items.update(cwd / to_path(dir) for dir in backend.engine.dirs if dir)
+ 
+         for loader in backend.engine.template_loaders:
+             if not hasattr(loader, "get_dirs"):
+@@ -25,7 +25,7 @@ def get_template_directories():
+             items.update(
+                 cwd / to_path(directory)
+                 for directory in loader.get_dirs()
+-                if not is_django_path(directory)
++                if directory and not is_django_path(directory)
+             )
+     return items
+ 
+diff --git a/tests/template_tests/test_autoreloader.py b/tests/template_tests/test_autoreloader.py
+index cc2c3f58a5..9888a34828 100644
+--- a/tests/template_tests/test_autoreloader.py
++++ b/tests/template_tests/test_autoreloader.py
+@@ -103,6 +103,32 @@ class TemplateReloadTests(SimpleTestCase):
+             },
+         )
+ 
++    @override_settings(
++        TEMPLATES=[
++            {
++                "DIRS": [EXTRA_TEMPLATES_DIR, ""],
++                "BACKEND": "django.template.backends.django.DjangoTemplates",
++                "OPTIONS": {
++                    "loaders": [
++                        "django.template.loaders.filesystem.Loader",
++                    ],
++                },
++            }
++        ]
++    )
++    @mock.patch("django.template.autoreload.reset_loaders")
++    def test_empty_string_in_dirs_ignored(self, mock_reset):
++        """Test that empty strings in DIRS are ignored (issue #33386)."""
++        # Get the template directories - should not include cwd
++        template_dirs = autoreload.get_template_directories()
++        self.assertSetEqual(template_dirs, {EXTRA_TEMPLATES_DIR})
++        
++        # Also verify that template_changed doesn't match arbitrary files
++        # when empty string is in DIRS
++        result = autoreload.template_changed(None, Path(__file__))
++        self.assertIsNone(result)
++        mock_reset.assert_not_called()
++
+ 
+ @require_jinja2
+ @override_settings(INSTALLED_APPS=["template_tests"])
+2026-08-11 15:10:46,459 - INFO - Eval script for django__django-15572 written to logs/run_evaluation/swe_v2_full/swe_v2/django__django-15572/eval.sh; copying to container...
+2026-08-11 15:10:53,107 - INFO - Test runtime: 6.61 seconds
+2026-08-11 15:10:53,108 - INFO - Test output for django__django-15572 written to logs/run_evaluation/swe_v2_full/swe_v2/django__django-15572/test_output.txt
+2026-08-11 15:10:53,200 - INFO - Git diff after:
+diff --git a/django/template/autoreload.py b/django/template/autoreload.py
+index 84c8554165..f3fd704031 100644
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -17,7 +17,7 @@ def get_template_directories():
+         if not isinstance(backend, DjangoTemplates):
+             continue
+ 
+-        items.update(cwd / to_path(dir) for dir in backend.engine.dirs)
++        items.update(cwd / to_path(dir) for dir in backend.engine.dirs if dir)
+ 
+         for loader in backend.engine.template_loaders:
+             if not hasattr(loader, "get_dirs"):
+@@ -25,7 +25,7 @@ def get_template_directories():
+             items.update(
+                 cwd / to_path(directory)
+                 for directory in loader.get_dirs()
+-                if not is_django_path(directory)
++                if directory and not is_django_path(directory)
+             )
+     return items
+2026-08-11 15:10:53,200 - INFO - Git diff changed after running eval script
+2026-08-11 15:10:53,200 - INFO - Grading answer for django__django-15572...
+2026-08-11 15:10:53,201 - INFO - report: {'django__django-15572': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_template_dirs_ignore_empty_path (template_tests.test_autoreloader.TemplateReloadTests)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_get_template_directories (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_reset_all_loaders (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_watch_for_template_changes (template_tests.test_autoreloader.Jinja2TemplateReloadTests)', 'test_get_template_directories (template_tests.test_autoreloader.TemplateReloadTests)', 'test_non_template_changed (template_tests.test_autoreloader.TemplateReloadTests)', 'test_non_template_changed_in_template_directory (template_tests.test_autoreloader.TemplateReloadTests)', 'test_reset_all_loaders (template_tests.test_autoreloader.TemplateReloadTests)', 'test_template_changed (template_tests.test_autoreloader.TemplateReloadTests)', 'test_template_dirs_normalized_to_paths (template_tests.test_autoreloader.TemplateReloadTests)', 'test_watch_for_template_changes (template_tests.test_autoreloader.TemplateReloadTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-15572: resolved: True
+2026-08-11 15:10:53,201 - INFO - Attempting to stop container sweb.eval.django__django-15572.swe_v2_full...
+2026-08-11 15:11:08,376 - INFO - Attempting to remove container sweb.eval.django__django-15572.swe_v2_full...
+2026-08-11 15:11:08,390 - INFO - Container sweb.eval.django__django-15572.swe_v2_full removed.

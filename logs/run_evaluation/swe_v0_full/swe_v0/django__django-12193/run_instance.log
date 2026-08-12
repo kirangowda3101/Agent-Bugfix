@@ -1,0 +1,3095 @@
+2026-08-11 15:09:33,322 - INFO - Creating container for django__django-12193...
+2026-08-11 15:09:33,347 - INFO - Container for django__django-12193 created: a1efc76e63aee5ef8418557aa1008a7aedb734159d71c0b4728339c4d4b95d12
+2026-08-11 15:09:33,415 - INFO - Container for django__django-12193 started: a1efc76e63aee5ef8418557aa1008a7aedb734159d71c0b4728339c4d4b95d12
+2026-08-11 15:09:33,416 - INFO - Intermediate patch for django__django-12193 written to logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/patch.diff, now applying to container...
+2026-08-11 15:09:33,522 - INFO - Failed to apply patch to container: git apply --verbose
+2026-08-11 15:09:33,577 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-08-11 15:09:33,629 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-08-11 15:09:33,629 - INFO - >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,650 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,651 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,652 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,653 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,654 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,655 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,655 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,655 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,655 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,664 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,665 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,666 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-12193: >>>>> Patch Apply Failed:
+patching file django/forms/fields.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 514.
+1 out of 1 hunk FAILED -- saving rejects to file django/forms/fields.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-12193/run_instance.log) for more information.
+
+2026-08-11 15:09:33,667 - INFO - Attempting to stop container sweb.eval.django__django-12193.swe_v0_full...
+2026-08-11 15:09:48,812 - INFO - Attempting to remove container sweb.eval.django__django-12193.swe_v0_full...
+2026-08-11 15:09:48,826 - INFO - Container sweb.eval.django__django-12193.swe_v0_full removed.

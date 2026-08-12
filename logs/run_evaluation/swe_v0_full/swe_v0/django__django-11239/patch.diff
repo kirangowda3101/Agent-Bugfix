@@ -1,0 +1,16 @@
+diff --git a/django/db/backends/postgresql/client.py b/django/db/backends/postgresql/client.py
+index 1234567..abcdefg 100644
+--- a/django/db/backends/postgresql/client.py
++++ b/django/db/backends/postgresql/client.py
+@@ -45,6 +45,12 @@ class DatabaseClient(BaseDatabaseClient):
+             if sslmode:
+                 args += ['-o', 'sslmode=%s' % sslmode]
+ 
++            sslcert = settings_dict['OPTIONS'].get('sslcert')
++            if sslcert:
++                args += ['-o', 'sslcert=%s' % sslcert]
++            sslkey = settings_dict['OPTIONS'].get('sslkey')
++            if sslkey:
++                args += ['-o', 'sslkey=%s' % sslkey]
++
+         return args

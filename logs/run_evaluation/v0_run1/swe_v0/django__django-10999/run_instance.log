@@ -1,0 +1,3073 @@
+2026-08-11 14:34:53,171 - INFO - Creating container for django__django-10999...
+2026-08-11 14:34:53,229 - INFO - Container for django__django-10999 created: f7b05e47c8baa5aad765d5a378e2df6dda35b4767e23d8a56beeab31dc27376b
+2026-08-11 14:34:53,327 - INFO - Container for django__django-10999 started: f7b05e47c8baa5aad765d5a378e2df6dda35b4767e23d8a56beeab31dc27376b
+2026-08-11 14:34:53,328 - INFO - Intermediate patch for django__django-10999 written to logs/run_evaluation/v0_run1/swe_v0/django__django-10999/patch.diff, now applying to container...
+2026-08-11 14:34:53,438 - INFO - Failed to apply patch to container: git apply --verbose
+2026-08-11 14:34:53,488 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-08-11 14:34:53,541 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-08-11 14:34:53,541 - INFO - >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,560 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,561 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,562 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,563 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,564 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,564 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,564 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,574 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,575 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,576 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-10999: >>>>> Patch Apply Failed:
+patching file django/utils/dateparse.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 18.
+1 out of 1 hunk FAILED -- saving rejects to file django/utils/dateparse.py.rej
+
+Check (logs/run_evaluation/v0_run1/swe_v0/django__django-10999/run_instance.log) for more information.
+
+2026-08-11 14:34:53,577 - INFO - Attempting to stop container sweb.eval.django__django-10999.v0_run1...
+2026-08-11 14:35:08,704 - INFO - Attempting to remove container sweb.eval.django__django-10999.v0_run1...
+2026-08-11 14:35:08,719 - INFO - Container sweb.eval.django__django-10999.v0_run1 removed.

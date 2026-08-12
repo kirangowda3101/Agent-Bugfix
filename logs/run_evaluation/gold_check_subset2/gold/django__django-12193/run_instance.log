@@ -1,0 +1,51 @@
+2026-08-11 12:18:37,104 - INFO - Creating container for django__django-12193...
+2026-08-11 12:18:37,899 - INFO - Container for django__django-12193 created: 985a6a30d377c4e375917d90bf57bbe133be3f32d954c6d37ba72a0dfab2bfe3
+2026-08-11 12:18:38,663 - INFO - Container for django__django-12193 started: 985a6a30d377c4e375917d90bf57bbe133be3f32d954c6d37ba72a0dfab2bfe3
+2026-08-11 12:18:38,680 - INFO - Intermediate patch for django__django-12193 written to logs/run_evaluation/gold_check_subset2/gold/django__django-12193/patch.diff, now applying to container...
+2026-08-11 12:18:39,011 - INFO - >>>>> Applied Patch:
+Checking patch django/forms/widgets.py...
+Applied patch django/forms/widgets.py cleanly.
+
+2026-08-11 12:18:39,891 - INFO - Git diff before:
+diff --git a/django/forms/widgets.py b/django/forms/widgets.py
+index 6fe220bea7..d83d63c169 100644
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -522,9 +522,7 @@ class CheckboxInput(Input):
+ 
+     def get_context(self, name, value, attrs):
+         if self.check_test(value):
+-            if attrs is None:
+-                attrs = {}
+-            attrs['checked'] = True
++            attrs = {**(attrs or {}), 'checked': True}
+         return super().get_context(name, value, attrs)
+ 
+     def value_from_datadict(self, data, files, name):
+2026-08-11 12:18:39,895 - INFO - Eval script for django__django-12193 written to logs/run_evaluation/gold_check_subset2/gold/django__django-12193/eval.sh; copying to container...
+2026-08-11 12:18:55,216 - INFO - Test runtime: 15.22 seconds
+2026-08-11 12:18:55,219 - INFO - Test output for django__django-12193 written to logs/run_evaluation/gold_check_subset2/gold/django__django-12193/test_output.txt
+2026-08-11 12:18:55,372 - INFO - Git diff after:
+diff --git a/django/forms/widgets.py b/django/forms/widgets.py
+index 6fe220bea7..d83d63c169 100644
+--- a/django/forms/widgets.py
++++ b/django/forms/widgets.py
+@@ -522,9 +522,7 @@ class CheckboxInput(Input):
+ 
+     def get_context(self, name, value, attrs):
+         if self.check_test(value):
+-            if attrs is None:
+-                attrs = {}
+-            attrs['checked'] = True
++            attrs = {**(attrs or {}), 'checked': True}
+         return super().get_context(name, value, attrs)
+ 
+     def value_from_datadict(self, data, files, name):
+2026-08-11 12:18:55,372 - INFO - Grading answer for django__django-12193...
+2026-08-11 12:18:55,376 - INFO - report: {'django__django-12193': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_get_context_does_not_mutate_attrs (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_render_check_exception (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_check_test (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_empty (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_false (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_int (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_none (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_true (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_render_value (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_value_from_datadict (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_value_from_datadict_string_int (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)', 'test_value_omitted_from_data (forms_tests.widget_tests.test_checkboxinput.CheckboxInputTest)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-12193: resolved: True
+2026-08-11 12:18:55,376 - INFO - Attempting to stop container sweb.eval.django__django-12193.gold_check_subset2...
+2026-08-11 12:19:11,592 - INFO - Attempting to remove container sweb.eval.django__django-12193.gold_check_subset2...
+2026-08-11 12:19:12,611 - INFO - Container sweb.eval.django__django-12193.gold_check_subset2 removed.
+2026-08-11 12:19:12,611 - INFO - Attempting to remove image swebench/sweb.eval.x86_64.django_1776_django-12193:latest...
+2026-08-11 12:19:12,666 - INFO - Image swebench/sweb.eval.x86_64.django_1776_django-12193:latest removed.

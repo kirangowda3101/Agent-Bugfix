@@ -1,0 +1,8 @@
+{
+  "instance_id": "django__django-10999",
+  "version": "swe_v1",
+  "steps": 6,
+  "input_tokens": 31981,
+  "output_tokens": 3078,
+  "patch_length": 497
+}

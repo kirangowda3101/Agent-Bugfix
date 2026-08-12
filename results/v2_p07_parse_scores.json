@@ -1,0 +1,8 @@
+{
+  "version": "v2",
+  "problem": "p07_parse_scores",
+  "verdict": "PASS",
+  "steps": 5,
+  "input_tokens": 7643,
+  "output_tokens": 581
+}

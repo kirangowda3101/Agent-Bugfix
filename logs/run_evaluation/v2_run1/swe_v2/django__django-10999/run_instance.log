@@ -1,0 +1,45 @@
+2026-08-11 14:18:42,332 - INFO - Creating container for django__django-10999...
+2026-08-11 14:18:42,364 - INFO - Container for django__django-10999 created: 2109c0da1ac8302fdeb7d8d6d52dc4c22b370c1a07cd5c4869124014c15f8294
+2026-08-11 14:18:42,425 - INFO - Container for django__django-10999 started: 2109c0da1ac8302fdeb7d8d6d52dc4c22b370c1a07cd5c4869124014c15f8294
+2026-08-11 14:18:42,425 - INFO - Intermediate patch for django__django-10999 written to logs/run_evaluation/v2_run1/swe_v2/django__django-10999/patch.diff, now applying to container...
+2026-08-11 14:18:42,556 - INFO - >>>>> Applied Patch:
+Checking patch django/utils/dateparse.py...
+Applied patch django/utils/dateparse.py cleanly.
+
+2026-08-11 14:18:42,972 - INFO - Git diff before:
+diff --git a/django/utils/dateparse.py b/django/utils/dateparse.py
+index 8d08b7d1d3..a037758784 100644
+--- a/django/utils/dateparse.py
++++ b/django/utils/dateparse.py
+@@ -29,7 +29,7 @@ datetime_re = re.compile(
+ standard_duration_re = re.compile(
+     r'^'
+     r'(?:(?P<days>-?\d+) (days?, )?)?'
+-    r'((?:(?P<hours>-?\d+):)(?=\d+:\d+))?'
++    r'((?:(?P<hours>-?\d+):)(?=-?\d+:-?\d+))?'
+     r'(?:(?P<minutes>-?\d+):)?'
+     r'(?P<seconds>-?\d+)'
+     r'(?:\.(?P<microseconds>\d{1,6})\d{0,6})?'
+2026-08-11 14:18:42,972 - INFO - Eval script for django__django-10999 written to logs/run_evaluation/v2_run1/swe_v2/django__django-10999/eval.sh; copying to container...
+2026-08-11 14:18:52,279 - INFO - Test runtime: 9.25 seconds
+2026-08-11 14:18:52,280 - INFO - Test output for django__django-10999 written to logs/run_evaluation/v2_run1/swe_v2/django__django-10999/test_output.txt
+2026-08-11 14:18:52,368 - INFO - Git diff after:
+diff --git a/django/utils/dateparse.py b/django/utils/dateparse.py
+index 8d08b7d1d3..a037758784 100644
+--- a/django/utils/dateparse.py
++++ b/django/utils/dateparse.py
+@@ -29,7 +29,7 @@ datetime_re = re.compile(
+ standard_duration_re = re.compile(
+     r'^'
+     r'(?:(?P<days>-?\d+) (days?, )?)?'
+-    r'((?:(?P<hours>-?\d+):)(?=\d+:\d+))?'
++    r'((?:(?P<hours>-?\d+):)(?=-?\d+:-?\d+))?'
+     r'(?:(?P<minutes>-?\d+):)?'
+     r'(?P<seconds>-?\d+)'
+     r'(?:\.(?P<microseconds>\d{1,6})\d{0,6})?'
+2026-08-11 14:18:52,368 - INFO - Grading answer for django__django-10999...
+2026-08-11 14:18:52,370 - INFO - report: {'django__django-10999': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': False, 'tests_status': {'FAIL_TO_PASS': {'success': [], 'failure': ['test_negative (utils_tests.test_dateparse.DurationParseTests)', 'test_parse_postgresql_format (utils_tests.test_dateparse.DurationParseTests)']}, 'PASS_TO_PASS': {'success': ['test_parse_date (utils_tests.test_dateparse.DateParseTests)', 'test_parse_datetime (utils_tests.test_dateparse.DateParseTests)', 'test_parse_time (utils_tests.test_dateparse.DateParseTests)', 'test_days (utils_tests.test_dateparse.DurationParseTests)', 'test_fractions_of_seconds (utils_tests.test_dateparse.DurationParseTests)', 'test_hours_minutes_seconds (utils_tests.test_dateparse.DurationParseTests)', 'test_iso_8601 (utils_tests.test_dateparse.DurationParseTests)', 'test_minutes_seconds (utils_tests.test_dateparse.DurationParseTests)', 'test_parse_python_format (utils_tests.test_dateparse.DurationParseTests)', 'test_seconds (utils_tests.test_dateparse.DurationParseTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-10999: resolved: False
+2026-08-11 14:18:52,371 - INFO - Attempting to stop container sweb.eval.django__django-10999.v2_run1...
+2026-08-11 14:19:07,569 - INFO - Attempting to remove container sweb.eval.django__django-10999.v2_run1...
+2026-08-11 14:19:07,582 - INFO - Container sweb.eval.django__django-10999.v2_run1 removed.

@@ -1,0 +1,13 @@
+diff --git a/django/template/engine.py b/django/template/engine.py
+index 1234567..abcdefg 100644
+--- a/django/template/engine.py
++++ b/django/template/engine.py
+@@ -123,7 +123,7 @@ class Engine:
+         template_code = self.get_template(template_name).template.source
+         return self.from_string(template_code).render(context)
+ 
+     def render_to_string(self, template_name, context=None):
+-        t = self.get_template(template_name)
+-        return t.render(context)
++        context = Context(context or {}, autoescape=self.autoescape)
++        return self.get_template(template_name).render(context)

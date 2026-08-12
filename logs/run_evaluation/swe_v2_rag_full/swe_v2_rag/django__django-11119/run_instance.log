@@ -1,0 +1,203 @@
+2026-08-12 07:04:04,306 - INFO - Creating container for django__django-11119...
+2026-08-12 07:04:04,341 - INFO - Container for django__django-11119 created: 62a0e554ba3b1399fdd91b10e53bf965ed57e88b2010490e79c701ff410ef0e4
+2026-08-12 07:04:04,397 - INFO - Container for django__django-11119 started: 62a0e554ba3b1399fdd91b10e53bf965ed57e88b2010490e79c701ff410ef0e4
+2026-08-12 07:04:04,398 - INFO - Intermediate patch for django__django-11119 written to logs/run_evaluation/swe_v2_rag_full/swe_v2_rag/django__django-11119/patch.diff, now applying to container...
+2026-08-12 07:04:04,533 - INFO - >>>>> Applied Patch:
+Checking patch django/template/engine.py...
+Checking patch tests/template_tests/test_loaders.py...
+Applied patch django/template/engine.py cleanly.
+Applied patch tests/template_tests/test_loaders.py cleanly.
+
+2026-08-12 07:04:05,023 - INFO - Git diff before:
+diff --git a/django/template/engine.py b/django/template/engine.py
+index dfaa67ba12..ff9ce58d59 100644
+--- a/django/template/engine.py
++++ b/django/template/engine.py
+@@ -160,7 +160,7 @@ class Engine:
+         if isinstance(context, Context):
+             return t.render(context)
+         else:
+-            return t.render(Context(context))
++            return t.render(Context(context, autoescape=self.autoescape))
+ 
+     def select_template(self, template_name_list):
+         """
+diff --git a/tests/template_tests/test_loaders.py b/tests/template_tests/test_loaders.py
+index 3c5282a8ea..db4ea0eda8 100644
+--- a/tests/template_tests/test_loaders.py
++++ b/tests/template_tests/test_loaders.py
+@@ -238,3 +238,73 @@ class LocmemLoaderTests(SimpleTestCase):
+         self.assertEqual(template.origin.name, 'index.html')
+         self.assertEqual(template.origin.template_name, 'index.html')
+         self.assertEqual(template.origin.loader, self.engine.template_loaders[0])
++
++
++class RenderToStringTests(SimpleTestCase):
++    """Tests for Engine.render_to_string()"""
++
++    def test_render_to_string_respects_autoescape_true(self):
++        """
++        Engine.render_to_string() should respect autoescape=True (default).
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=True,
++        )
++        output = engine.render_to_string('template.html', {'var': '<b>text</b>'})
++        self.assertEqual(output, '&lt;b&gt;text&lt;/b&gt;')
++
++    def test_render_to_string_respects_autoescape_false(self):
++        """
++        Engine.render_to_string() should respect autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string('template.html', {'var': '<b>text</b>'})
++        self.assertEqual(output, '<b>text</b>')
++
++    def test_render_to_string_respects_autoescape_false_with_list(self):
++        """
++        Engine.render_to_string() with template list should respect autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template1.html': '{{ var }}',
++                'template2.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string(['template1.html', 'template2.html'], {'var': '<b>text</b>'})
++        self.assertEqual(output, '<b>text</b>')
++
++    def test_render_to_string_autoescape_false_ampersand(self):
++        """
++        Engine.render_to_string() should not escape ampersands when autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string('template.html', {'var': 'Tom & Jerry'})
++        self.assertEqual(output, 'Tom & Jerry')
++
++    def test_render_to_string_autoescape_true_ampersand(self):
++        """
++        Engine.render_to_string() should escape ampersands when autoescape=True.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=True,
++        )
++        output = engine.render_to_string('template.html', {'var': 'Tom & Jerry'})
++        self.assertEqual(output, 'Tom &amp; Jerry')
+2026-08-12 07:04:05,024 - INFO - Eval script for django__django-11119 written to logs/run_evaluation/swe_v2_rag_full/swe_v2_rag/django__django-11119/eval.sh; copying to container...
+2026-08-12 07:04:17,089 - INFO - Test runtime: 12.03 seconds
+2026-08-12 07:04:17,090 - INFO - Test output for django__django-11119 written to logs/run_evaluation/swe_v2_rag_full/swe_v2_rag/django__django-11119/test_output.txt
+2026-08-12 07:04:17,218 - INFO - Git diff after:
+diff --git a/django/template/engine.py b/django/template/engine.py
+index dfaa67ba12..ff9ce58d59 100644
+--- a/django/template/engine.py
++++ b/django/template/engine.py
+@@ -160,7 +160,7 @@ class Engine:
+         if isinstance(context, Context):
+             return t.render(context)
+         else:
+-            return t.render(Context(context))
++            return t.render(Context(context, autoescape=self.autoescape))
+ 
+     def select_template(self, template_name_list):
+         """
+diff --git a/tests/template_tests/test_loaders.py b/tests/template_tests/test_loaders.py
+index 3c5282a8ea..db4ea0eda8 100644
+--- a/tests/template_tests/test_loaders.py
++++ b/tests/template_tests/test_loaders.py
+@@ -238,3 +238,73 @@ class LocmemLoaderTests(SimpleTestCase):
+         self.assertEqual(template.origin.name, 'index.html')
+         self.assertEqual(template.origin.template_name, 'index.html')
+         self.assertEqual(template.origin.loader, self.engine.template_loaders[0])
++
++
++class RenderToStringTests(SimpleTestCase):
++    """Tests for Engine.render_to_string()"""
++
++    def test_render_to_string_respects_autoescape_true(self):
++        """
++        Engine.render_to_string() should respect autoescape=True (default).
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=True,
++        )
++        output = engine.render_to_string('template.html', {'var': '<b>text</b>'})
++        self.assertEqual(output, '&lt;b&gt;text&lt;/b&gt;')
++
++    def test_render_to_string_respects_autoescape_false(self):
++        """
++        Engine.render_to_string() should respect autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string('template.html', {'var': '<b>text</b>'})
++        self.assertEqual(output, '<b>text</b>')
++
++    def test_render_to_string_respects_autoescape_false_with_list(self):
++        """
++        Engine.render_to_string() with template list should respect autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template1.html': '{{ var }}',
++                'template2.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string(['template1.html', 'template2.html'], {'var': '<b>text</b>'})
++        self.assertEqual(output, '<b>text</b>')
++
++    def test_render_to_string_autoescape_false_ampersand(self):
++        """
++        Engine.render_to_string() should not escape ampersands when autoescape=False.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=False,
++        )
++        output = engine.render_to_string('template.html', {'var': 'Tom & Jerry'})
++        self.assertEqual(output, 'Tom & Jerry')
++
++    def test_render_to_string_autoescape_true_ampersand(self):
++        """
++        Engine.render_to_string() should escape ampersands when autoescape=True.
++        """
++        engine = Engine(
++            loaders=[('django.template.loaders.locmem.Loader', {
++                'template.html': '{{ var }}',
++            })],
++            autoescape=True,
++        )
++        output = engine.render_to_string('template.html', {'var': 'Tom & Jerry'})
++        self.assertEqual(output, 'Tom &amp; Jerry')
+2026-08-12 07:04:17,218 - INFO - Grading answer for django__django-11119...
+2026-08-12 07:04:17,219 - INFO - report: {'django__django-11119': {'patch_is_None': False, 'patch_exists': True, 'patch_successfully_applied': True, 'resolved': True, 'tests_status': {'FAIL_TO_PASS': {'success': ['test_autoescape_off (template_tests.test_engine.RenderToStringTest)'], 'failure': []}, 'PASS_TO_PASS': {'success': ['test_cached_loader_priority (template_tests.test_engine.LoaderTests)', 'test_loader_priority (template_tests.test_engine.LoaderTests)', 'test_origin (template_tests.test_engine.LoaderTests)', 'test_basic_context (template_tests.test_engine.RenderToStringTest)', 'test_multiple_engines_configured (template_tests.test_engine.GetDefaultTests)', 'test_no_engines_configured (template_tests.test_engine.GetDefaultTests)', 'test_single_engine_configured (template_tests.test_engine.GetDefaultTests)'], 'failure': []}, 'FAIL_TO_FAIL': {'success': [], 'failure': []}, 'PASS_TO_FAIL': {'success': [], 'failure': []}}}}
+Result for django__django-11119: resolved: True
+2026-08-12 07:04:17,219 - INFO - Attempting to stop container sweb.eval.django__django-11119.swe_v2_rag_full...
+2026-08-12 07:04:32,523 - INFO - Attempting to remove container sweb.eval.django__django-11119.swe_v2_rag_full...
+2026-08-12 07:04:32,542 - INFO - Container sweb.eval.django__django-11119.swe_v2_rag_full removed.

@@ -1,0 +1,8 @@
+{
+  "version": "swe_v2_mcp",
+  "instance_id": "django__django-10999",
+  "steps": 20,
+  "input_tokens": 183073,
+  "output_tokens": 5691,
+  "patch_length": 497
+}

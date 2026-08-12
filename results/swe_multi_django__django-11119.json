@@ -1,0 +1,8 @@
+{
+  "version": "swe_multi",
+  "instance_id": "django__django-11119",
+  "steps": 13,
+  "input_tokens": 218657,
+  "output_tokens": 8764,
+  "patch_length": 485
+}

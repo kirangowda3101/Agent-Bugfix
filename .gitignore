@@ -13,11 +13,11 @@ __pycache__/
 
 # Run outputs (later stages)
 runs/
-logs/
-*.log
+
+
 
 workspace/
 
-results/
+
 repos/
 predictions/

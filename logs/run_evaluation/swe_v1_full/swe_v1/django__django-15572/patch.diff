@@ -1,0 +1,62 @@
+diff --git a/django/template/autoreload.py b/django/template/autoreload.py
+index 84c8554165..f3fd704031 100644
+--- a/django/template/autoreload.py
++++ b/django/template/autoreload.py
+@@ -17,7 +17,7 @@ def get_template_directories():
+         if not isinstance(backend, DjangoTemplates):
+             continue
+ 
+-        items.update(cwd / to_path(dir) for dir in backend.engine.dirs)
++        items.update(cwd / to_path(dir) for dir in backend.engine.dirs if dir)
+ 
+         for loader in backend.engine.template_loaders:
+             if not hasattr(loader, "get_dirs"):
+@@ -25,7 +25,7 @@ def get_template_directories():
+             items.update(
+                 cwd / to_path(directory)
+                 for directory in loader.get_dirs()
+-                if not is_django_path(directory)
++                if directory and not is_django_path(directory)
+             )
+     return items
+ 
+diff --git a/tests/template_tests/test_autoreloader.py b/tests/template_tests/test_autoreloader.py
+index cc2c3f58a5..f22817e9c9 100644
+--- a/tests/template_tests/test_autoreloader.py
++++ b/tests/template_tests/test_autoreloader.py
+@@ -103,6 +103,35 @@ class TemplateReloadTests(SimpleTestCase):
+             },
+         )
+ 
++    @override_settings(
++        TEMPLATES=[
++            {
++                "DIRS": [EXTRA_TEMPLATES_DIR, ""],
++                "BACKEND": "django.template.backends.django.DjangoTemplates",
++                "OPTIONS": {
++                    "context_processors": [
++                        "django.template.context_processors.request",
++                    ],
++                    "loaders": [
++                        "django.template.loaders.filesystem.Loader",
++                        "django.template.loaders.app_directories.Loader",
++                    ],
++                },
++            }
++        ]
++    )
++    @mock.patch("django.template.autoreload.reset_loaders")
++    def test_empty_string_in_template_dirs(self, mock_reset):
++        """Test that empty strings in DIRS don't break autoreload."""
++        # Should only contain the EXTRA_TEMPLATES_DIR, not the current directory
++        self.assertSetEqual(
++            autoreload.get_template_directories(),
++            {EXTRA_TEMPLATES_DIR},
++        )
++        # Changing a non-template file should not trigger reset_loaders
++        self.assertIsNone(autoreload.template_changed(None, Path(__file__)))
++        mock_reset.assert_not_called()
++
+ 
+ @require_jinja2
+ @override_settings(INSTALLED_APPS=["template_tests"])

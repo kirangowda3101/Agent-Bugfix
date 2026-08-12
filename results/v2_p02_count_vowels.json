@@ -1,0 +1,8 @@
+{
+  "version": "v2",
+  "problem": "p02_count_vowels",
+  "verdict": "PASS",
+  "steps": 5,
+  "input_tokens": 5733,
+  "output_tokens": 542
+}

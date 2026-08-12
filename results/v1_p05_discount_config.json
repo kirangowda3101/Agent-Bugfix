@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "problem": "p05_discount_config",
+  "verdict": "PASS",
+  "steps": 4,
+  "input_tokens": 4223,
+  "output_tokens": 677
+}

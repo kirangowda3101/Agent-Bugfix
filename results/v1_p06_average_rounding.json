@@ -1,0 +1,8 @@
+{
+  "version": "v1",
+  "problem": "p06_average_rounding",
+  "verdict": "PASS",
+  "steps": 4,
+  "input_tokens": 3883,
+  "output_tokens": 469
+}

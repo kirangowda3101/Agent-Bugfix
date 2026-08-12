@@ -1,0 +1,8 @@
+{
+  "version": "v0",
+  "problem": "p01_running_total",
+  "verdict": "PASS",
+  "steps": 1,
+  "input_tokens": 84,
+  "output_tokens": 47
+}

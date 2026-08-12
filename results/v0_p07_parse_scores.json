@@ -1,0 +1,8 @@
+{
+  "version": "v0",
+  "problem": "p07_parse_scores",
+  "verdict": "FAIL",
+  "steps": 1,
+  "input_tokens": 86,
+  "output_tokens": 52
+}

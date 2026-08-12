@@ -1,0 +1,3095 @@
+2026-08-11 15:09:33,429 - INFO - Creating container for django__django-15863...
+2026-08-11 15:09:33,464 - INFO - Container for django__django-15863 created: bc451bff4f68c7f8214fcbda6734bec1c8e0d52180599e1eb9a6cec47c1a59e4
+2026-08-11 15:09:33,515 - INFO - Container for django__django-15863 started: bc451bff4f68c7f8214fcbda6734bec1c8e0d52180599e1eb9a6cec47c1a59e4
+2026-08-11 15:09:33,516 - INFO - Intermediate patch for django__django-15863 written to logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/patch.diff, now applying to container...
+2026-08-11 15:09:33,632 - INFO - Failed to apply patch to container: git apply --verbose
+2026-08-11 15:09:33,704 - INFO - Failed to apply patch to container: git apply --verbose --reject
+2026-08-11 15:09:33,757 - INFO - Failed to apply patch to container: patch --batch --fuzz=5 -p1 -i
+2026-08-11 15:09:33,757 - INFO - >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,763 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,764 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,765 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: <exception str() failed>
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,771 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,772 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Traceback (most recent call last):
+  File "/opt/anaconda3/envs/agent/lib/python3.11/site-packages/swebench/harness/run_evaluation.py", line 182, in run_instance
+    raise EvaluationError(
+swebench.harness.utils.EvaluationError: django__django-15863: >>>>> Patch Apply Failed:
+patching file django/template/defaultfilters.py
+patch unexpectedly ends in middle of line
+Hunk #1 FAILED at 89.
+1 out of 1 hunk FAILED -- saving rejects to file django/template/defaultfilters.py.rej
+
+Check (logs/run_evaluation/swe_v0_full/swe_v0/django__django-15863/run_instance.log) for more information.
+
+2026-08-11 15:09:33,773 - INFO - Attempting to stop container sweb.eval.django__django-15863.swe_v0_full...
+2026-08-11 15:09:48,948 - INFO - Attempting to remove container sweb.eval.django__django-15863.swe_v0_full...
+2026-08-11 15:09:48,957 - INFO - Container sweb.eval.django__django-15863.swe_v0_full removed.

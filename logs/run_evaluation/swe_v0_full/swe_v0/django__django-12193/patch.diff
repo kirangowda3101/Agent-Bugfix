@@ -1,0 +1,12 @@
+diff --git a/django/forms/fields.py b/django/forms/fields.py
+index 1234567..abcdefg 100644
+--- a/django/forms/fields.py
++++ b/django/forms/fields.py
+@@ -514,7 +514,7 @@ class SplitArrayField(Field):
+             widgets = [self.base_field.widget for _ in range(self.size)]
+ 
+         for i, widget in enumerate(widgets):
+-            final_attrs = self.attrs.copy()
++            final_attrs = self.attrs.copy() if self.attrs else {}
+             final_attrs['id'] = '{id}_{index}'.format(**{'id': final_attrs.get('id', attrs.get('id')), 'index': i})
+             subwidgets.append(widget.get_context(name, value[i] if i < len(value) else None, final_attrs))
