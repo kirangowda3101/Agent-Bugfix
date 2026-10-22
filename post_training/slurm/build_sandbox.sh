@@ -1,6 +1,6 @@
 #!/bin/bash
-# Login node, once: build the sandbox image without root and without fakeroot.
-#   bash post_training/slurm/build_sandbox.sh
+# Once, in a CPU job (setup_cpu.sbatch sandbox): build the sandbox image without root or fakeroot.
+#   sbatch post_training/slurm/setup_cpu.sbatch sandbox
 #
 # Building from a .def file unprivileged makes Apptainer imply --fakeroot, which
 # needs /etc/subuid mappings that a cluster account may not have. Instead:

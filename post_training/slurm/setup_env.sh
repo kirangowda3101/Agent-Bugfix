@@ -1,14 +1,28 @@
 #!/bin/bash
-# Login node, once: create the conda env in scratch and install pinned packages.
-#   bash post_training/slurm/setup_env.sh
+# Create the conda env in scratch and install pinned packages. Needs internet.
+# Runs inside a CPU job (setup_cpu.sbatch); the login node's limits kill the conda solver.
+#
+# Safe to rerun: the env counts as finished only once every version check has
+# passed and $ENV_PREFIX/.setup_complete exists. An env without that marker is
+# a leftover from an interrupted run and is deleted and rebuilt.
 source "$(dirname "$0")/common.sh"
 
 mkdir -p "$SCRATCH_ROOT/envs" "$LOG_DIR" "$PIP_CACHE_DIR" "$CONDA_PKGS_DIRS"
-conda info --base > "$SCRATCH_ROOT/envs/conda_base"
+if [ ! -s "$SCRATCH_ROOT/envs/conda_base" ]; then
+    echo "missing $SCRATCH_ROOT/envs/conda_base; on the login node run: conda info --base > $SCRATCH_ROOT/envs/conda_base"
+    exit 1
+fi
+CONDA="$(cat "$SCRATCH_ROOT/envs/conda_base")/bin/conda"
 
-if [ ! -x "$ENV_PREFIX/bin/python" ]; then
+if [ -f "$ENV_PREFIX/.setup_complete" ]; then
+    echo "env already complete at $ENV_PREFIX"
+else
+    if [ -e "$ENV_PREFIX" ]; then
+        echo "removing incomplete env at $ENV_PREFIX"
+        rm -rf "$ENV_PREFIX"
+    fi
     # conda-forge only, so the Anaconda defaults-channel terms are not involved.
-    conda create -y -p "$ENV_PREFIX" -c conda-forge --override-channels python=3.11
+    "$CONDA" create -y -p "$ENV_PREFIX" -c conda-forge --override-channels python=3.11
 fi
 activate_env
 
@@ -33,5 +47,6 @@ import torch
 print("torch CUDA build:", torch.version.cuda)
 if bad:
     sys.exit(f"VERSION MISMATCH: {bad}")
-print("ENV OK")
 EOF
+date -Is > "$ENV_PREFIX/.setup_complete"
+echo "ENV OK"

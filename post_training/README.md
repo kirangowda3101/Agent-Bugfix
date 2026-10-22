@@ -163,7 +163,7 @@ Local (Docker): `pip install -r requirements.txt` into a Python 3.11 env, start
 Docker, then `python -m pytest -q` from this directory.
 
 Cluster (SLURM + Apptainer): `slurm/setup_env.sh`, `slurm/build_sandbox.sh`,
-`slurm/download.sh` once on the login node, then `sbatch slurm/smoke.sbatch`.
+`slurm/download.sh` once, each through `sbatch slurm/setup_cpu.sbatch env|sandbox|download` (the login node kills the conda solver), then `sbatch slurm/smoke.sbatch`.
 Full runs: `eval_base.sbatch`, `sft.sbatch`, `grpo.sbatch`, then
 `sft_grpo.sbatch` (needs the SFT result). Every job can be resubmitted after a
 timeout; training resumes from its newest checkpoint.

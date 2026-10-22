@@ -1,7 +1,7 @@
 #!/bin/bash
-# Login node, once: download the pinned model and dataset into scratch, then
+# Once, in a CPU job (setup_cpu.sbatch download): download the pinned model and dataset, then
 # prove they load with networking disabled, as they will in GPU jobs.
-#   bash post_training/slurm/download.sh
+#   sbatch post_training/slurm/setup_cpu.sbatch download
 source "$(dirname "$0")/common.sh"
 activate_env
 cd "$PT"
