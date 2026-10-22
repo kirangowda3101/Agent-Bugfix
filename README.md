@@ -23,6 +23,7 @@ Every number in this README comes from log files that are committed to this repo
 - [How to run it](#how-to-run-it)
 - [What I used and why](#what-i-used-and-why)
 - [Project layout](#project-layout)
+- [Separate experiment: RL post-training](#separate-experiment-rl-post-training)
 - [My other projects](#my-other-projects)
 
 ---
@@ -699,6 +700,12 @@ In rough order of how much I think each would matter:
 **Check your measuring tools before you measure anything.** I caught a broken grader by feeding it a known correct answer. If I had skipped that, I would have spent a day debugging an agent that was working fine. The same idea applied at every scale: test the tests, verify the API key alone, prove the container works before putting an agent in it.
 
 **Design your test set to actually distinguish things.** My first attempt had every version scoring full marks, which told me nothing. A comparison is only worth running if the things being compared can come out different.
+
+---
+
+## Separate experiment: RL post-training
+
+[`post_training/`](post_training/README.md) is a separate experiment that does not touch anything above: GRPO reinforcement learning on a small open code model (Qwen2.5-Coder-0.5B-Instruct) against MBPP unit tests, with every piece of model-written code run in a sandbox. Its method, sandbox design, measurements and limitations are in [its own README](post_training/README.md).
 
 ---
 

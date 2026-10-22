@@ -1,0 +1,24 @@
+# Tiny local config used only to test checkpoint/resume (not an experiment).
+dtype: float32
+seed: 0
+save_adapter: false
+max_train_problems: 16
+sandbox: {timeout: 5.0, workers: 4}
+lora: {r: 16, lora_alpha: 32, lora_dropout: 0.05, target_modules: all-linear}
+grpo:
+  output_dir: runs/grpo_resume_test
+  max_steps: 4
+  learning_rate: 1.0e-5
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 1
+  num_generations: 4
+  max_completion_length: 64
+  temperature: 0.7
+  beta: 0.04
+  loss_type: grpo
+  logging_steps: 1
+  save_strategy: steps
+  save_steps: 1
+  report_to: none
+  seed: 0
+  data_seed: 0

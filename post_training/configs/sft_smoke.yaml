@@ -1,0 +1,20 @@
+# Smoke test: a few SFT steps to measure seconds/step on this hardware.
+model: Qwen/Qwen2.5-Coder-0.5B-Instruct
+dtype: float32
+seed: 0
+save_adapter: false
+lora: {r: 16, lora_alpha: 32, lora_dropout: 0.05, target_modules: all-linear}
+sft:
+  output_dir: runs/sft_smoke
+  max_steps: 10
+  learning_rate: 1.0e-4
+  lr_scheduler_type: constant
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 1
+  max_length: 1024
+  completion_only_loss: true
+  logging_steps: 1
+  save_strategy: "no"
+  report_to: none
+  seed: 0
+  data_seed: 0
