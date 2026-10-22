@@ -162,8 +162,13 @@ full run moved to a cluster GPU.
 Local (Docker): `pip install -r requirements.txt` into a Python 3.11 env, start
 Docker, then `python -m pytest -q` from this directory.
 
-Cluster (SLURM + Apptainer): `slurm/setup_env.sh`, `slurm/build_sandbox.sh`,
-`slurm/download.sh` once, each through `sbatch slurm/setup_cpu.sbatch env|sandbox|download` (the login node kills the conda solver), then `sbatch slurm/smoke.sbatch`.
+Cluster (SLURM + Apptainer): one-time setup runs as CPU jobs, because the login
+node's limits kill the conda solver: `sbatch slurm/setup_cpu.sbatch envpack`,
+then `sandbox`, then `download`. `envpack` builds the env on the compute node's
+local disk and writes it to scratch as a single tar (conda-pack); each GPU job
+unpacks it to its own local disk. Installing straight onto the shared scratch
+filesystem (`setup_cpu.sbatch env`) also works but is very slow, because it
+writes tens of thousands of small files there. Then `sbatch slurm/smoke.sbatch`.
 Full runs: `eval_base.sbatch`, `sft.sbatch`, `grpo.sbatch`, then
 `sft_grpo.sbatch` (needs the SFT result). Every job can be resubmitted after a
 timeout; training resumes from its newest checkpoint.

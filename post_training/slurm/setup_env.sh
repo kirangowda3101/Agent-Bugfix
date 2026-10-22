@@ -1,5 +1,6 @@
 #!/bin/bash
-# Create the conda env in scratch and install pinned packages. Needs internet.
+# Create the conda env directly on scratch and install pinned packages. Needs internet.
+# Slow on a shared filesystem (tens of thousands of small files): prefer build_env_pack.sh.
 # Runs inside a CPU job (setup_cpu.sbatch); the login node's limits kill the conda solver.
 #
 # Safe to rerun: the env counts as finished only once every version check has
@@ -24,29 +25,12 @@ else
     # conda-forge only, so the Anaconda defaults-channel terms are not involved.
     "$CONDA" create -y -p "$ENV_PREFIX" -c conda-forge --override-channels python=3.11
 fi
-activate_env
+set +u; source "$(cat "$SCRATCH_ROOT/envs/conda_base")/etc/profile.d/conda.sh"; conda activate "$ENV_PREFIX"; set -u
 
 # torch 2.14.1 has no CUDA 12.8 wheel; the CUDA 12.6 build runs on the 570 driver.
-python -m pip install --index-url https://download.pytorch.org/whl/cu126 torch==2.14.1
+python -m pip install --index-url "$TORCH_INDEX_URL" torch==2.14.1
 python -m pip install -r "$PT/requirements.txt"
 
-# Check every installed version against requirements.txt.
-python - "$PT/requirements.txt" <<'EOF'
-import sys
-from importlib.metadata import version
-bad = []
-for line in open(sys.argv[1]):
-    if "==" not in line or line.startswith("#"):
-        continue
-    name, want = line.strip().split("==")
-    got = version(name)
-    print(f"{name:14s} {got}")
-    if got.split("+")[0] != want:
-        bad.append((name, want, got))
-import torch
-print("torch CUDA build:", torch.version.cuda)
-if bad:
-    sys.exit(f"VERSION MISMATCH: {bad}")
-EOF
+python "$PT/slurm/check_env.py" "$PT/requirements.txt"
 date -Is > "$ENV_PREFIX/.setup_complete"
 echo "ENV OK"
