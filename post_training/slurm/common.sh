@@ -86,8 +86,18 @@ activate_env() {
     fi
 }
 
-# If the sandbox image is a tar of the image directory, unpack it to local disk.
+# Check the sandbox image is byte-for-byte the one build_sandbox.sh tested,
+# then, if it is a tar of the image directory, unpack it to local disk.
 prepare_sandbox_image() {
+    if [ ! -f "$SANDBOX_SIF.sha256" ]; then
+        echo "SANDBOX IMAGE HAS NO CHECKSUM ($SANDBOX_SIF.sha256); rerun setup_cpu.sbatch sandbox"
+        return 1
+    fi
+    if ! sha256sum --quiet -c "$SANDBOX_SIF.sha256"; then
+        echo "SANDBOX IMAGE CHECKSUM MISMATCH: $SANDBOX_SIF differs from the image that was built and checked"
+        return 1
+    fi
+    echo "sandbox image checksum OK: $(cut -c1-16 "$SANDBOX_SIF.sha256")..."
     if [[ "$SANDBOX_SIF" == *.tar ]]; then
         local base dir
         base=$(node_local_dir 2)
@@ -97,7 +107,7 @@ prepare_sandbox_image() {
         tar -xf "$SANDBOX_SIF" -C "$dir"
         export SANDBOX_SIF="$dir/mbpp-sandbox.dir"
     fi
-    echo "sandbox image: $SANDBOX_SIF"
+    echo "sandbox image: $SANDBOX_SIF ($(apptainer --version))"
 }
 
 # Start of every GPU job: check the GPU, then run the full sandbox test suite on

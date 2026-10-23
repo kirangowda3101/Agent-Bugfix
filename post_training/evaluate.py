@@ -13,7 +13,7 @@ from transformers import set_seed
 
 from check_reward_signal import generate
 from data import load_split
-from models import device, load_model, load_tokenizer
+from models import device, gpu_name, load_model, load_tokenizer
 from rewards import score
 from sandbox import make_sandbox
 
@@ -66,7 +66,7 @@ def main():
     with make_sandbox(timeout=5.0, workers=4) as sb:
         assert sb.seccomp_active(), "seccomp filter not applied to sandbox"
         summary, rows = evaluate(model, tok, args.split, sb, args.limit, args.batch, args.max_new_tokens)
-    out = {"config": vars(args) | {"device": device(), "sandbox": sb.backend}, "summary": summary, "problems": rows}
+    out = {"config": vars(args) | {"device": device(), "gpu": gpu_name(), "sandbox": sb.backend}, "summary": summary, "problems": rows}
     Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     Path(args.out).write_text(json.dumps(out, indent=1))
     print(json.dumps(summary, indent=1))

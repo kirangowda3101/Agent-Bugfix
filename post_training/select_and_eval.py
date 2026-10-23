@@ -17,7 +17,7 @@ from pathlib import Path
 from transformers import set_seed
 
 from evaluate import evaluate
-from models import device, load_model, load_tokenizer
+from models import device, gpu_name, load_model, load_tokenizer
 from sandbox import make_sandbox
 
 HERE = Path(__file__).resolve().parent
@@ -30,7 +30,7 @@ def cached_eval(path, tok, sb, args, weights, adapter, split):
     model = load_model(args.dtype, weights, adapter).to(device()).eval()
     summary, rows = evaluate(model, tok, split, sb, limit=args.limit, batch=args.batch)
     cfg = {"weights": weights, "adapter": adapter, "split": split, "dtype": args.dtype,
-           "batch": args.batch, "seed": args.seed, "device": device(), "sandbox": sb.backend}
+           "batch": args.batch, "seed": args.seed, "device": device(), "gpu": gpu_name(), "sandbox": sb.backend}
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps({"config": cfg, "summary": summary, "problems": rows}, indent=1))
     del model

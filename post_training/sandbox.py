@@ -3,7 +3,7 @@
 Model code never runs on the host. Two backends, selected with
 SANDBOX_BACKEND=docker (default, local) or SANDBOX_BACKEND=apptainer (cluster):
 
-docker     One long-lived container: no network, read-only root filesystem,
+docker     A fresh container per batch: no network, read-only root filesystem,
            all capabilities dropped, no-new-privileges, memory/CPU/pids limits,
            and an explicit seccomp profile. The Docker Desktop daemon on the
            development machine runs containers with seccomp *unconfined* by
@@ -23,6 +23,7 @@ import json
 import os
 import secrets
 import shutil
+import signal
 import subprocess
 import uuid
 from pathlib import Path
@@ -67,7 +68,7 @@ def make_sandbox(**kwargs):
 
 
 class Sandbox:
-    """Docker backend."""
+    """Docker backend: one fresh container per batch."""
     backend = "docker"
 
     def __init__(self, timeout=5.0, workers=4, cpus=4, memory="2g"):
@@ -75,8 +76,8 @@ class Sandbox:
         self.workers = workers
         self.cpus = cpus
         self.memory = memory
-        self.name = None
         self.restarts = 0
+        self._batch = None  # name of the container running the current batch
 
     def __enter__(self):
         self.start()
@@ -87,9 +88,15 @@ class Sandbox:
 
     def start(self):
         build_image()  # cached layers make this fast; never run a stale harness
-        self.name = f"mbpp-sandbox-{uuid.uuid4().hex[:8]}"
-        r = _docker(
-            "run", "-d", "--rm", "--name", self.name,
+
+    def stop(self):
+        pass  # containers live for one batch only (--rm)
+
+    def restart(self):
+        self.restarts += 1  # the next batch gets a fresh container anyway
+
+    def _container_flags(self):
+        return [
             "--init",  # PID 1 must reap orphans, or killed fork bombs leave zombies that exhaust --pids-limit
             "--network", "none",
             "--read-only", "--tmpfs", "/tmp:rw,nosuid,nodev,size=256m",
@@ -99,29 +106,29 @@ class Sandbox:
             "--security-opt", "no-new-privileges",
             "--security-opt", f"seccomp={SECCOMP_PROFILE}",
             "--user", "sandbox",
-            IMAGE, "sleep", "infinity",
-        )
-        if r.returncode != 0:
-            raise SandboxError(f"starting sandbox failed:\n{r.stderr}")
-
-    def stop(self):
-        if self.name:
-            _docker("rm", "-f", self.name)
-            self.name = None
-
-    def restart(self):
-        self.stop()
-        self.restarts += 1
-        self.start()
+        ]
 
     def _harness_cmd(self):
-        return ["docker", "exec", "-i", self.name, "python", "-I", "/harness/harness.py"]
+        # A fresh container per batch, so files and processes a batch leaves
+        # behind cannot reach the next batch (a long-lived container let both through).
+        self._batch = f"mbpp-sandbox-{uuid.uuid4().hex[:8]}"
+        return ["docker", "run", "--rm", "-i", "--name", self._batch, *self._container_flags(),
+                IMAGE, "python", "-I", "/harness/harness.py"]
+
+    def _kill_batch(self, proc):
+        """After a deadline: kill the client's process group, and the batch's container."""
+        try:
+            os.killpg(proc.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
+        if self._batch:
+            _docker("rm", "-f", self._batch)
 
     def run(self, jobs):
         """jobs: list of {"id", "code", "setup", "tests"}. Returns results in the same order.
 
         If the sandbox fails or the batch exceeds its deadline, every job in the
-        batch scores 0 with the failure recorded, and the sandbox is restarted.
+        batch scores 0 with the failure recorded.
         """
         if not jobs:
             return []
@@ -129,10 +136,17 @@ class Sandbox:
         n_tests = sum(len(j["tests"]) for j in jobs)
         deadline = 30 + (self.timeout + 1) * n_tests / self.workers
         try:
-            r = _run(self._harness_cmd(), input=json.dumps(req), timeout=deadline)
-            if r.returncode != 0:
-                raise SandboxError(f"harness exit {r.returncode}: {r.stderr[-500:]}")
-            results = json.loads(r.stdout)["results"]
+            proc = subprocess.Popen(self._harness_cmd(), stdin=subprocess.PIPE, stdout=subprocess.PIPE,
+                                    stderr=subprocess.PIPE, text=True, start_new_session=True)
+            try:
+                out, err = proc.communicate(json.dumps(req), timeout=deadline)
+            except subprocess.TimeoutExpired:
+                self._kill_batch(proc)
+                proc.communicate()
+                raise
+            if proc.returncode != 0:
+                raise SandboxError(f"harness exit {proc.returncode}: {err[-500:]}")
+            results = json.loads(out)["results"]
         except (subprocess.TimeoutExpired, SandboxError, json.JSONDecodeError) as e:
             self.restart()
             reason = f"sandbox failure: {type(e).__name__}: {str(e)[:200]}"
@@ -161,7 +175,7 @@ class Sandbox:
         For Docker, also checks the container-level profile on a process that is
         not a harness child, so a missing --security-opt is caught on its own.
         """
-        r = _docker("exec", self.name, "grep", "^Seccomp:", "/proc/self/status")
+        r = _docker("run", "--rm", *self._container_flags(), IMAGE, "grep", "^Seccomp:", "/proc/self/status")
         container_ok = r.returncode == 0 and r.stdout.split()[-1] == "2"
         mode, n = self.child_seccomp_status()
         return container_ok and mode == 2 and n >= self.expected_filters()
@@ -183,11 +197,12 @@ class ApptainerSandbox(Sandbox):
     def start(self):
         pass
 
-    def stop(self):
-        pass
-
-    def restart(self):
-        self.restarts += 1  # each batch already gets a fresh container
+    def _kill_batch(self, proc):
+        # Same as Docker minus the container removal: there is no named container.
+        try:
+            os.killpg(proc.pid, signal.SIGKILL)
+        except ProcessLookupError:
+            pass
 
     def _harness_cmd(self):
         return [

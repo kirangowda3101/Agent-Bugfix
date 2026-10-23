@@ -47,6 +47,7 @@ if check "$WORK/mbpp-sandbox.sif"; then
 elif check "$IMAGE_DIR"; then
     echo "WARNING: the packed SIF does not run here; using a tar of the directory image instead."
     tar -cf "$DIR_TAR.partial" -C "$WORK" mbpp-sandbox.dir && mv "$DIR_TAR.partial" "$DIR_TAR"
+    sha256sum "$DIR_TAR" | tee "$DIR_TAR.sha256"
     echo "$DIR_TAR" > "$SANDBOX_IMAGE_RECORD"
 else
     echo "SANDBOX IMAGE FAILED: neither the SIF nor the directory image runs."

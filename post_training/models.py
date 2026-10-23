@@ -13,6 +13,10 @@ def device():
     return "cpu"
 
 
+def gpu_name():
+    return torch.cuda.get_device_name() if torch.cuda.is_available() else None
+
+
 def load_tokenizer(padding_side="left"):
     return AutoTokenizer.from_pretrained(MODEL, revision=MODEL_REVISION, padding_side=padding_side)
 

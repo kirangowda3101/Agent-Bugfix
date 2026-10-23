@@ -48,6 +48,7 @@ def main():
         "gpu": torch.cuda.get_device_name(),
         "torch": torch.__version__, "cuda": torch.version.cuda,
         "host": platform.node(), "slurm_job_id": os.environ.get("SLURM_JOB_ID"),
+        "apptainer": subprocess.run(["apptainer", "--version"], capture_output=True, text=True).stdout.strip(),
         "commit": subprocess.run(["git", "rev-parse", "--short", "HEAD"], capture_output=True,
                                  text=True, cwd=HERE).stdout.strip(),
         "grpo_steps": len(timings),
