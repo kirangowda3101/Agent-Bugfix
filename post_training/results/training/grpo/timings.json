@@ -1,0 +1,1106 @@
+[
+ {
+  "step": 1,
+  "total_s": 18.43,
+  "generation_s": 10.04,
+  "scoring_s": 6.64,
+  "other_s": 1.74,
+  "peak_gpu_gib": 13.71
+ },
+ {
+  "step": 2,
+  "total_s": 17.33,
+  "generation_s": 9.74,
+  "scoring_s": 6.61,
+  "other_s": 0.98,
+  "peak_gpu_gib": 14.82
+ },
+ {
+  "step": 3,
+  "total_s": 25.27,
+  "generation_s": 13.41,
+  "scoring_s": 10.96,
+  "other_s": 0.91,
+  "peak_gpu_gib": 18.46
+ },
+ {
+  "step": 4,
+  "total_s": 17.72,
+  "generation_s": 10.31,
+  "scoring_s": 6.69,
+  "other_s": 0.72,
+  "peak_gpu_gib": 14.65
+ },
+ {
+  "step": 5,
+  "total_s": 17.15,
+  "generation_s": 9.77,
+  "scoring_s": 6.65,
+  "other_s": 0.73,
+  "peak_gpu_gib": 15.19
+ },
+ {
+  "step": 6,
+  "total_s": 22.55,
+  "generation_s": 15.11,
+  "scoring_s": 6.56,
+  "other_s": 0.89,
+  "peak_gpu_gib": 18.65
+ },
+ {
+  "step": 7,
+  "total_s": 24.26,
+  "generation_s": 12.75,
+  "scoring_s": 10.65,
+  "other_s": 0.86,
+  "peak_gpu_gib": 17.7
+ },
+ {
+  "step": 8,
+  "total_s": 14.28,
+  "generation_s": 6.99,
+  "scoring_s": 6.71,
+  "other_s": 0.59,
+  "peak_gpu_gib": 11.79
+ },
+ {
+  "step": 9,
+  "total_s": 19.91,
+  "generation_s": 12.27,
+  "scoring_s": 6.84,
+  "other_s": 0.8,
+  "peak_gpu_gib": 17.08
+ },
+ {
+  "step": 10,
+  "total_s": 22.49,
+  "generation_s": 15.0,
+  "scoring_s": 6.56,
+  "other_s": 0.93,
+  "peak_gpu_gib": 19.25
+ },
+ {
+  "step": 11,
+  "total_s": 19.61,
+  "generation_s": 11.92,
+  "scoring_s": 6.92,
+  "other_s": 0.77,
+  "peak_gpu_gib": 16.05
+ },
+ {
+  "step": 12,
+  "total_s": 18.63,
+  "generation_s": 10.97,
+  "scoring_s": 6.96,
+  "other_s": 0.7,
+  "peak_gpu_gib": 14.53
+ },
+ {
+  "step": 13,
+  "total_s": 16.97,
+  "generation_s": 9.46,
+  "scoring_s": 6.81,
+  "other_s": 0.7,
+  "peak_gpu_gib": 14.38
+ },
+ {
+  "step": 14,
+  "total_s": 20.48,
+  "generation_s": 12.75,
+  "scoring_s": 6.91,
+  "other_s": 0.83,
+  "peak_gpu_gib": 17.53
+ },
+ {
+  "step": 15,
+  "total_s": 17.53,
+  "generation_s": 9.73,
+  "scoring_s": 7.02,
+  "other_s": 0.77,
+  "peak_gpu_gib": 16.11
+ },
+ {
+  "step": 16,
+  "total_s": 18.84,
+  "generation_s": 11.2,
+  "scoring_s": 6.91,
+  "other_s": 0.72,
+  "peak_gpu_gib": 15.28
+ },
+ {
+  "step": 17,
+  "total_s": 15.99,
+  "generation_s": 8.41,
+  "scoring_s": 6.93,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.4
+ },
+ {
+  "step": 18,
+  "total_s": 22.56,
+  "generation_s": 14.9,
+  "scoring_s": 6.75,
+  "other_s": 0.91,
+  "peak_gpu_gib": 19.31
+ },
+ {
+  "step": 19,
+  "total_s": 22.56,
+  "generation_s": 14.92,
+  "scoring_s": 6.73,
+  "other_s": 0.92,
+  "peak_gpu_gib": 19.5
+ },
+ {
+  "step": 20,
+  "total_s": 22.47,
+  "generation_s": 14.74,
+  "scoring_s": 6.79,
+  "other_s": 0.93,
+  "peak_gpu_gib": 19.88
+ },
+ {
+  "step": 21,
+  "total_s": 16.64,
+  "generation_s": 9.21,
+  "scoring_s": 6.79,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.19
+ },
+ {
+  "step": 22,
+  "total_s": 22.54,
+  "generation_s": 14.9,
+  "scoring_s": 6.75,
+  "other_s": 0.89,
+  "peak_gpu_gib": 18.96
+ },
+ {
+  "step": 23,
+  "total_s": 18.45,
+  "generation_s": 9.08,
+  "scoring_s": 8.72,
+  "other_s": 0.65,
+  "peak_gpu_gib": 13.54
+ },
+ {
+  "step": 24,
+  "total_s": 16.0,
+  "generation_s": 8.6,
+  "scoring_s": 6.79,
+  "other_s": 0.61,
+  "peak_gpu_gib": 12.01
+ },
+ {
+  "step": 25,
+  "total_s": 18.93,
+  "generation_s": 11.21,
+  "scoring_s": 6.94,
+  "other_s": 0.77,
+  "peak_gpu_gib": 16.22
+ },
+ {
+  "step": 26,
+  "total_s": 22.38,
+  "generation_s": 14.7,
+  "scoring_s": 6.78,
+  "other_s": 0.9,
+  "peak_gpu_gib": 19.5
+ },
+ {
+  "step": 27,
+  "total_s": 14.11,
+  "generation_s": 6.65,
+  "scoring_s": 6.9,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.11
+ },
+ {
+  "step": 28,
+  "total_s": 14.45,
+  "generation_s": 6.91,
+  "scoring_s": 6.96,
+  "other_s": 0.58,
+  "peak_gpu_gib": 11.45
+ },
+ {
+  "step": 29,
+  "total_s": 20.5,
+  "generation_s": 12.85,
+  "scoring_s": 6.83,
+  "other_s": 0.82,
+  "peak_gpu_gib": 17.26
+ },
+ {
+  "step": 30,
+  "total_s": 14.98,
+  "generation_s": 7.56,
+  "scoring_s": 6.82,
+  "other_s": 0.59,
+  "peak_gpu_gib": 11.95
+ },
+ {
+  "step": 31,
+  "total_s": 22.87,
+  "generation_s": 15.23,
+  "scoring_s": 6.73,
+  "other_s": 0.91,
+  "peak_gpu_gib": 19.31
+ },
+ {
+  "step": 32,
+  "total_s": 16.64,
+  "generation_s": 9.08,
+  "scoring_s": 6.92,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.24
+ },
+ {
+  "step": 33,
+  "total_s": 21.22,
+  "generation_s": 13.44,
+  "scoring_s": 6.95,
+  "other_s": 0.83,
+  "peak_gpu_gib": 17.53
+ },
+ {
+  "step": 34,
+  "total_s": 19.97,
+  "generation_s": 12.34,
+  "scoring_s": 6.84,
+  "other_s": 0.78,
+  "peak_gpu_gib": 16.25
+ },
+ {
+  "step": 35,
+  "total_s": 22.7,
+  "generation_s": 15.07,
+  "scoring_s": 6.71,
+  "other_s": 0.93,
+  "peak_gpu_gib": 19.84
+ },
+ {
+  "step": 36,
+  "total_s": 25.54,
+  "generation_s": 14.17,
+  "scoring_s": 10.51,
+  "other_s": 0.86,
+  "peak_gpu_gib": 18.17
+ },
+ {
+  "step": 37,
+  "total_s": 15.89,
+  "generation_s": 8.33,
+  "scoring_s": 6.91,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.59
+ },
+ {
+  "step": 38,
+  "total_s": 19.6,
+  "generation_s": 12.06,
+  "scoring_s": 6.78,
+  "other_s": 0.76,
+  "peak_gpu_gib": 15.99
+ },
+ {
+  "step": 39,
+  "total_s": 13.25,
+  "generation_s": 5.78,
+  "scoring_s": 6.93,
+  "other_s": 0.54,
+  "peak_gpu_gib": 10.42
+ },
+ {
+  "step": 40,
+  "total_s": 20.17,
+  "generation_s": 12.44,
+  "scoring_s": 6.94,
+  "other_s": 0.79,
+  "peak_gpu_gib": 16.82
+ },
+ {
+  "step": 41,
+  "total_s": 15.56,
+  "generation_s": 7.95,
+  "scoring_s": 7.03,
+  "other_s": 0.58,
+  "peak_gpu_gib": 11.14
+ },
+ {
+  "step": 42,
+  "total_s": 22.89,
+  "generation_s": 15.02,
+  "scoring_s": 6.94,
+  "other_s": 0.93,
+  "peak_gpu_gib": 20.04
+ },
+ {
+  "step": 43,
+  "total_s": 18.65,
+  "generation_s": 10.97,
+  "scoring_s": 6.92,
+  "other_s": 0.75,
+  "peak_gpu_gib": 15.51
+ },
+ {
+  "step": 44,
+  "total_s": 18.62,
+  "generation_s": 11.06,
+  "scoring_s": 6.87,
+  "other_s": 0.69,
+  "peak_gpu_gib": 14.09
+ },
+ {
+  "step": 45,
+  "total_s": 21.93,
+  "generation_s": 14.21,
+  "scoring_s": 6.88,
+  "other_s": 0.84,
+  "peak_gpu_gib": 18.06
+ },
+ {
+  "step": 46,
+  "total_s": 16.85,
+  "generation_s": 9.3,
+  "scoring_s": 6.83,
+  "other_s": 0.72,
+  "peak_gpu_gib": 14.96
+ },
+ {
+  "step": 47,
+  "total_s": 22.59,
+  "generation_s": 14.85,
+  "scoring_s": 6.84,
+  "other_s": 0.9,
+  "peak_gpu_gib": 19.05
+ },
+ {
+  "step": 48,
+  "total_s": 21.01,
+  "generation_s": 13.25,
+  "scoring_s": 6.92,
+  "other_s": 0.85,
+  "peak_gpu_gib": 18.0
+ },
+ {
+  "step": 49,
+  "total_s": 18.81,
+  "generation_s": 11.18,
+  "scoring_s": 6.86,
+  "other_s": 0.77,
+  "peak_gpu_gib": 15.86
+ },
+ {
+  "step": 50,
+  "total_s": 16.09,
+  "generation_s": 8.58,
+  "scoring_s": 6.91,
+  "other_s": 0.6,
+  "peak_gpu_gib": 11.87
+ },
+ {
+  "step": 51,
+  "total_s": 19.32,
+  "generation_s": 11.75,
+  "scoring_s": 6.8,
+  "other_s": 0.78,
+  "peak_gpu_gib": 16.37
+ },
+ {
+  "step": 52,
+  "total_s": 23.25,
+  "generation_s": 15.67,
+  "scoring_s": 6.67,
+  "other_s": 0.91,
+  "peak_gpu_gib": 19.53
+ },
+ {
+  "step": 53,
+  "total_s": 16.02,
+  "generation_s": 8.58,
+  "scoring_s": 6.8,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.46
+ },
+ {
+  "step": 54,
+  "total_s": 22.37,
+  "generation_s": 14.86,
+  "scoring_s": 6.59,
+  "other_s": 0.92,
+  "peak_gpu_gib": 19.88
+ },
+ {
+  "step": 55,
+  "total_s": 18.81,
+  "generation_s": 11.31,
+  "scoring_s": 6.74,
+  "other_s": 0.76,
+  "peak_gpu_gib": 16.27
+ },
+ {
+  "step": 56,
+  "total_s": 20.76,
+  "generation_s": 13.12,
+  "scoring_s": 6.77,
+  "other_s": 0.86,
+  "peak_gpu_gib": 18.43
+ },
+ {
+  "step": 57,
+  "total_s": 16.0,
+  "generation_s": 8.66,
+  "scoring_s": 6.71,
+  "other_s": 0.62,
+  "peak_gpu_gib": 12.74
+ },
+ {
+  "step": 58,
+  "total_s": 25.8,
+  "generation_s": 10.36,
+  "scoring_s": 14.72,
+  "other_s": 0.73,
+  "peak_gpu_gib": 15.41
+ },
+ {
+  "step": 59,
+  "total_s": 17.45,
+  "generation_s": 9.95,
+  "scoring_s": 6.79,
+  "other_s": 0.71,
+  "peak_gpu_gib": 15.01
+ },
+ {
+  "step": 60,
+  "total_s": 16.55,
+  "generation_s": 9.1,
+  "scoring_s": 6.77,
+  "other_s": 0.68,
+  "peak_gpu_gib": 14.35
+ },
+ {
+  "step": 61,
+  "total_s": 22.4,
+  "generation_s": 14.85,
+  "scoring_s": 6.64,
+  "other_s": 0.91,
+  "peak_gpu_gib": 19.53
+ },
+ {
+  "step": 62,
+  "total_s": 17.09,
+  "generation_s": 9.69,
+  "scoring_s": 6.71,
+  "other_s": 0.68,
+  "peak_gpu_gib": 14.0
+ },
+ {
+  "step": 63,
+  "total_s": 14.63,
+  "generation_s": 7.34,
+  "scoring_s": 6.73,
+  "other_s": 0.55,
+  "peak_gpu_gib": 10.92
+ },
+ {
+  "step": 64,
+  "total_s": 20.39,
+  "generation_s": 12.73,
+  "scoring_s": 6.81,
+  "other_s": 0.85,
+  "peak_gpu_gib": 18.15
+ },
+ {
+  "step": 65,
+  "total_s": 16.84,
+  "generation_s": 9.43,
+  "scoring_s": 6.73,
+  "other_s": 0.68,
+  "peak_gpu_gib": 13.74
+ },
+ {
+  "step": 66,
+  "total_s": 16.8,
+  "generation_s": 9.39,
+  "scoring_s": 6.77,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.59
+ },
+ {
+  "step": 67,
+  "total_s": 14.6,
+  "generation_s": 7.11,
+  "scoring_s": 6.92,
+  "other_s": 0.57,
+  "peak_gpu_gib": 11.79
+ },
+ {
+  "step": 68,
+  "total_s": 15.02,
+  "generation_s": 7.5,
+  "scoring_s": 6.96,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.29
+ },
+ {
+  "step": 69,
+  "total_s": 19.43,
+  "generation_s": 8.4,
+  "scoring_s": 10.41,
+  "other_s": 0.62,
+  "peak_gpu_gib": 13.19
+ },
+ {
+  "step": 70,
+  "total_s": 16.39,
+  "generation_s": 8.91,
+  "scoring_s": 6.85,
+  "other_s": 0.62,
+  "peak_gpu_gib": 12.75
+ },
+ {
+  "step": 71,
+  "total_s": 19.82,
+  "generation_s": 12.25,
+  "scoring_s": 6.77,
+  "other_s": 0.79,
+  "peak_gpu_gib": 17.18
+ },
+ {
+  "step": 72,
+  "total_s": 18.93,
+  "generation_s": 11.38,
+  "scoring_s": 6.79,
+  "other_s": 0.75,
+  "peak_gpu_gib": 15.63
+ },
+ {
+  "step": 73,
+  "total_s": 14.34,
+  "generation_s": 7.01,
+  "scoring_s": 6.78,
+  "other_s": 0.55,
+  "peak_gpu_gib": 11.14
+ },
+ {
+  "step": 74,
+  "total_s": 15.06,
+  "generation_s": 7.7,
+  "scoring_s": 6.77,
+  "other_s": 0.6,
+  "peak_gpu_gib": 11.95
+ },
+ {
+  "step": 75,
+  "total_s": 14.49,
+  "generation_s": 7.2,
+  "scoring_s": 6.75,
+  "other_s": 0.55,
+  "peak_gpu_gib": 11.29
+ },
+ {
+  "step": 76,
+  "total_s": 14.44,
+  "generation_s": 7.04,
+  "scoring_s": 6.8,
+  "other_s": 0.6,
+  "peak_gpu_gib": 12.07
+ },
+ {
+  "step": 77,
+  "total_s": 23.75,
+  "generation_s": 8.58,
+  "scoring_s": 14.46,
+  "other_s": 0.71,
+  "peak_gpu_gib": 15.19
+ },
+ {
+  "step": 78,
+  "total_s": 21.24,
+  "generation_s": 13.53,
+  "scoring_s": 6.88,
+  "other_s": 0.83,
+  "peak_gpu_gib": 17.35
+ },
+ {
+  "step": 79,
+  "total_s": 12.43,
+  "generation_s": 4.85,
+  "scoring_s": 7.06,
+  "other_s": 0.52,
+  "peak_gpu_gib": 9.62
+ },
+ {
+  "step": 80,
+  "total_s": 12.92,
+  "generation_s": 5.31,
+  "scoring_s": 7.07,
+  "other_s": 0.54,
+  "peak_gpu_gib": 9.42
+ },
+ {
+  "step": 81,
+  "total_s": 22.69,
+  "generation_s": 15.01,
+  "scoring_s": 6.75,
+  "other_s": 0.92,
+  "peak_gpu_gib": 19.88
+ },
+ {
+  "step": 82,
+  "total_s": 19.02,
+  "generation_s": 11.41,
+  "scoring_s": 6.85,
+  "other_s": 0.76,
+  "peak_gpu_gib": 16.03
+ },
+ {
+  "step": 83,
+  "total_s": 13.96,
+  "generation_s": 6.45,
+  "scoring_s": 6.94,
+  "other_s": 0.57,
+  "peak_gpu_gib": 11.63
+ },
+ {
+  "step": 84,
+  "total_s": 15.8,
+  "generation_s": 8.24,
+  "scoring_s": 6.94,
+  "other_s": 0.63,
+  "peak_gpu_gib": 12.93
+ },
+ {
+  "step": 85,
+  "total_s": 20.96,
+  "generation_s": 9.75,
+  "scoring_s": 10.53,
+  "other_s": 0.68,
+  "peak_gpu_gib": 14.35
+ },
+ {
+  "step": 86,
+  "total_s": 15.82,
+  "generation_s": 8.33,
+  "scoring_s": 6.82,
+  "other_s": 0.67,
+  "peak_gpu_gib": 13.64
+ },
+ {
+  "step": 87,
+  "total_s": 21.29,
+  "generation_s": 13.57,
+  "scoring_s": 6.85,
+  "other_s": 0.86,
+  "peak_gpu_gib": 18.59
+ },
+ {
+  "step": 88,
+  "total_s": 14.55,
+  "generation_s": 7.22,
+  "scoring_s": 6.76,
+  "other_s": 0.57,
+  "peak_gpu_gib": 11.65
+ },
+ {
+  "step": 89,
+  "total_s": 16.45,
+  "generation_s": 8.97,
+  "scoring_s": 6.87,
+  "other_s": 0.6,
+  "peak_gpu_gib": 12.34
+ },
+ {
+  "step": 90,
+  "total_s": 14.47,
+  "generation_s": 7.04,
+  "scoring_s": 6.87,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.63
+ },
+ {
+  "step": 91,
+  "total_s": 13.86,
+  "generation_s": 6.53,
+  "scoring_s": 6.78,
+  "other_s": 0.55,
+  "peak_gpu_gib": 11.11
+ },
+ {
+  "step": 92,
+  "total_s": 13.77,
+  "generation_s": 6.32,
+  "scoring_s": 6.9,
+  "other_s": 0.55,
+  "peak_gpu_gib": 10.73
+ },
+ {
+  "step": 93,
+  "total_s": 20.13,
+  "generation_s": 12.45,
+  "scoring_s": 6.85,
+  "other_s": 0.83,
+  "peak_gpu_gib": 17.32
+ },
+ {
+  "step": 94,
+  "total_s": 15.26,
+  "generation_s": 8.01,
+  "scoring_s": 6.67,
+  "other_s": 0.58,
+  "peak_gpu_gib": 11.53
+ },
+ {
+  "step": 95,
+  "total_s": 15.7,
+  "generation_s": 8.28,
+  "scoring_s": 6.8,
+  "other_s": 0.62,
+  "peak_gpu_gib": 12.79
+ },
+ {
+  "step": 96,
+  "total_s": 15.28,
+  "generation_s": 7.83,
+  "scoring_s": 6.84,
+  "other_s": 0.61,
+  "peak_gpu_gib": 12.68
+ },
+ {
+  "step": 97,
+  "total_s": 16.84,
+  "generation_s": 9.38,
+  "scoring_s": 6.84,
+  "other_s": 0.62,
+  "peak_gpu_gib": 13.08
+ },
+ {
+  "step": 98,
+  "total_s": 13.46,
+  "generation_s": 6.12,
+  "scoring_s": 6.8,
+  "other_s": 0.54,
+  "peak_gpu_gib": 10.35
+ },
+ {
+  "step": 99,
+  "total_s": 15.44,
+  "generation_s": 8.01,
+  "scoring_s": 6.84,
+  "other_s": 0.6,
+  "peak_gpu_gib": 12.13
+ },
+ {
+  "step": 100,
+  "total_s": 19.34,
+  "generation_s": 11.71,
+  "scoring_s": 6.86,
+  "other_s": 0.76,
+  "peak_gpu_gib": 16.08
+ },
+ {
+  "step": 101,
+  "total_s": 22.47,
+  "generation_s": 14.74,
+  "scoring_s": 6.82,
+  "other_s": 0.9,
+  "peak_gpu_gib": 19.13
+ },
+ {
+  "step": 102,
+  "total_s": 22.24,
+  "generation_s": 10.73,
+  "scoring_s": 10.81,
+  "other_s": 0.7,
+  "peak_gpu_gib": 15.14
+ },
+ {
+  "step": 103,
+  "total_s": 22.66,
+  "generation_s": 14.84,
+  "scoring_s": 6.87,
+  "other_s": 0.95,
+  "peak_gpu_gib": 20.29
+ },
+ {
+  "step": 104,
+  "total_s": 15.85,
+  "generation_s": 8.46,
+  "scoring_s": 6.77,
+  "other_s": 0.61,
+  "peak_gpu_gib": 13.08
+ },
+ {
+  "step": 105,
+  "total_s": 13.33,
+  "generation_s": 5.99,
+  "scoring_s": 6.81,
+  "other_s": 0.53,
+  "peak_gpu_gib": 10.06
+ },
+ {
+  "step": 106,
+  "total_s": 16.3,
+  "generation_s": 8.77,
+  "scoring_s": 6.89,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.49
+ },
+ {
+  "step": 107,
+  "total_s": 17.93,
+  "generation_s": 10.44,
+  "scoring_s": 6.81,
+  "other_s": 0.68,
+  "peak_gpu_gib": 14.06
+ },
+ {
+  "step": 108,
+  "total_s": 14.07,
+  "generation_s": 6.75,
+  "scoring_s": 6.76,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.35
+ },
+ {
+  "step": 109,
+  "total_s": 16.46,
+  "generation_s": 8.8,
+  "scoring_s": 6.98,
+  "other_s": 0.68,
+  "peak_gpu_gib": 13.97
+ },
+ {
+  "step": 110,
+  "total_s": 18.15,
+  "generation_s": 10.59,
+  "scoring_s": 6.79,
+  "other_s": 0.76,
+  "peak_gpu_gib": 16.13
+ },
+ {
+  "step": 111,
+  "total_s": 17.97,
+  "generation_s": 10.43,
+  "scoring_s": 6.8,
+  "other_s": 0.74,
+  "peak_gpu_gib": 15.41
+ },
+ {
+  "step": 112,
+  "total_s": 18.43,
+  "generation_s": 10.8,
+  "scoring_s": 6.88,
+  "other_s": 0.75,
+  "peak_gpu_gib": 15.74
+ },
+ {
+  "step": 113,
+  "total_s": 14.99,
+  "generation_s": 7.67,
+  "scoring_s": 6.78,
+  "other_s": 0.54,
+  "peak_gpu_gib": 10.92
+ },
+ {
+  "step": 114,
+  "total_s": 15.86,
+  "generation_s": 8.46,
+  "scoring_s": 6.78,
+  "other_s": 0.63,
+  "peak_gpu_gib": 12.9
+ },
+ {
+  "step": 115,
+  "total_s": 17.03,
+  "generation_s": 9.54,
+  "scoring_s": 6.86,
+  "other_s": 0.63,
+  "peak_gpu_gib": 13.4
+ },
+ {
+  "step": 116,
+  "total_s": 17.12,
+  "generation_s": 9.47,
+  "scoring_s": 7.0,
+  "other_s": 0.65,
+  "peak_gpu_gib": 13.38
+ },
+ {
+  "step": 117,
+  "total_s": 15.74,
+  "generation_s": 8.22,
+  "scoring_s": 6.92,
+  "other_s": 0.6,
+  "peak_gpu_gib": 12.19
+ },
+ {
+  "step": 118,
+  "total_s": 15.49,
+  "generation_s": 8.1,
+  "scoring_s": 6.8,
+  "other_s": 0.58,
+  "peak_gpu_gib": 11.87
+ },
+ {
+  "step": 119,
+  "total_s": 16.9,
+  "generation_s": 9.45,
+  "scoring_s": 6.81,
+  "other_s": 0.64,
+  "peak_gpu_gib": 13.43
+ },
+ {
+  "step": 120,
+  "total_s": 15.65,
+  "generation_s": 5.96,
+  "scoring_s": 9.14,
+  "other_s": 0.55,
+  "peak_gpu_gib": 11.01
+ },
+ {
+  "step": 121,
+  "total_s": 16.39,
+  "generation_s": 8.86,
+  "scoring_s": 6.9,
+  "other_s": 0.63,
+  "peak_gpu_gib": 12.98
+ },
+ {
+  "step": 122,
+  "total_s": 20.1,
+  "generation_s": 9.46,
+  "scoring_s": 9.94,
+  "other_s": 0.69,
+  "peak_gpu_gib": 14.03
+ },
+ {
+  "step": 123,
+  "total_s": 20.44,
+  "generation_s": 12.83,
+  "scoring_s": 6.81,
+  "other_s": 0.8,
+  "peak_gpu_gib": 17.08
+ },
+ {
+  "step": 124,
+  "total_s": 15.82,
+  "generation_s": 8.35,
+  "scoring_s": 6.86,
+  "other_s": 0.61,
+  "peak_gpu_gib": 12.5
+ },
+ {
+  "step": 125,
+  "total_s": 14.37,
+  "generation_s": 7.02,
+  "scoring_s": 6.78,
+  "other_s": 0.57,
+  "peak_gpu_gib": 11.79
+ },
+ {
+  "step": 126,
+  "total_s": 15.78,
+  "generation_s": 8.1,
+  "scoring_s": 6.99,
+  "other_s": 0.69,
+  "peak_gpu_gib": 14.47
+ },
+ {
+  "step": 127,
+  "total_s": 14.38,
+  "generation_s": 6.82,
+  "scoring_s": 7.0,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.82
+ },
+ {
+  "step": 128,
+  "total_s": 17.21,
+  "generation_s": 9.66,
+  "scoring_s": 6.88,
+  "other_s": 0.67,
+  "peak_gpu_gib": 13.66
+ },
+ {
+  "step": 129,
+  "total_s": 23.19,
+  "generation_s": 15.6,
+  "scoring_s": 6.69,
+  "other_s": 0.9,
+  "peak_gpu_gib": 19.31
+ },
+ {
+  "step": 130,
+  "total_s": 18.87,
+  "generation_s": 11.2,
+  "scoring_s": 6.93,
+  "other_s": 0.75,
+  "peak_gpu_gib": 15.76
+ },
+ {
+  "step": 131,
+  "total_s": 18.06,
+  "generation_s": 10.5,
+  "scoring_s": 6.85,
+  "other_s": 0.71,
+  "peak_gpu_gib": 15.13
+ },
+ {
+  "step": 132,
+  "total_s": 17.39,
+  "generation_s": 9.92,
+  "scoring_s": 6.78,
+  "other_s": 0.69,
+  "peak_gpu_gib": 14.53
+ },
+ {
+  "step": 133,
+  "total_s": 13.56,
+  "generation_s": 6.16,
+  "scoring_s": 6.89,
+  "other_s": 0.52,
+  "peak_gpu_gib": 10.06
+ },
+ {
+  "step": 134,
+  "total_s": 19.03,
+  "generation_s": 11.4,
+  "scoring_s": 6.87,
+  "other_s": 0.75,
+  "peak_gpu_gib": 15.96
+ },
+ {
+  "step": 135,
+  "total_s": 14.72,
+  "generation_s": 7.25,
+  "scoring_s": 6.91,
+  "other_s": 0.56,
+  "peak_gpu_gib": 11.82
+ },
+ {
+  "step": 136,
+  "total_s": 22.44,
+  "generation_s": 14.91,
+  "scoring_s": 6.66,
+  "other_s": 0.88,
+  "peak_gpu_gib": 18.9
+ },
+ {
+  "step": 137,
+  "total_s": 24.51,
+  "generation_s": 12.64,
+  "scoring_s": 11.05,
+  "other_s": 0.81,
+  "peak_gpu_gib": 17.3
+ },
+ {
+  "step": 138,
+  "total_s": 15.84,
+  "generation_s": 8.38,
+  "scoring_s": 6.83,
+  "other_s": 0.63,
+  "peak_gpu_gib": 13.46
+ }
+]

@@ -1,0 +1,36 @@
+{
+ "name": "grpo",
+ "chosen": "epoch_2",
+ "adapter": "/scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/grpo/epoch_2",
+ "weights": null,
+ "rule": "max validation pass@1, then mean reward, then earliest epoch",
+ "validation": {
+  "epoch_1": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.37777777777777777,
+   "mean_reward": 0.42222222222222217,
+   "seconds_generation": 13.6,
+   "seconds_scoring": 10.1,
+   "sandbox_restarts": 0
+  },
+  "epoch_2": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.4,
+   "mean_reward": 0.4481481481481482,
+   "seconds_generation": 7.3,
+   "seconds_scoring": 10.4,
+   "sandbox_restarts": 0
+  },
+  "epoch_3": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.4,
+   "mean_reward": 0.43703703703703706,
+   "seconds_generation": 9.3,
+   "seconds_scoring": 10.4,
+   "sandbox_restarts": 0
+  }
+ }
+}

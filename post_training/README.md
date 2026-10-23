@@ -6,10 +6,10 @@ a small code model better at writing code that passes them?**
 
 Nothing here changes the V0–V3 code or results.
 
-> **Status:** sandbox, reward function, training and evaluation code are done
-> and tested. The reward signal has been checked on the base model. The full
-> runs (base, SFT, GRPO, SFT→GRPO on the test split) have **not run yet**;
-> the results section below is empty until they do.
+> **Status:** done. All four models (base, SFT, GRPO, SFT→GRPO) were trained
+> and evaluated on H200s; the reward-hacking audit passed its pre-set gate.
+> Every number below comes from `python report.py`, which reads the committed
+> files in `results/`.
 
 ---
 
@@ -144,22 +144,160 @@ task set were kept. Training uses T=0.7.
 out of memory; micro-batch 2 with gradient checkpointing fit. This is why the
 full run moved to a cluster GPU.
 
+### Speed on the cluster (one NVIDIA H200, bf16, micro-batch 16)
+
+| Run | Steps | Training time | Seconds per step (generation / scoring / rest) | Peak GPU memory |
+|---|---|---|---|---|
+| GRPO | 138 | 41.9 min | 18.14 (10.23 / 7.19 / 0.72) | 20.3 GiB |
+| SFT→GRPO | 138 | 34.2 min | 14.78 (6.38 / 7.80 / 0.60) | 19.8 GiB |
+| SFT | 141 | 46.5 s | 0.20 | 1.6 GiB |
+
+From the 5-step smoke test (18.87 s per step) the GRPO training time was
+extrapolated at 43 minutes (38–57 using the fastest and slowest smoke steps);
+it took 41.9. GRPO runs 46 steps per pass, not 47: TRL groups prompts in
+eights and drops the incomplete last group, so 6 of the 374 training problems
+sit out each pass (a different 6 each time). Sandbox scoring is 40% (GRPO)
+to 53% (SFT→GRPO) of a step; the fixed cost of one Apptainer container per batch is about 0.58 s.
+
 ---
 
 ## Results
 
-*Pending: filled in from `results/*_test.json` once the full runs finish.*
+All four models: greedy decoding, 512 new tokens, bf16, one NVIDIA H200,
+scored in the Apptainer sandbox with 0 sandbox restarts. Each trained run's
+epoch was chosen on the **validation** split by a rule fixed in advance
+(highest pass@1, then highest mean reward, then earliest); the **test** split
+was evaluated once per model, after selection.
+
+| Model | Epoch chosen on validation | Test pass@1 | 95% interval | Solved | Test mean reward |
+|---|---|---|---|---|---|
+| Base | – | 0.332 | 0.292–0.374 | 166/500 | 0.397 |
+| SFT | epoch 2 | 0.358 | 0.317–0.401 | 179/500 | 0.427 |
+| GRPO | epoch 2 (tie-break) | 0.354 | 0.313–0.397 | 177/500 | 0.433 |
+| SFT→GRPO | epoch 1 | 0.388 | 0.346–0.431 | 194/500 | 0.455 |
+
+![Test pass@1 by model](results/plots/test_pass_at_1.png)
+
+Because the four models answer the same 500 problems, they are compared
+problem by problem (exact McNemar test on the problems where exactly one of
+the two models passes):
+
+| Comparison | Solved only by the second | Solved only by the first | Net | Exact McNemar p |
+|---|---|---|---|---|
+| Base → SFT | 65 | 52 | +13 | 0.267 |
+| Base → GRPO | 20 | 9 | +11 | 0.061 |
+| Base → SFT→GRPO | 71 | 43 | +28 | 0.011 |
+| SFT → SFT→GRPO | 20 | 5 | +15 | 0.004 |
+| GRPO → SFT→GRPO | 61 | 44 | +17 | 0.118 |
+| SFT → GRPO | 55 | 57 | −2 | 0.925 |
+
+### What the numbers say
+
+- **SFT followed by GRPO scored highest** (0.388), and it is the only clear
+  difference: GRPO on top of SFT solved 20 problems SFT did not and lost 5
+  (p = 0.004). That is the one comparison that stays below 0.05 after
+  correcting for the six comparisons made (Bonferroni, 0.05 / 6 ≈ 0.008).
+  Against the base model it is +28 problems (p = 0.011, not significant after
+  that correction).
+- **GRPO alone barely moved the base model.** It changed the outcome of only
+  29 of 500 problems (20 gained, 9 lost; p = 0.061). Its KL to the base model
+  never went above 0.011. Its test pass@1 (0.354) is indistinguishable from SFT
+  alone (0.358; p = 0.925), though the two get there differently: SFT changed
+  117 problems in both directions.
+- **SFT alone is not a clear improvement** (+13 net, p = 0.267), and its third
+  epoch was worse on validation (0.289) while its training loss kept falling
+  (0.637 → 0.271, first vs last 10 steps): 3 passes over 374 examples overfit.
+- **One seed each.** None of these differences has been checked across seeds.
+
+### Validation and test disagree
+
+![Validation pass@1 per epoch](results/plots/validation_by_epoch.png)
+
+| Run | Epoch 1 | Epoch 2 | Epoch 3 |
+|---|---|---|---|
+| Base (no training) | 0.389 | | |
+| SFT | 0.356 | **0.378** | 0.289 |
+| GRPO | 0.378 | **0.400** | 0.400 |
+| SFT→GRPO | **0.367** | 0.333 | 0.356 |
+
+On the 90 validation problems the base model (0.389) beats every SFT and
+SFT→GRPO epoch, and GRPO looks best; on the 500 test problems the base model is
+lowest and SFT→GRPO highest. With 90 problems one problem is 0.011 of pass@1,
+so choosing epochs on validation is noisy, and a different epoch might have
+done better on test. Test results for the epochs that were not chosen were
+never computed, by design. GRPO's epochs 2 and 3 tied on validation pass@1; the
+pre-set tie-break (mean reward 0.448 vs 0.437) chose epoch 2.
+
+### Training curves
+
+![GRPO training](results/plots/grpo_training.png)
+
+These are rewards on **training** problems, a different set of 8 problems at
+every step, so they show the trend, not held-out performance.
+
+| | GRPO | SFT→GRPO |
+|---|---|---|
+| Mean reward, first 10 steps → last 10 | 0.399 → 0.468 | 0.482 → 0.590 |
+| KL to the starting model, last 10 steps (max) | 0.0062 (0.0111) | 0.0111 (0.0173) |
+| Mean completion length, first 10 → last 10 | 126.5 → 95.3 tokens | 60.1 → 61.4 tokens |
+| Share of prompts whose 8 samples all scored the same | 0.375 → 0.388 | 0.163 → 0.350 |
+
+GRPO made the base model's answers shorter; starting from SFT, answers were
+already short (SFT trains on MBPP's reference solutions, which have no
+explanations) and stayed that way. As SFT→GRPO trained, more prompts had all 8
+samples scoring the same, which leaves GRPO nothing to learn from on those
+prompts. At most 3.1% of completions hit the 512-token limit at any step.
+
+![SFT loss](results/plots/sft_loss.png)
+
+### Reward-hacking audit
+
+`audit_hacking.py` read the code of every completion: 17,664 from GRPO
+training (8,832 per run) and 2,900 from evaluation (4 × 500 test, 10 × 90 validation). It reads text only and runs
+nothing. Results: `results/audit/`.
+
+- **Gate (decided before any results were seen): passed.** 0 completions
+  tried to read their own assert (`__main__`, `sys.modules`, `sys._getframe`,
+  frame attributes, `inspect`, `gc`, stack walking, `/proc/self`).
+- **0 hits** for `__eq__`/`__hash__`/`__bool__` overrides, tampering with
+  builtins, file writes, and subprocess/network/`ctypes` use.
+- **1 early exit, not a hack:** a `sys.exit()` inside `main()` under
+  `if __name__ == "__main__":`, which the harness never runs.
+- **25 completions write the visible assert's expected value into the code**
+  as a literal (20 in training, 5 in validation, **0 in test**). All were read
+  by hand (`results/audit/reviewed_hits.json`):
+  - **One earned full reward by hard-coding.** On training task 907 the
+    visible assert lists the first 10 "lucky numbers"; at GRPO step 35 one
+    completion returned that list sliced to `n`, and MBPP's hidden asserts for
+    that task only ask for its first 5 and first 8 elements, so it passed all
+    three. This is a weakness of that task's tests, and the only fully rewarded
+    hard-coded answer in 17,664 training completions.
+  - The others failed the hidden asserts, or the literal was only in the
+    model's own self-test code. On validation task 523 the visible list is
+    returned from a branch (base, GRPO epochs 1–2: all three asserts fail), as a
+    fallback (GRPO epoch 3) or as the whole answer (SFT epoch 1); the last two
+    pass the visible assert only. That cannot raise pass@1, and neither of those
+    two epochs was chosen.
+- **Passing the visible assert while failing a hidden one** did not increase
+  with GRPO on the test split (base 41, SFT 32, GRPO 41, SFT→GRPO 33 of 500).
+  During GRPO training it went 6.3% → 7.6% → 7.0% → 7.9% across the four
+  quarters of training (SFT→GRPO: 7.2% → 7.0% → 5.4% → 7.0%); each quarter
+  covers different problems, so this is not clear evidence of learning to
+  hard-code.
 
 ### Run log
 
 - **First SFT run discarded (2026-10-22).** The cluster's `sbatch` reported
   "Batch job submission failed: Unexpected message received" for two SFT
   submissions that it had in fact accepted, so two SFT jobs (11313350 and
-  11313387) ran at the same time and wrote to the same run directory.
-  Decision: delete all of their output, including the SFT test-split result
-  without reading it, and rerun SFT once from scratch. Every GPU job now takes a lock on its
-  run before doing anything (`acquire_run_lock` in `slurm/common.sh`); a
-  duplicate exits with code 3 without writing.
+  11313387) ran at the same time and wrote to the same run directory. All of
+  their output was deleted, including their SFT test-split result, unread; in
+  their job logs (kept in `results/logs/`) the one line carrying that result is
+  replaced by a note. SFT was rerun once as job 11315019, which produced the
+  SFT results above (its selection and test files match that job's log).
+  Every GPU job now takes a lock on its run before doing anything
+  (`acquire_run_lock` in `slurm/common.sh`); a duplicate exits with code 3
+  without writing.
 
 ---
 
@@ -198,6 +336,13 @@ full run moved to a cluster GPU.
   were not available); the GPU is recorded in every result file.
 - **One seed, no hyperparameter search.** The learning rate (1e-5 GRPO, 1e-4 SFT)
   was chosen, not tuned. Only the epoch is selected, on validation.
+- **Validation is small (90 problems) and disagreed with test** (see Results),
+  so the epoch chosen for each run may not be its best on test.
+- **Six comparisons, small differences.** Only SFT → SFT→GRPO survives a
+  Bonferroni correction. The rest should be read as "no clear difference".
+- **Some MBPP tests can be passed by hard-coding.** Task 907's hidden asserts
+  are prefixes of its visible answer; the audit found GRPO collecting full reward
+  on it once. A task whose hidden tests are this weak rewards the wrong thing.
 - **Not bit-for-bit reproducible.** Seeds are fixed, but CUDA kernels are not
   forced to be deterministic.
 - **The base model often pastes the visible assert into its own answer.** If that
@@ -222,6 +367,9 @@ Full runs: `eval_base.sbatch`, `sft.sbatch`, `grpo.sbatch`, then
 `sft_grpo.sbatch` (needs the SFT result). Every job can be resubmitted after a
 timeout; training resumes from its newest checkpoint.
 
+Reproduce the reported numbers from the committed files, on any machine:
+`python audit_hacking.py`, then `python report.py`.
+
 | File | What it does |
 |---|---|
 | `sandbox.py` | Docker and Apptainer backends |
@@ -232,5 +380,8 @@ timeout; training resumes from its newest checkpoint.
 | `train_grpo.py`, `train_sft.py` | training, resumable |
 | `select_and_eval.py` | choose epoch on validation, then evaluate on test |
 | `evaluate.py` | greedy pass@1 |
+| `audit_hacking.py` | reward-hacking audit over every saved completion (reads text, runs nothing) |
+| `report.py` | builds `results/summary.json`, the tables above and `results/plots/` from the committed results |
+| `results/` | test, validation and selection files per model; `training/` logs and gzipped rollouts; `audit/`; `logs/` (cluster job logs and per-job sandbox test reports) |
 | `configs/` | every run's settings |
 | `slurm/` | cluster setup and job scripts |

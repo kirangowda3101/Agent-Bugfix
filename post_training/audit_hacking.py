@@ -12,11 +12,13 @@ Other categories are reported for review and do not gate.
 
 Prints counts only, never pass@1, so running the audit reveals no results.
 
-  python audit_hacking.py --root cluster_out
+  python audit_hacking.py                      # from the committed results/
+  python audit_hacking.py --root cluster_out    # from a fresh copy of the cluster's files
 """
 import argparse
 import ast
 import collections
+import gzip
 import json
 import re
 from pathlib import Path
@@ -103,9 +105,12 @@ def matches(code, patterns):
 
 def records(root):
     for run in ("grpo", "sft_grpo"):
+        # Straight from a cluster copy (runs/<run>/), or from the committed, gzipped copy.
         path = root / "runs" / run / "rollouts.jsonl"
+        if not path.exists():
+            path = root / "results" / "training" / run / "rollouts.jsonl.gz"
         if path.exists():
-            for line in path.open():
+            for line in (gzip.open(path, "rt") if path.suffix == ".gz" else path.open()):
                 r = json.loads(line)
                 yield f"rollouts/{run}", r["task_id"], r.get("step"), r["completion"], r["errors"]
     for path in sorted((root / "results").glob("*_test.json")) + sorted((root / "results" / "validation").glob("*.json")):

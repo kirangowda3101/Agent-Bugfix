@@ -1,0 +1,40 @@
+node-local dir: /tmp (xfs, 256 GB free)
+env: unpacked /scratch/ramanagarajayaram.k/envs/posttrain-env.tar to /tmp/posttrain-env-11313322 in 6s
+sandbox image checksum OK: aab2c8df6fec849a...
+sandbox image: /scratch/ramanagarajayaram.k/sif/mbpp-sandbox.sif (apptainer version 1.2.5-1.el9)
+job 11313322 on d4053 at 2026-10-22T21:25:50-04:00, commit 782e456
+name, memory.total [MiB], driver_version
+NVIDIA H200, 143771 MiB, 570.86.15
+torch 2.14.1+cu126 cuda 12.6 NVIDIA H200 bf16 True
+PASSED tests/test_rewards.py::test_batch_keeps_order_and_isolates_failures
+PASSED tests/test_rewards.py::test_trl_reward_fn_signature
+36 passed in 35.30s
+sandbox tests: all passed
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 13122.75it/s]
+Using the latest cached version of the dataset since google-research-datasets/mbpp couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'full' at /scratch/ramanagarajayaram.k/hf_cache/datasets/google-research-datasets___mbpp/full/0.0.0/4bb6404fdc6cacfda99d4ac4205087b89d32030c (last modified on Thu Oct 22 20:15:09 2026).
+validation: 32/90  gen 4s  score 4s
+validation: 64/90  gen 7s  score 7s
+validation: 90/90  gen 13s  score 10s
+validation base base: {"split": "validation", "n_problems": 90, "pass_at_1": 0.3888888888888889, "mean_reward": 0.4259259259259259, "seconds_generation": 12.7, "seconds_scoring": 9.9, "sandbox_restarts": 0}
+selected base: base
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 12830.95it/s]
+Using the latest cached version of the dataset since google-research-datasets/mbpp couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'full' at /scratch/ramanagarajayaram.k/hf_cache/datasets/google-research-datasets___mbpp/full/0.0.0/4bb6404fdc6cacfda99d4ac4205087b89d32030c (last modified on Thu Oct 22 20:15:09 2026).
+test: 32/500  gen 3s  score 4s
+test: 64/500  gen 5s  score 7s
+test: 96/500  gen 9s  score 11s
+test: 128/500  gen 12s  score 17s
+test: 160/500  gen 18s  score 21s
+test: 192/500  gen 22s  score 28s
+test: 224/500  gen 27s  score 32s
+test: 256/500  gen 31s  score 35s
+test: 288/500  gen 35s  score 39s
+test: 320/500  gen 39s  score 42s
+test: 352/500  gen 42s  score 46s
+test: 384/500  gen 45s  score 49s
+test: 416/500  gen 49s  score 53s
+test: 448/500  gen 51s  score 56s
+test: 480/500  gen 54s  score 60s
+test: 500/500  gen 61s  score 62s
+TEST base (base): {"split": "test", "n_problems": 500, "pass_at_1": 0.332, "mean_reward": 0.39733333333333337, "seconds_generation": 60.7, "seconds_scoring": 62.4, "sandbox_restarts": 0}

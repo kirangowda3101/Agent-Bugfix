@@ -1,0 +1,18 @@
+{
+ "name": "base",
+ "chosen": "base",
+ "adapter": null,
+ "weights": null,
+ "rule": "max validation pass@1, then mean reward, then earliest epoch",
+ "validation": {
+  "base": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.3888888888888889,
+   "mean_reward": 0.4259259259259259,
+   "seconds_generation": 12.7,
+   "seconds_scoring": 9.9,
+   "sandbox_restarts": 0
+  }
+ }
+}
