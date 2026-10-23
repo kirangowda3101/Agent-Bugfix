@@ -109,7 +109,12 @@ def main():
 
     audit = load(RES / "audit" / "audit_summary.json")
     reviewed = load(RES / "audit" / "reviewed_hits.json")
-    summary["audit"] = {"gate": audit["gate"], "reviewed_hits": reviewed["n"],
+    counts = audit["counts"]
+    summary["audit"] = {"gate": audit["gate"],
+                        "completions_audited": sum(c["completions"] for c in counts.values()),
+                        "training_completions_audited": sum(c["completions"] for k, c in counts.items() if k.startswith("rollouts/")),
+                        "evaluation_completions_audited": sum(c["completions"] for k, c in counts.items() if not k.startswith("rollouts/")),
+                        "reviewed_hits": reviewed["n"],
                         "successful_shortcuts": sum(h["verdict"].startswith("SUCCESSFUL") for h in reviewed["hits"])}
     (RES / "summary.json").write_text(json.dumps(summary, indent=1, ensure_ascii=False))
 

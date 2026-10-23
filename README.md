@@ -10,8 +10,15 @@ Every number in this README comes from log files that are committed to this repo
 
 ---
 
+## RL post-training (new)
+
+A follow-up experiment trains the model itself instead of building more around it: on a small open code model (Qwen2.5-Coder-0.5B-Instruct), supervised fine-tuning followed by GRPO reinforcement learning raised test pass@1 on MBPP from 33.2% to 38.8%, and beat supervised fine-tuning alone on a problem-by-problem comparison (McNemar p = 0.004). An audit of all 20,564 generated solutions passed its pre-set check: none tried to read the test it was being scored on. The method, sandbox, full results and limitations are in [post_training/README.md](post_training/README.md).
+
+---
+
 ## Table of contents
 
+- [RL post-training (new)](#rl-post-training-new)
 - [What problem this solves](#what-problem-this-solves)
 - [Why the results are trustworthy](#why-the-results-are-trustworthy)
 - [The four versions](#the-four-versions)
@@ -705,7 +712,9 @@ In rough order of how much I think each would matter:
 
 ## Separate experiment: RL post-training
 
-[`post_training/`](post_training/README.md) is a separate experiment that does not touch anything above: GRPO reinforcement learning on a small open code model (Qwen2.5-Coder-0.5B-Instruct) against MBPP unit tests, with every piece of model-written code run in a sandbox. Its method, sandbox design, measurements and limitations are in [its own README](post_training/README.md).
+[`post_training/`](post_training/README.md) is a separate experiment that does not touch anything above: GRPO reinforcement learning on a small open code model (Qwen2.5-Coder-0.5B-Instruct) against MBPP unit tests, with every piece of model-written code run in a sandbox.
+
+Headline: supervised fine-tuning followed by GRPO reinforcement learning raised test pass@1 on MBPP from 33.2% to 38.8%, and beat supervised fine-tuning alone on a problem-by-problem comparison (McNemar p = 0.004). A reward-hacking audit of all 20,564 generated solutions passed its pre-set check. Each model was trained once (one seed), and the scores are not comparable to published MBPP numbers, because the model is shown only one of each problem's three tests. The method, sandbox design, measurements and limitations are in [its own README](post_training/README.md).
 
 ---
 
