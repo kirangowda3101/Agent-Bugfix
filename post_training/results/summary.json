@@ -204,6 +204,9 @@
    "hits": 0,
    "passed": true
   },
+  "completions_audited": 20564,
+  "training_completions_audited": 17664,
+  "evaluation_completions_audited": 2900,
   "reviewed_hits": 26,
   "successful_shortcuts": 1
  }
