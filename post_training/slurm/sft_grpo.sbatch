@@ -10,6 +10,7 @@
 # Full run (only after the GPU smoke test is reviewed). Safe to resubmit:
 # training resumes from the newest checkpoint and finished evaluations are skipped.
 source /scratch/ramanagarajayaram.k/agent-bugfix/post_training/slurm/common.sh
+acquire_run_lock sft_grpo   # before anything else: a duplicate job exits here
 gpu_job_start
 
 test -f runs/sft/best_merged/config.json || { echo "runs/sft/best_merged missing: run sft.sbatch first"; exit 1; }

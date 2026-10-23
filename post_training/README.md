@@ -150,6 +150,17 @@ full run moved to a cluster GPU.
 
 *Pending: filled in from `results/*_test.json` once the full runs finish.*
 
+### Run log
+
+- **First SFT run discarded (2026-10-22).** The cluster's `sbatch` reported
+  "Batch job submission failed: Unexpected message received" for two SFT
+  submissions that it had in fact accepted, so two SFT jobs (11313350 and
+  11313387) ran at the same time and wrote to the same run directory.
+  Decision: delete all of their output, including the SFT test-split result
+  without reading it, and rerun SFT once from scratch. Every GPU job now takes a lock on its
+  run before doing anything (`acquire_run_lock` in `slurm/common.sh`); a
+  duplicate exits with code 3 without writing.
+
 ---
 
 ## Limitations

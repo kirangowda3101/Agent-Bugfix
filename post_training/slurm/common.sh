@@ -33,7 +33,58 @@ cleanup_local() {
     local d
     for d in "${LOCAL_CLEANUP[@]}"; do rm -rf "$d"; done
 }
-trap cleanup_local EXIT
+# (The EXIT trap that runs this is set below, together with release_run_lock.)
+
+# One job per run at a time. This cluster's sbatch has reported "Batch job
+# submission failed" for submissions it had in fact accepted, so a retried
+# submission can start a second job on the same run directory. The first job to
+# create runs/locks/<name> owns the run; any other job exits at once, before
+# writing anything else, with exit code 3 (so sacct shows the duplicate as
+# FAILED 3:0 instead of COMPLETED). A lock left by a job that is no longer queued or
+# running (killed, timed out) is taken over. If squeue cannot be asked, the job
+# assumes the lock is live and exits: failing safe costs a resubmission, while
+# guessing wrong costs a corrupted run.
+acquire_run_lock() {
+    local name=$1 lock="$PT/runs/locks/$1" holder active
+    mkdir -p "$PT/runs/locks"
+    if ! mkdir "$lock" 2>/dev/null; then
+        holder=$(cat "$lock/job_id" 2>/dev/null || echo unknown)
+        if [ "$holder" != "${SLURM_JOB_ID:-}" ]; then   # (a requeued job keeps its own lock)
+            if ! active=$(squeue -h -u "$USER" -o %i 2>/dev/null); then
+                echo "RUN LOCKED: cannot query squeue; assuming job $holder still owns '$name'. Job ${SLURM_JOB_ID:-} exits without writing anything."
+                exit 3
+            fi
+            if [ "$holder" = unknown ] || grep -qx "$holder" <<< "$active"; then
+                echo "RUN LOCKED: '$name' is owned by job $holder. Job ${SLURM_JOB_ID:-} exits without writing anything."
+                echo "  (if no job $holder exists, remove $lock and resubmit)"
+                exit 3
+            fi
+            echo "stale lock on '$name' from job $holder (no longer queued or running); taking it over"
+            mv "$lock" "$lock.stale.${SLURM_JOB_ID:-$$}" 2>/dev/null && rm -rf "$lock.stale.${SLURM_JOB_ID:-$$}"
+            if ! mkdir "$lock" 2>/dev/null; then
+                echo "RUN LOCKED: another job took '$name' first. Job ${SLURM_JOB_ID:-} exits without writing anything."
+                exit 3
+            fi
+        fi
+    fi
+    echo "${SLURM_JOB_ID:-$$}" > "$lock/job_id"
+    # Two jobs racing to take over the same stale lock could both get here;
+    # after a pause, only the one whose ID is in the lock carries on.
+    sleep 3
+    if [ "$(cat "$lock/job_id" 2>/dev/null)" != "${SLURM_JOB_ID:-$$}" ]; then
+        echo "RUN LOCKED: another job took '$name' at the same moment. Job ${SLURM_JOB_ID:-} exits without writing anything."
+        exit 3
+    fi
+    RUN_LOCK=$lock
+    echo "run lock: $lock owned by job ${SLURM_JOB_ID:-$$}"
+}
+
+release_run_lock() {
+    if [ -n "${RUN_LOCK:-}" ] && [ "$(cat "$RUN_LOCK/job_id" 2>/dev/null)" = "${SLURM_JOB_ID:-$$}" ]; then
+        rm -rf "$RUN_LOCK"
+    fi
+}
+trap 'release_run_lock; cleanup_local' EXIT
 
 # Print a node-local, writable directory with at least $1 GB free. Network
 # filesystems are skipped: the point is to avoid them. tmpfs is accepted but

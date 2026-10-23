@@ -10,6 +10,7 @@
 # GPU smoke test (H200): sandbox tests, 5 GRPO steps, 20-problem VALIDATION eval, summary.
 #   sbatch post_training/slurm/smoke.sbatch
 source /scratch/ramanagarajayaram.k/agent-bugfix/post_training/slurm/common.sh
+acquire_run_lock smoke   # before anything else: a duplicate job exits here
 gpu_job_start
 
 rm -rf runs/grpo_gpu_smoke runs/eval_gpu_smoke_val20.json   # a smoke test always starts fresh
