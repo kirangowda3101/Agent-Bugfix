@@ -1,0 +1,1014 @@
+{
+ "config": {
+  "weights": null,
+  "adapter": "/scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/sft/epoch_3",
+  "split": "validation",
+  "dtype": "bfloat16",
+  "batch": 32,
+  "seed": 0,
+  "device": "cuda",
+  "gpu": "NVIDIA H200",
+  "sandbox": "apptainer"
+ },
+ "summary": {
+  "split": "validation",
+  "n_problems": 90,
+  "pass_at_1": 0.28888888888888886,
+  "mean_reward": 0.3518518518518519,
+  "seconds_generation": 9.6,
+  "seconds_scoring": 9.9,
+  "sandbox_restarts": 0
+ },
+ "problems": [
+  {
+   "task_id": 511,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef find_Min_Sum(n): \r\n    for i in range(1,n + 1): \r\n        if (n % i == 0): \r\n            x = n // i \r\n            return (i + find_Min_Sum(x))\n```",
+   "errors": [
+    "RecursionError: maximum recursion depth exceeded in comparison",
+    "RecursionError: maximum recursion depth exceeded in comparison",
+    "RecursionError: maximum recursion depth exceeded in comparison"
+   ]
+  },
+  {
+   "task_id": 512,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef count_element_freq(test_tup):\r\n  res = dict()\r\n  for ele in test_tup:\r\n    if ele in res:\r\n      res[ele] += 1\r\n    else:\r\n      res[ele] = 1\r\n  return (res)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 513,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef add_str(test_list, str1):\r\n  res = [ele + str1 for ele in test_list]\r\n  return (res)\n```",
+   "errors": [
+    "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "TypeError: unsupported operand type(s) for +: 'int' and 'str'",
+    "TypeError: unsupported operand type(s) for +: 'int' and 'str'"
+   ]
+  },
+  {
+   "task_id": 514,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef sum_elements(test_list):\r\n  res = sum(test_list)\r\n  return (res)\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 515,
+   "reward": 0.6666666666666666,
+   "passed_all": false,
+   "completion": "```python\ndef modular_sum(arr, m, n): \r\n\tdp = [False] * (n + 1) \r\n\tdp[0] = True\r\n\tfor i in range(0, n): \r\n\t\tfor j in range(m): \r\n\t\t\tif (i - j >= 0 and dp[i - j] == True): \r\n\t\t\t\tdp[i] = True\r\n\treturn dp[n]\n```",
+   "errors": [
+    "AssertionError",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 516,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef count_digits(n):\r\n    if n == 0:\r\n        return 1\r\n    temp = n\r\n    while (temp >= 10):\r\n        temp //= 10\r\n    return temp + 1\r\ndef counting_sort(arr, exp, n):\r\n    sorted_arr = [None] * n\r\n    output = [0] * n\r\n    i = 0\r\n    while (i < n):\r\n        output[i] = arr[i] // exp\r\n        i += 1\r\n    i = n - 1\r\n    while (i >= 0):\r\n        sorted_arr[output[i]] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= 1\r\n        sorted_arr[i] = arr[i]\r\n        i -= ",
+   "errors": [
+    "no code block",
+    "no code block",
+    "no code block"
+   ]
+  },
+  {
+   "task_id": 517,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef largest_pos(nums):\r\n    for i in range(len(nums)):\r\n        if nums[i] > 0:\r\n            return nums[i]\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 518,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef sqrt_root(n): \r\n    i = 1\r\n    while (i*i <= n): \r\n        j = i + 1\r\n        while (j*j <= n): \r\n            if (n % j == 0 and n // j == j): \r\n                return j \r\n            j = j + 1\r\n        i = i + 1\r\n    return -1\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 519,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef volume_tetrahedron(side):\r\n  V = (side**2)*(2*side)\r\n  return V\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 520,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef get_lcm(A, n): \r\n\tlcm = A; \r\n\tfor i in range(1,n): \r\n\t\tif (A % i == 0 and B % i == 0): \r\n\t\t\tlcm = (A * B) / i; \r\n\treturn lcm \r\ndef get_lcm_of_array(A): \r\n\tn = len(A); \r\n\tlcm = get_lcm(A[0], n) \r\n\tfor i in range(1,n): \r\n\t\tlcm = get_lcm(lcm, A[i]) \r\n\treturn lcm\n```",
+   "errors": [
+    "TypeError: get_lcm() missing 1 required positional argument: 'n'",
+    "TypeError: get_lcm() missing 1 required positional argument: 'n'",
+    "TypeError: get_lcm() missing 1 required positional argument: 'n'"
+   ]
+  },
+  {
+   "task_id": 521,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef check_isosceles(a,b,c):\r\n    if (a == b or b == c or a == c):\r\n        return True\r\n    else:\r\n        return False\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 522,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef lbs(A):\r\n    n = len(A)\r\n    if n == 0:\r\n        return 0\r\n    lis = [1] * n\r\n    for i in range(1,n):\r\n        for j in range(i):\r\n            if A[i] > A[j] and lis[i] < lis[j] + 1:\r\n                lis[i] = lis[j] + 1\r\n    return max(lis)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 523,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef check_string(string):\r\n  result = []\r\n  if (any(c.isupper() for c in string) and any(c.islower() for c in string) and any(c.isdigit() for c in string) and len(string)>=8):\r\n    result.append(\"String must have 1 upper case character.\")\r\n    result.append(\"String must have 1 number.\")\r\n    result.append(\"String length should be atleast 8.\")\r\n  else:\r\n    result.append(\"String must have at least 1 uppercase letter.\")\r\n    result.append(\"String must have at least 1 number.\")\r\n    result.append(\"String length should be atleast 8.\")\r\n  return result\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 524,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef max_sum_increasing_subsequence(A, n): \r\n\tdp = [0 for i in range(n)] \r\n\tlis = 0\r\n\tfor i in range(0, n): \r\n\t\tmx = 0\r\n\t\tfor j in range(0, i): \r\n\t\t\tif A[i] > A[j] and lis < dp[j]: \r\n\t\t\t\tmx = dp[j] \r\n\t\tdp[i] = mx + 1\r\n\t\tif lis < dp[i]: \r\n\t\t\tlis = dp[i] \r\n\treturn lis\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 525,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef parallel_lines(l1, l2):\r\n    if (l1[0] == l2[0] and l1[1] != l2[1]):\r\n        return True\r\n    elif (l1[1] == l2[1] and l1[0] != l2[0]):\r\n        return True\r\n    else:\r\n        return False\n```",
+   "errors": [
+    "AssertionError",
+    "",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 526,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef capitalize_first_last_letters(s):\r\n  return ' '.join(w.capitalize() for w in s.split())\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 527,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef get_pairs_count(arr, arr_size, sum):\r\n    count = 0\r\n    for i in range(0, arr_size):\r\n        for j in range(i + 1, arr_size):\r\n            if (arr[i] + arr[j] == sum):\r\n                count += 1\r\n    return count\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 528,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef min_length(list1):\r\n    min_len = len(list1[0])\r\n    res = []\r\n    for i in list1:\r\n        if len(i) < min_len:\r\n            min_len = len(i)\r\n            res = [i]\r\n        elif len(i) == min_len:\r\n            res.append(i)\r\n    return (res,min_len)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 529,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef jacobsthal_lucas(n): \r\n\tif n == 0: \r\n\t\treturn 2\r\n\telif n == 1: \r\n\t\treturn 1\r\n\telse: \r\n\t\treturn (jacobsthal_lucas(n - 1) + jacobsthal_lucas(n - 2))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 530,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef negative_count(arr):\r\n    count = 0\r\n    for i in arr:\r\n        if i < 0:\r\n            count += 1\r\n    return count / len(arr)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 531,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef min_coins(coins, m, n): \r\n    table = [0 for i in range(n + 1)] \r\n    for i in range(m): \r\n        for j in range(coins[i], n + 1): \r\n            table[j] = min(table[j], table[j - coins[i]] + 1) \r\n    return table[n]\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 532,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef check_permutation(str1,str2):\r\n  if(sorted(str1)==sorted(str2)):\r\n    return True\r\n  else:\r\n    return False\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 533,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef remove_datatype(test_tup, ele):\r\n  res = [ele for ele in test_tup if not isinstance(ele, ele)]\r\n  return (res)\n```",
+   "errors": [
+    "TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union",
+    "TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union",
+    "TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union"
+   ]
+  },
+  {
+   "task_id": 534,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\nimport re\r\ndef search_literal(text,pattern):\r\n        return re.search(pattern, text).start()\n```",
+   "errors": [
+    "AttributeError: 'NoneType' object has no attribute 'start'",
+    "AttributeError: 'NoneType' object has no attribute 'start'",
+    "AttributeError: 'NoneType' object has no attribute 'start'"
+   ]
+  },
+  {
+   "task_id": 535,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef topbottom_surfacearea(r):\r\n  pi=22/7\r\n  return 2*pi*r + 2*pi*r**2\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 536,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef nth_items(items,n):\r\n nth_items = items[n-1:n]\r\n return nth_items\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 537,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef first_repeated_word(s):\r\n    for i in range(1, len(s)):\r\n        if s[i] == ' ' and s[i - 1] == ' ':\r\n            continue\r\n        elif s[i] == s[i - 1]:\r\n            return s[i]\r\n    return None\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 538,
+   "reward": 0.6666666666666666,
+   "passed_all": false,
+   "completion": "```python\ndef string_list_to_tuple(test_list):\r\n  res = tuple(test_list)\r\n  return (res)\n```",
+   "errors": [
+    "AssertionError",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 539,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef basesnum_coresspondingnum(nums, base):\r\n  result = map(pow, nums, [base] * len(nums))\r\n  return list(result)\n```",
+   "errors": [
+    "TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'list'",
+    "TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'list'",
+    "TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'list'"
+   ]
+  },
+  {
+   "task_id": 540,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef find_Diff(arr,n): \r\n    arr.sort() \r\n    mx = arr[n-1] \r\n    mn = arr[0] \r\n    return (mx - mn)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 541,
+   "reward": 0.6666666666666666,
+   "passed_all": false,
+   "completion": "```python\ndef check_abundant(n): \r\n    f = [False] * (n + 1) \r\n    p = 2\r\n    while p * p <= n: \r\n        if f[p] == False: \r\n            i = p * 2\r\n            while i <= n: \r\n                f[i] = True\r\n                i += p \r\n        p += 1\r\n    for i in range(2,n + 1): \r\n        if f[i] == False: \r\n            return True\r\n    return False\n```",
+   "errors": [
+    "",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 542,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\nimport re\r\ndef fill_spaces(text):\r\n  return (re.sub('[ ,.]', ':', text))\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 543,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef count_digits(A,B):\r\n    sum = A + B\r\n    return (int)(str(sum).count('0'))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 544,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef flatten_tuple(test_list):\r\n  res = [ele for sub in test_list for ele in sub]\r\n  return (str(''.join(res)))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 545,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef toggle_F_and_L_bits(n): \r\n    return (n ^ 1)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 546,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef last_occurence_char(str,x):\r\n  for i in range(len(str)):\r\n    if str[i] == x:\r\n      return i\r\n  return -1\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 547,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef Total_Hamming_Distance(n): \r\n    return (n - 1)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 548,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef longest_increasing_subsequence(A):\r\n    n = len(A)\r\n    lis = [1] * n\r\n    for i in range(1, n):\r\n        for j in range(i):\r\n            if A[i] > A[j] and lis[i] < lis[j] + 1:\r\n                lis[i] = lis[j] + 1\r\n    return max(lis)\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 549,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef odd_Num_Sum(n): \r\n    sm = 0\r\n    for i in range(1,n+1): \r\n        sm = sm + (5*i*i*i*i)  \r\n    return sm\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 550,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef find_Max(A, start, end):\r\n    if (start > end):\r\n        return -1\r\n    mid = int((start + end) / 2)\r\n    if (mid < end and A[mid] > A[mid + 1]):\r\n        return A[mid]\r\n    if (mid > start and A[mid] < A[mid - 1]):\r\n        return A[mid]\r\n    if (A[start] > A[mid]):\r\n        return find_Max(A, mid + 1, end)\r\n    return find_Max(A, start, mid)\n```",
+   "errors": [
+    "RecursionError: maximum recursion depth exceeded while calling a Python object",
+    "",
+    "RecursionError: maximum recursion depth exceeded while calling a Python object"
+   ]
+  },
+  {
+   "task_id": 551,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef extract_column(data_list, column_index):\r\n    result = [row[column_index] for row in data_list]\r\n    return result\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 552,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef Seq_Linear(x):\r\n    if x[0] == x[1] and x[1] == x[2] and x[2] == x[3] and x[3] == x[4] and x[4] == x[5]:\r\n        return (\"Linear Sequence\")\r\n    else:\r\n        return (\"Not a Linear Sequence\")\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 553,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef tuple_to_float(test_tup):\r\n  res = float(test_tup[0])\r\n  return (res)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 554,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef Split(nums):\r\n    Odd = [num for num in nums if num % 2 != 0]\r\n    return Odd\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 555,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef difference(n): \r\n    return (n * (n + 1) * (2 * n + 1)) / 6 - (n * n)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 556,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef find_Odd_Pair(arr,n): \r\n    odd = 0\r\n    for i in range(0,n): \r\n        if (arr[i] & 1): \r\n            odd += 1\r\n    return odd\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 557,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef toggle_string(s):\r\n  return (\"\".join([char.swapcase() if char.isupper() else char.lower() for char in s]))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 558,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef digit_distance_nums(x, y):\r\n    return abs(x - y)\n```",
+   "errors": [
+    "",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 559,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef max_sub_array_sum(A, size): \r\n\tmax_so_far = A[0] \r\n\tmax_ending_here = A[0] \r\n\tfor i in range(1, size): \r\n\t\tmax_ending_here = max(A[i], max_ending_here + A[i]) \r\n\t\tif max_so_far < max_ending_here: \r\n\t\t\tmax_so_far = max_ending_here \r\n\treturn max_so_far\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 560,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef union_elements(test_tup):\r\n  res = tuple(sorted(list(set(test_tup))))\r\n  return (res)\n```",
+   "errors": [
+    "TypeError: union_elements() takes 1 positional argument but 2 were given",
+    "TypeError: union_elements() takes 1 positional argument but 2 were given",
+    "TypeError: union_elements() takes 1 positional argument but 2 were given"
+   ]
+  },
+  {
+   "task_id": 561,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef assign_elements(test_list):\r\n  res = dict()\r\n  for ele in test_list:\r\n    if ele[0] in res:\r\n      res[ele[0]].append(ele[1])\r\n    else:\r\n      res[ele[0]] = [ele[1]]\r\n  return (res)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 562,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef Find_Max_Length(list1):\r\n    max = 0\r\n    for i in list1:\r\n        if len(i) > max:\r\n            max = len(i)\r\n    return max\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 563,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\nimport re\r\ndef extract_values(text):\r\n  return (re.findall(r'\"(.*?)\"', text))\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 564,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef count_Pairs(arr,n): \r\n    cnt = 0; \r\n    for i in range(0,n-1): \r\n        for j in range(i+1,n): \r\n            if (arr[i] != arr[j]): \r\n                cnt += 1; \r\n    return cnt;\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 565,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef split(string): \r\n    return list(string)\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 566,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef sum_digits(n): \r\n    sum = 0; \r\n    while (n != 0): \r\n        sum += n%10; \r\n        n = n//10; \r\n    return sum;\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 567,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef issort_list(x):\r\n    n = len(x)\r\n    for i in range(1,n):\r\n        if x[i] < x[i - 1]:\r\n            return False\r\n    return True\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 568,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef empty_list(n):\r\n  return [dict() for i in range(n)]\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 569,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef sort_sublists(list1):\r\n  for l in list1:\r\n    l.sort()\r\n  return list1\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 570,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef remove_words(texts, chars):\r\n  result = [text for text in texts if not any(c in text for c in chars)]\r\n  return result\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 571,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef max_sum_pair_diff_lessthan_K(arr, n, K):\r\n    arr.sort()\r\n    res = 0\r\n    for i in range(n - 1):\r\n        if (arr[i] + arr[i + 1]) <= K:\r\n            res = max(res, arr[i] + arr[i + 1])\r\n    return res\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 572,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef two_unique_nums(nums):\r\n    result = list(dict.fromkeys(nums))\r\n    return result\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 573,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef unique_product(nums):\r\n    return reduce(lambda x, y: x*y, sorted(list(set(nums))))\n```",
+   "errors": [
+    "NameError: name 'reduce' is not defined",
+    "NameError: name 'reduce' is not defined",
+    "NameError: name 'reduce' is not defined"
+   ]
+  },
+  {
+   "task_id": 574,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef surfacearea_cylinder(r,h):\r\n  sa = 2 * 3.14159 * r * (r + h)\r\n  return sa\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 575,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef count_no(n,m,x,y): \r\n    if n > y: \r\n        return 0\r\n    if n == x: \r\n        return 1\r\n    if m == 0: \r\n        return count_no(n+1,m,n,y) \r\n    return count_no(n+1,m-1,n,y)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 576,
+   "reward": 0.6666666666666666,
+   "passed_all": false,
+   "completion": "```python\ndef is_Sub_Array(A,B,N,M): \r\n    for i in range(0,N): \r\n        for j in range(0,M): \r\n            if (A[i] != B[j]): \r\n                break\r\n            if (j == M - 1): \r\n                return True\r\n    return False\n```",
+   "errors": [
+    "",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 577,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef last_Digit_Factorial(n): \r\n    if (n >= 10): \r\n        return -1\r\n    elif (n == 0 or n == 1): \r\n        return 1\r\n    else: \r\n        return (last_Digit_Factorial(n - 1) * last_Digit_Factorial(n - 2)) % 10;\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 578,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef interleave_lists(list1,list2,list3):\r\n    result = []\r\n    for i in range(len(list1)):\r\n        result.append(list1[i])\r\n        result.append(list2[i])\r\n        result.append(list3[i])\r\n    return result\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 579,
+   "reward": 0.6666666666666666,
+   "passed_all": false,
+   "completion": "```python\ndef find_dissimilar(tup1, tup2):\r\n    res = tuple(sorted(list(set(tup1) - set(tup2)) + list(set(tup2) - set(tup1))))\r\n    return (res)\n```",
+   "errors": [
+    "",
+    "",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 580,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef extract_even(mixed):\r\n    result = tuple()\r\n    for element in mixed:\r\n        if isinstance(element, tuple):\r\n            result += extract_even(element)\r\n        elif element % 2 == 0:\r\n            result += (element,)\r\n    return result\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 581,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef surface_Area(side_length, height):\r\n  surface_area = 0\r\n  surface_area += 2 * side_length * height\r\n  surface_area += 2 * side_length * side_length\r\n  return surface_area\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 582,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef my_dict(d):\r\n  if not d:\r\n    return True\r\n  else:\r\n    return False\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 583,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef catalan_number(n):\r\n    if n == 0:\r\n        return 1\r\n    elif n == 1:\r\n        return 1\r\n    else:\r\n        catalan = [0] * (n + 1)\r\n        catalan[0] = 1\r\n        catalan[1] = 1\r\n        for i in range(2,n + 1):\r\n            catalan[i] = 0\r\n            for j in range(i):\r\n                catalan[i] += catalan[j]\r\n                catalan[i] %= 1000000007\r\n        return catalan[n]\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 584,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\nimport re\r\ndef find_adverbs(text):\r\n  return (re.findall(r\"(\\w+)(?:'s|'re|'ll|'d|'ve|'n't)\", text))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 585,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\nimport heapq\r\ndef expensive_items(items,n):\r\n    heapq.heapify(items)\r\n    return [heapq.heappop(items) for i in range(n)]\n```",
+   "errors": [
+    "TypeError: '<' not supported between instances of 'dict' and 'dict'",
+    "TypeError: '<' not supported between instances of 'dict' and 'dict'",
+    "TypeError: '<' not supported between instances of 'dict' and 'dict'"
+   ]
+  },
+  {
+   "task_id": 586,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef split_Arr(arr,n,m): \r\n    res = arr[:m] + arr[m:] \r\n    return (res)\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 587,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef list_tuple(nums):\r\n    result = tuple(nums)\r\n    return result\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 588,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef big_diff(arr): \r\n    return (max(arr) - min(arr))\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 589,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef perfect_squares(l,r):\r\n    result = []\r\n    for i in range(l,l*r+1):\r\n        if (i*i > r) : break\r\n        if (i*i == r) : result.append(i)\r\n        elif (i*i < r) : result.extend([i*(i+1)//2 for i in range(i+1,int(r/i)+1)]) \r\n    return result\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 590,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef polar_rect(polar):\r\n    x = polar[0] * math.cos(math.radians(polar[1]))\r\n    y = polar[0] * math.sin(math.radians(polar[1]))\r\n    return (x, y)\n```",
+   "errors": [
+    "TypeError: polar_rect() takes 1 positional argument but 2 were given",
+    "TypeError: polar_rect() takes 1 positional argument but 2 were given",
+    "TypeError: polar_rect() takes 1 positional argument but 2 were given"
+   ]
+  },
+  {
+   "task_id": 591,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef swap_List(newList):\r\n  size = len(newList)\r\n  temp = newList[0]\r\n  newList[0] = newList[size - 1]\r\n  newList[size - 1] = temp\r\n  return newList\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 592,
+   "reward": 0.3333333333333333,
+   "passed_all": false,
+   "completion": "```python\ndef sum_Of_product(n): \r\n    if (n == 0 or n == 1): \r\n        return 1\r\n    else: \r\n        return (2 * (n - 1) * sum_Of_product(n - 1))\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    ""
+   ]
+  },
+  {
+   "task_id": 593,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\nimport re\r\ndef removezero_ip(ip):\r\n  return (re.sub(r\"(\\d{1,3})\\.( \\d{1,3})\\.( \\d{1,3})\\.( \\d{1,3})\", r\"\\1.\\2.\\3.\\4\", ip)\n```",
+   "errors": [
+    "SyntaxError: '(' was never closed",
+    "SyntaxError: '(' was never closed",
+    "SyntaxError: '(' was never closed"
+   ]
+  },
+  {
+   "task_id": 594,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef diff_even_odd(list1):\r\n    odd = next((el for el in list1 if el%2!=0),-1)\r\n    even = next((el for el in list1 if el%2==0),-1)\r\n    return (even-odd)\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 595,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef min_Swaps(s1,s2): \r\n    cnt = 0\r\n    for i in range(len(s1)): \r\n        if s1[i] != s2[i]: \r\n            cnt += 1\r\n    return cnt\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  },
+  {
+   "task_id": 596,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef tuple_size(test_tup):\r\n  return (sys.getsizeof(test_tup))\n```",
+   "errors": [
+    "NameError: name 'sys' is not defined",
+    "NameError: name 'sys' is not defined",
+    "NameError: name 'sys' is not defined"
+   ]
+  },
+  {
+   "task_id": 597,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef find_kth(arr1, arr2, m, n, K):\r\n    i = 0\r\n    j = 0\r\n    count = 0\r\n    while (i < m and j < n):\r\n        if (arr1[i] < arr2[j]):\r\n            count += 1\r\n            i += 1\r\n        else:\r\n            count += 1\r\n            j += 1\r\n        if (count == K):\r\n            return arr1[i - 1]\r\n    if (count == K - 1):\r\n        return arr2[j - 1]\r\n    if (count == 1):\r\n        return min(arr1[i - 1], arr2[j - 1])\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 598,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef armstrong_number(n):\r\n    original = n\r\n    sum = 0\r\n    while n > 0:\r\n        d = n % 10\r\n        sum += d ** 3\r\n        n = n // 10\r\n    if original == sum:\r\n        return True\r\n    else:\r\n        return False\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 599,
+   "reward": 1.0,
+   "passed_all": true,
+   "completion": "```python\ndef sum_average(n):\r\n    sm = 0\r\n    for i in range(1,n+1):\r\n        sm = sm + i\r\n    av = sm / n\r\n    return (sm,av)\n```",
+   "errors": [
+    "",
+    "",
+    ""
+   ]
+  },
+  {
+   "task_id": 600,
+   "reward": 0.0,
+   "passed_all": false,
+   "completion": "```python\ndef is_Even(n): \r\n    if (n^1== n-1): \r\n        return True\r\n    else: \r\n        return False\n```",
+   "errors": [
+    "AssertionError",
+    "AssertionError",
+    "AssertionError"
+   ]
+  }
+ ]
+}

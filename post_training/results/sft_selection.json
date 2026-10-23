@@ -1,0 +1,36 @@
+{
+ "name": "sft",
+ "chosen": "epoch_2",
+ "adapter": "/scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/sft/epoch_2",
+ "weights": null,
+ "rule": "max validation pass@1, then mean reward, then earliest epoch",
+ "validation": {
+  "epoch_1": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.35555555555555557,
+   "mean_reward": 0.41851851851851857,
+   "seconds_generation": 5.5,
+   "seconds_scoring": 10.2,
+   "sandbox_restarts": 0
+  },
+  "epoch_2": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.37777777777777777,
+   "mean_reward": 0.44074074074074077,
+   "seconds_generation": 5.6,
+   "seconds_scoring": 10.3,
+   "sandbox_restarts": 0
+  },
+  "epoch_3": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.28888888888888886,
+   "mean_reward": 0.3518518518518519,
+   "seconds_generation": 9.6,
+   "seconds_scoring": 9.9,
+   "sandbox_restarts": 0
+  }
+ }
+}

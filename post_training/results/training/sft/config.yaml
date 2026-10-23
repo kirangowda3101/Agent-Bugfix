@@ -1,0 +1,24 @@
+dtype: bfloat16
+lora:
+  lora_alpha: 32
+  lora_dropout: 0.05
+  r: 16
+  target_modules: all-linear
+seed: 0
+sft:
+  bf16: true
+  completion_only_loss: true
+  data_seed: 0
+  gradient_accumulation_steps: 1
+  learning_rate: 0.0001
+  logging_steps: 1
+  lr_scheduler_type: constant
+  max_length: 1024
+  num_train_epochs: 3
+  output_dir: /scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/sft
+  per_device_train_batch_size: 8
+  report_to: none
+  save_steps: 20
+  save_strategy: steps
+  save_total_limit: 3
+  seed: 0

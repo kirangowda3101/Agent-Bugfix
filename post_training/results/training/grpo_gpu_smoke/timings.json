@@ -1,0 +1,42 @@
+[
+ {
+  "step": 1,
+  "total_s": 19.87,
+  "generation_s": 9.71,
+  "scoring_s": 6.48,
+  "other_s": 3.68,
+  "peak_gpu_gib": 13.71
+ },
+ {
+  "step": 2,
+  "total_s": 16.73,
+  "generation_s": 9.47,
+  "scoring_s": 6.54,
+  "other_s": 0.72,
+  "peak_gpu_gib": 14.82
+ },
+ {
+  "step": 3,
+  "total_s": 24.68,
+  "generation_s": 13.03,
+  "scoring_s": 10.77,
+  "other_s": 0.88,
+  "peak_gpu_gib": 18.46
+ },
+ {
+  "step": 4,
+  "total_s": 16.71,
+  "generation_s": 9.48,
+  "scoring_s": 6.54,
+  "other_s": 0.7,
+  "peak_gpu_gib": 14.65
+ },
+ {
+  "step": 5,
+  "total_s": 16.35,
+  "generation_s": 9.18,
+  "scoring_s": 6.45,
+  "other_s": 0.71,
+  "peak_gpu_gib": 15.19
+ }
+]

@@ -1,0 +1,40 @@
+....................................                                     [100%]
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED tests/test_rewards.py::test_extract_prefers_python_block
+PASSED tests/test_rewards.py::test_extract_falls_back_to_plain_fence
+PASSED tests/test_rewards.py::test_extract_none_without_fence
+PASSED tests/test_rewards.py::test_extract_conversational_format
+PASSED tests/test_rewards.py::test_correct_solution_scores_one
+PASSED tests/test_rewards.py::test_partial_solution_scores_fraction
+PASSED tests/test_rewards.py::test_syntax_error_scores_zero
+PASSED tests/test_rewards.py::test_no_code_block_scores_zero_without_running
+PASSED tests/test_rewards.py::test_setup_code_is_run
+PASSED tests/test_rewards.py::test_main_block_is_not_executed
+PASSED tests/test_rewards.py::test_infinite_loop_times_out
+PASSED tests/test_rewards.py::test_memory_blowup_is_contained
+PASSED tests/test_rewards.py::test_fork_bomb_is_contained
+PASSED tests/test_rewards.py::test_huge_output_is_contained
+PASSED tests/test_rewards.py::test_no_network
+PASSED tests/test_rewards.py::test_runs_as_non_root
+PASSED tests/test_rewards.py::test_image_is_not_writable
+PASSED tests/test_rewards.py::test_nothing_persists_between_batches
+PASSED tests/test_rewards.py::test_no_capabilities_and_no_new_privs
+PASSED tests/test_rewards.py::test_host_files_not_visible
+PASSED tests/test_rewards.py::test_no_gpu_devices
+PASSED tests/test_rewards.py::test_seccomp_filter_is_active
+PASSED tests/test_rewards.py::test_seccomp_blocks_syscalls[libc.unshare(0x10000000)]
+PASSED tests/test_rewards.py::test_seccomp_blocks_syscalls[libc.socket(40, 1, 0)]
+PASSED tests/test_rewards.py::test_seccomp_blocks_syscalls[libc.mount(b'none', b'/tmp', b'tmpfs', 0, None)]
+PASSED tests/test_rewards.py::test_early_exit_does_not_pass[import sys\nsys.exit(0)]
+PASSED tests/test_rewards.py::test_early_exit_does_not_pass[import os\nos._exit(0)]
+PASSED tests/test_rewards.py::test_early_exit_does_not_pass[exit(0)]
+PASSED tests/test_rewards.py::test_early_exit_does_not_pass[quit()]
+PASSED tests/test_rewards.py::test_printing_fake_success_does_not_pass
+PASSED tests/test_rewards.py::test_tests_are_isolated_from_each_other
+PASSED tests/test_rewards.py::test_always_equal_object_is_a_known_gap
+PASSED tests/test_rewards.py::test_children_in_one_batch_share_tmp_known_gap
+PASSED tests/test_rewards.py::test_test_source_is_readable_known_gap
+PASSED tests/test_rewards.py::test_batch_keeps_order_and_isolates_failures
+PASSED tests/test_rewards.py::test_trl_reward_fn_signature
+36 passed in 58.39s

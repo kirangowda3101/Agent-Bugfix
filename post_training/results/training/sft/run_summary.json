@@ -1,0 +1,11 @@
+{
+ "segments": [
+  {
+   "resumed_from_step": 0,
+   "end_step": 141,
+   "wall_seconds": 46.5,
+   "device": "cuda:0",
+   "gpu": "NVIDIA H200"
+  }
+ ]
+}

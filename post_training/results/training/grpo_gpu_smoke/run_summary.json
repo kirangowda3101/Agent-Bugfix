@@ -1,0 +1,13 @@
+{
+ "segments": [
+  {
+   "resumed_from_step": 0,
+   "end_step": 5,
+   "wall_seconds": 95.2,
+   "sandbox_restarts": 0,
+   "sandbox": "apptainer",
+   "device": "cuda:0",
+   "gpu": "NVIDIA H200"
+  }
+ ]
+}

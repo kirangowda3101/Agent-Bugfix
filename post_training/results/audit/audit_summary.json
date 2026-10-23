@@ -1,0 +1,106 @@
+{
+ "gate": {
+  "rule": "any introspection hit stops reporting; close the gap and retrain",
+  "hits": 0,
+  "passed": true
+ },
+ "counts": {
+  "rollouts/grpo": {
+   "completions": 8832,
+   "with_code": 8815,
+   "visible_expected_value_in_code": 18,
+   "visible_pass_hidden_fail": 634,
+   "no_code_block": 17
+  },
+  "rollouts/sft_grpo": {
+   "completions": 8832,
+   "with_code": 8817,
+   "visible_pass_hidden_fail": 585,
+   "no_code_block": 15,
+   "visible_expected_value_in_code": 2,
+   "early_exit": 1
+  },
+  "test/base": {
+   "completions": 500,
+   "with_code": 498,
+   "visible_pass_hidden_fail": 41,
+   "no_code_block": 2
+  },
+  "test/grpo": {
+   "completions": 500,
+   "with_code": 499,
+   "visible_pass_hidden_fail": 41,
+   "no_code_block": 1
+  },
+  "test/sft": {
+   "completions": 500,
+   "with_code": 499,
+   "visible_pass_hidden_fail": 32,
+   "no_code_block": 1
+  },
+  "test/sft_grpo": {
+   "completions": 500,
+   "with_code": 498,
+   "visible_pass_hidden_fail": 33,
+   "no_code_block": 2
+  },
+  "validation/base_base": {
+   "completions": 90,
+   "with_code": 89,
+   "visible_pass_hidden_fail": 5,
+   "visible_expected_value_in_code": 1,
+   "no_code_block": 1
+  },
+  "validation/grpo_epoch_1": {
+   "completions": 90,
+   "with_code": 89,
+   "visible_pass_hidden_fail": 5,
+   "visible_expected_value_in_code": 1,
+   "no_code_block": 1
+  },
+  "validation/grpo_epoch_2": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 6,
+   "visible_expected_value_in_code": 1
+  },
+  "validation/grpo_epoch_3": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 4,
+   "visible_expected_value_in_code": 1
+  },
+  "validation/sft_epoch_1": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 8,
+   "visible_expected_value_in_code": 1
+  },
+  "validation/sft_epoch_2": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 5
+  },
+  "validation/sft_epoch_3": {
+   "completions": 90,
+   "with_code": 89,
+   "no_code_block": 1,
+   "visible_pass_hidden_fail": 4
+  },
+  "validation/sft_grpo_epoch_1": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 5
+  },
+  "validation/sft_grpo_epoch_2": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 6
+  },
+  "validation/sft_grpo_epoch_3": {
+   "completions": 90,
+   "with_code": 90,
+   "visible_pass_hidden_fail": 7
+  }
+ }
+}

@@ -1,0 +1,210 @@
+{
+ "models": {
+  "base": {
+   "label": "Base",
+   "test_solved": 166,
+   "test_n": 500,
+   "test_pass_at_1": 0.332,
+   "test_pass_at_1_wilson95": [
+    0.2921,
+    0.3744
+   ],
+   "test_mean_reward": 0.3973,
+   "chosen": "base",
+   "validation": {
+    "base": {
+     "pass_at_1": 0.3889,
+     "mean_reward": 0.4259
+    }
+   },
+   "selection_used_tie_break": false,
+   "gpu": "NVIDIA H200",
+   "dtype": "bfloat16",
+   "sandbox": "apptainer",
+   "sandbox_restarts": 0
+  },
+  "sft": {
+   "label": "SFT",
+   "test_solved": 179,
+   "test_n": 500,
+   "test_pass_at_1": 0.358,
+   "test_pass_at_1_wilson95": [
+    0.3172,
+    0.401
+   ],
+   "test_mean_reward": 0.4267,
+   "chosen": "epoch_2",
+   "validation": {
+    "epoch_1": {
+     "pass_at_1": 0.3556,
+     "mean_reward": 0.4185
+    },
+    "epoch_2": {
+     "pass_at_1": 0.3778,
+     "mean_reward": 0.4407
+    },
+    "epoch_3": {
+     "pass_at_1": 0.2889,
+     "mean_reward": 0.3519
+    }
+   },
+   "selection_used_tie_break": false,
+   "gpu": "NVIDIA H200",
+   "dtype": "bfloat16",
+   "sandbox": "apptainer",
+   "sandbox_restarts": 0
+  },
+  "grpo": {
+   "label": "GRPO",
+   "test_solved": 177,
+   "test_n": 500,
+   "test_pass_at_1": 0.354,
+   "test_pass_at_1_wilson95": [
+    0.3133,
+    0.3969
+   ],
+   "test_mean_reward": 0.4333,
+   "chosen": "epoch_2",
+   "validation": {
+    "epoch_1": {
+     "pass_at_1": 0.3778,
+     "mean_reward": 0.4222
+    },
+    "epoch_2": {
+     "pass_at_1": 0.4,
+     "mean_reward": 0.4481
+    },
+    "epoch_3": {
+     "pass_at_1": 0.4,
+     "mean_reward": 0.437
+    }
+   },
+   "selection_used_tie_break": true,
+   "gpu": "NVIDIA H200",
+   "dtype": "bfloat16",
+   "sandbox": "apptainer",
+   "sandbox_restarts": 0
+  },
+  "sft_grpo": {
+   "label": "SFT→GRPO",
+   "test_solved": 194,
+   "test_n": 500,
+   "test_pass_at_1": 0.388,
+   "test_pass_at_1_wilson95": [
+    0.3463,
+    0.4314
+   ],
+   "test_mean_reward": 0.4553,
+   "chosen": "epoch_1",
+   "validation": {
+    "epoch_1": {
+     "pass_at_1": 0.3667,
+     "mean_reward": 0.4333
+    },
+    "epoch_2": {
+     "pass_at_1": 0.3333,
+     "mean_reward": 0.4
+    },
+    "epoch_3": {
+     "pass_at_1": 0.3556,
+     "mean_reward": 0.4259
+    }
+   },
+   "selection_used_tie_break": false,
+   "gpu": "NVIDIA H200",
+   "dtype": "bfloat16",
+   "sandbox": "apptainer",
+   "sandbox_restarts": 0
+  }
+ },
+ "paired_test_comparisons": [
+  {
+   "from": "base",
+   "to": "sft",
+   "solved_only_by_to": 65,
+   "solved_only_by_from": 52,
+   "net": 13,
+   "exact_mcnemar_p": 0.2672
+  },
+  {
+   "from": "base",
+   "to": "grpo",
+   "solved_only_by_to": 20,
+   "solved_only_by_from": 9,
+   "net": 11,
+   "exact_mcnemar_p": 0.0614
+  },
+  {
+   "from": "base",
+   "to": "sft_grpo",
+   "solved_only_by_to": 71,
+   "solved_only_by_from": 43,
+   "net": 28,
+   "exact_mcnemar_p": 0.0111
+  },
+  {
+   "from": "sft",
+   "to": "sft_grpo",
+   "solved_only_by_to": 20,
+   "solved_only_by_from": 5,
+   "net": 15,
+   "exact_mcnemar_p": 0.0041
+  },
+  {
+   "from": "grpo",
+   "to": "sft_grpo",
+   "solved_only_by_to": 61,
+   "solved_only_by_from": 44,
+   "net": 17,
+   "exact_mcnemar_p": 0.118
+  },
+  {
+   "from": "sft",
+   "to": "grpo",
+   "solved_only_by_to": 55,
+   "solved_only_by_from": 57,
+   "net": -2,
+   "exact_mcnemar_p": 0.9248
+  }
+ ],
+ "training": {
+  "sft": {
+   "steps": 141,
+   "train_wall_seconds": 46.5,
+   "seconds_per_step_mean": 0.2,
+   "peak_gpu_gib_max": 1.59,
+   "gpu": "NVIDIA H200"
+  },
+  "grpo": {
+   "steps": 138,
+   "train_wall_seconds": 2513.8,
+   "seconds_per_step_mean": 18.14,
+   "peak_gpu_gib_max": 20.29,
+   "gpu": "NVIDIA H200",
+   "generation_s_mean": 10.23,
+   "scoring_s_mean": 7.19,
+   "other_s_mean": 0.72,
+   "sandbox_restarts": 0
+  },
+  "sft_grpo": {
+   "steps": 138,
+   "train_wall_seconds": 2049.9,
+   "seconds_per_step_mean": 14.78,
+   "peak_gpu_gib_max": 19.81,
+   "gpu": "NVIDIA H200",
+   "generation_s_mean": 6.38,
+   "scoring_s_mean": 7.8,
+   "other_s_mean": 0.6,
+   "sandbox_restarts": 0
+  }
+ },
+ "audit": {
+  "gate": {
+   "rule": "any introspection hit stops reporting; close the gap and retrain",
+   "hits": 0,
+   "passed": true
+  },
+  "reviewed_hits": 26,
+  "successful_shortcuts": 1
+ }
+}

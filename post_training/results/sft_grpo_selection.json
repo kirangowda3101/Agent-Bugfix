@@ -1,0 +1,36 @@
+{
+ "name": "sft_grpo",
+ "chosen": "epoch_1",
+ "adapter": "/scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/sft_grpo/epoch_1",
+ "weights": "/scratch/ramanagarajayaram.k/agent-bugfix/post_training/runs/sft/best_merged",
+ "rule": "max validation pass@1, then mean reward, then earliest epoch",
+ "validation": {
+  "epoch_1": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.36666666666666664,
+   "mean_reward": 0.4333333333333334,
+   "seconds_generation": 6.2,
+   "seconds_scoring": 10.3,
+   "sandbox_restarts": 0
+  },
+  "epoch_2": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.3333333333333333,
+   "mean_reward": 0.4,
+   "seconds_generation": 6.2,
+   "seconds_scoring": 10.4,
+   "sandbox_restarts": 0
+  },
+  "epoch_3": {
+   "split": "validation",
+   "n_problems": 90,
+   "pass_at_1": 0.35555555555555557,
+   "mean_reward": 0.42592592592592604,
+   "seconds_generation": 5.9,
+   "seconds_scoring": 10.4,
+   "sandbox_restarts": 0
+  }
+ }
+}
