@@ -3,7 +3,7 @@
 #SBATCH -p gpu
 #SBATCH --gres=gpu:h200:1
 #SBATCH --cpus-per-task=8
-#SBATCH --mem=64G
+#SBATCH --mem=48G
 #SBATCH --time=01:00:00
 #SBATCH -o /scratch/ramanagarajayaram.k/logs/%x-%j.out
 # All four models are trained and evaluated on H200s, so results share one GPU type.
