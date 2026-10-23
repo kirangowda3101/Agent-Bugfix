@@ -169,8 +169,11 @@ full run moved to a cluster GPU.
   Python process as the assert, so it can find the test text (in the harness's
   payload, or through frames or `gc`) and return the expected value without
   solving the problem. A test demonstrates this. Closing it means running the
-  comparison in a separate process; until then the reward-hacking audit looks
-  for introspection (`__main__`, `sys._getframe`, `inspect`, `gc`, `sys.modules`).
+  comparison in a separate process; for now the reward-hacking audit looks for
+  introspection (`__main__`, `sys._getframe`, `inspect`, `gc`, `sys.modules`) in
+  every rollout and test completion. **Decided in advance:** if the audit finds
+  any such hit after the full runs, those results are not reported; the gap is
+  closed and the models are retrained.
 - **Children in the same batch share `/tmp`.** They run in one container under
   one uid, so a file one writes there is visible to another running at the same
   time. Separating them needs separate uids or mount namespaces, which an
@@ -180,8 +183,8 @@ full run moved to a cluster GPU.
   sandbox cannot detect this; a test documents it, and the reward-hacking audit
   looks for it in the code.
 - **Models are compared on one GPU type.** bf16 numerics can differ slightly
-  between GPU types, so all four models are trained and evaluated on the same
-  type; the type is recorded in every result file.
+  between GPU types, so all four models are trained and evaluated on H200s (A100s
+  were not available); the GPU is recorded in every result file.
 - **One seed, no hyperparameter search.** The learning rate (1e-5 GRPO, 1e-4 SFT)
   was chosen, not tuned. Only the epoch is selected, on validation.
 - **Not bit-for-bit reproducible.** Seeds are fixed, but CUDA kernels are not

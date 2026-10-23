@@ -1,5 +1,5 @@
-# A100 smoke test: grpo_full.yaml for 5 steps, to measure seconds/step and peak GPU memory.
-# Full GRPO run on one A100 40 GB. 8 prompts x 8 generations = 64 completions
+# GPU smoke test: grpo_full.yaml for 5 steps, to measure seconds/step and peak GPU memory.
+# Full GRPO run on one H200. 8 prompts x 8 generations = 64 completions
 # per optimizer step, as in the MPS smoke test; only memory/speed settings differ.
 # Learning rate is a fixed choice, not tuned; only the epoch is selected (on validation).
 dtype: bfloat16
@@ -7,7 +7,7 @@ seed: 0
 sandbox: {timeout: 5.0, workers: 4}
 lora: {r: 16, lora_alpha: 32, lora_dropout: 0.05, target_modules: all-linear}
 grpo:
-  output_dir: runs/grpo_a100_smoke
+  output_dir: runs/grpo_gpu_smoke
   max_steps: 5
   learning_rate: 1.0e-5
   lr_scheduler_type: constant

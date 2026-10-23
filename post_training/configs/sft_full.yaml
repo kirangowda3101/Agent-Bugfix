@@ -1,4 +1,4 @@
-# Full SFT run on one A100 40 GB: 3 passes over the 374 train reference solutions.
+# Full SFT run on one H200: 3 passes over the 374 train reference solutions.
 dtype: bfloat16
 seed: 0
 lora: {r: 16, lora_alpha: 32, lora_dropout: 0.05, target_modules: all-linear}

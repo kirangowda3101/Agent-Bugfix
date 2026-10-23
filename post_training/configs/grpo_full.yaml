@@ -1,4 +1,4 @@
-# Full GRPO run on one A100 40 GB. 8 prompts x 8 generations = 64 completions
+# Full GRPO run on one H200. 8 prompts x 8 generations = 64 completions
 # per optimizer step, as in the MPS smoke test; only memory/speed settings differ.
 # Learning rate is a fixed choice, not tuned; only the epoch is selected (on validation).
 dtype: bfloat16

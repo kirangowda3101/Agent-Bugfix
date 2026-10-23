@@ -1,4 +1,4 @@
-"""Collect the A100 smoke-test measurements into one JSON file and print it.
+"""Collect the GPU smoke-test measurements into one JSON file and print it.
 
 Only measured values go in. Nothing here estimates the full run; that is done
 afterwards, from these numbers, and labelled as an extrapolation.
@@ -30,10 +30,10 @@ def main():
     ap.add_argument("--out", required=True)
     args = ap.parse_args()
 
-    run = HERE / "runs" / "grpo_a100_smoke"
+    run = HERE / "runs" / "grpo_gpu_smoke"
     timings = json.loads((run / "timings.json").read_text())
     history = [h for h in json.loads((run / "log_history.json").read_text()) if "reward" in h]
-    eval_ = json.loads((HERE / "runs" / "eval_a100_smoke_val20.json").read_text())["summary"]
+    eval_ = json.loads((HERE / "runs" / "eval_gpu_smoke_val20.json").read_text())["summary"]
 
     # Fixed cost of one sandbox batch: a fresh `apptainer exec` per call.
     with make_sandbox(timeout=5.0, workers=4) as sb:
